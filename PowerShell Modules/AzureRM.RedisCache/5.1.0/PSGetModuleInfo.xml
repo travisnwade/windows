@@ -1,0 +1,202 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.RedisCache</S>
+      <Version N="Version">5.1.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - RedisCache service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-10-09T18:03:03-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:13.9582241-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Redis</S>
+          <S>Cache</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Remove-AzureRmRedisCachePatchSchedule</S>
+                <S>New-AzureRmRedisCacheScheduleEntry</S>
+                <S>Get-AzureRmRedisCachePatchSchedule</S>
+                <S>New-AzureRmRedisCachePatchSchedule</S>
+                <S>Reset-AzureRmRedisCache</S>
+                <S>Export-AzureRmRedisCache</S>
+                <S>Import-AzureRmRedisCache</S>
+                <S>Remove-AzureRmRedisCacheDiagnostics</S>
+                <S>Set-AzureRmRedisCacheDiagnostics</S>
+                <S>Set-AzureRmRedisCache</S>
+                <S>New-AzureRmRedisCacheKey</S>
+                <S>Get-AzureRmRedisCacheKey</S>
+                <S>Get-AzureRmRedisCache</S>
+                <S>Remove-AzureRmRedisCache</S>
+                <S>New-AzureRmRedisCache</S>
+                <S>New-AzureRmRedisCacheLink</S>
+                <S>Remove-AzureRmRedisCacheLink</S>
+                <S>Get-AzureRmRedisCacheLink</S>
+                <S>New-AzureRmRedisCacheFirewallRule</S>
+                <S>Remove-AzureRmRedisCacheFirewallRule</S>
+                <S>Get-AzureRmRedisCacheFirewallRule</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Remove-AzureRmRedisCachePatchSchedule</S>
+                <S>New-AzureRmRedisCacheScheduleEntry</S>
+                <S>Get-AzureRmRedisCachePatchSchedule</S>
+                <S>New-AzureRmRedisCachePatchSchedule</S>
+                <S>Reset-AzureRmRedisCache</S>
+                <S>Export-AzureRmRedisCache</S>
+                <S>Import-AzureRmRedisCache</S>
+                <S>Remove-AzureRmRedisCacheDiagnostics</S>
+                <S>Set-AzureRmRedisCacheDiagnostics</S>
+                <S>Set-AzureRmRedisCache</S>
+                <S>New-AzureRmRedisCacheKey</S>
+                <S>Get-AzureRmRedisCacheKey</S>
+                <S>Get-AzureRmRedisCache</S>
+                <S>Remove-AzureRmRedisCache</S>
+                <S>New-AzureRmRedisCache</S>
+                <S>New-AzureRmRedisCacheLink</S>
+                <S>Remove-AzureRmRedisCacheLink</S>
+                <S>Get-AzureRmRedisCacheLink</S>
+                <S>New-AzureRmRedisCacheFirewallRule</S>
+                <S>Remove-AzureRmRedisCacheFirewallRule</S>
+                <S>Get-AzureRmRedisCacheFirewallRule</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Allow any string as Size parameter going forward. Add P5 in PSArgumentCompleter popup</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.6.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.6.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - RedisCache service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Allow any string as Size parameter going forward. Add P5 in PSArgumentCompleter popup</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4599509</S>
+          <S N="downloadCount">7856630</S>
+          <S N="packageSize">198384</S>
+          <S N="published">10/9/2018 6:03:03 PM -04:00</S>
+          <S N="created">10/9/2018 6:03:03 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Redis Cache PSModule PSCmdlet_Remove-AzureRmRedisCachePatchSchedule PSCommand_Remove-AzureRmRedisCachePatchSchedule PSCmdlet_New-AzureRmRedisCacheScheduleEntry PSCommand_New-AzureRmRedisCacheScheduleEntry PSCmdlet_Get-AzureRmRedisCachePatchSchedule PSCommand_Get-AzureRmRedisCachePatchSchedule PSCmdlet_New-AzureRmRedisCachePatchSchedule PSCommand_New-AzureRmRedisCachePatchSchedule PSCmdlet_Reset-AzureRmRedisCache PSCommand_Reset-AzureRmRedisCache PSCmdlet_Export-AzureRmRedisCache PSCommand_Export-AzureRmRedisCache PSCmdlet_Import-AzureRmRedisCache PSCommand_Import-AzureRmRedisCache PSCmdlet_Remove-AzureRmRedisCacheDiagnostics PSCommand_Remove-AzureRmRedisCacheDiagnostics PSCmdlet_Set-AzureRmRedisCacheDiagnostics PSCommand_Set-AzureRmRedisCacheDiagnostics PSCmdlet_Set-AzureRmRedisCache PSCommand_Set-AzureRmRedisCache PSCmdlet_New-AzureRmRedisCacheKey PSCommand_New-AzureRmRedisCacheKey PSCmdlet_Get-AzureRmRedisCacheKey PSCommand_Get-AzureRmRedisCacheKey PSCmdlet_Get-AzureRmRedisCache PSCommand_Get-AzureRmRedisCache PSCmdlet_Remove-AzureRmRedisCache PSCommand_Remove-AzureRmRedisCache PSCmdlet_New-AzureRmRedisCache PSCommand_New-AzureRmRedisCache PSCmdlet_New-AzureRmRedisCacheLink PSCommand_New-AzureRmRedisCacheLink PSCmdlet_Remove-AzureRmRedisCacheLink PSCommand_Remove-AzureRmRedisCacheLink PSCmdlet_Get-AzureRmRedisCacheLink PSCommand_Get-AzureRmRedisCacheLink PSCmdlet_New-AzureRmRedisCacheFirewallRule PSCommand_New-AzureRmRedisCacheFirewallRule PSCmdlet_Remove-AzureRmRedisCacheFirewallRule PSCommand_Remove-AzureRmRedisCacheFirewallRule PSCmdlet_Get-AzureRmRedisCacheFirewallRule PSCommand_Get-AzureRmRedisCacheFirewallRule PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.1.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.RedisCache.nuspec|AzureRM.RedisCache.psd1|AzureRM.RedisCache.psm1|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Commands.RedisCache.dll|Microsoft.Azure.Commands.RedisCache.dll-Help.xml|Microsoft.Azure.Commands.RedisCache.format.ps1xml|Microsoft.Azure.Insights.dll|Microsoft.Azure.Management.Redis.dll</S>
+          <S N="GUID">820628d7-6938-488a-8760-43373a5ffce6</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.RedisCache\5.1.0</S>
+    </MS>
+  </Obj>
+</Objs>

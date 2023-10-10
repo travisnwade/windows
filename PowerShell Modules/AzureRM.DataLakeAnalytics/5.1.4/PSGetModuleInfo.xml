@@ -1,0 +1,228 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.DataLakeAnalytics</S>
+      <Version N="Version">5.1.4</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Data Lake Analytics</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:41:03-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:41.4620642-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>DataLake</S>
+          <S>Analytics</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>New-AzureRmDataLakeAnalyticsCatalogCredential</S>
+                <S>Remove-AzureRmDataLakeAnalyticsCatalogCredential</S>
+                <S>Remove-AzureRmDataLakeAnalyticsCatalogSecret</S>
+                <S>Set-AzureRmDataLakeAnalyticsCatalogCredential</S>
+                <S>Set-AzureRmDataLakeAnalyticsCatalogSecret</S>
+                <S>New-AzureRmDataLakeAnalyticsCatalogSecret</S>
+                <S>Test-AzureRmDataLakeAnalyticsCatalogItem</S>
+                <S>Get-AzureRmDataLakeAnalyticsCatalogItem</S>
+                <S>Get-AzureRmDataLakeAnalyticsCatalogItemAclEntry</S>
+                <S>Set-AzureRmDataLakeAnalyticsCatalogItemAclEntry</S>
+                <S>Remove-AzureRmDataLakeAnalyticsCatalogItemAclEntry</S>
+                <S>Set-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>Wait-AzureRmDataLakeAnalyticsJob</S>
+                <S>Test-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Remove-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>Add-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>Stop-AzureRmDataLakeAnalyticsJob</S>
+                <S>Get-AzureRmDataLakeAnalyticsJob</S>
+                <S>Get-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Submit-AzureRmDataLakeAnalyticsJob</S>
+                <S>New-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Remove-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Set-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Add-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>Get-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>Set-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>Remove-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>New-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Get-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Update-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Remove-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Get-AzureRmDataLakeAnalyticsJobPipeline</S>
+                <S>Get-AzureRmDataLakeAnalyticsJobRecurrence</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>New-AzureRmDataLakeAnalyticsCatalogCredential</S>
+                <S>Remove-AzureRmDataLakeAnalyticsCatalogCredential</S>
+                <S>Remove-AzureRmDataLakeAnalyticsCatalogSecret</S>
+                <S>Set-AzureRmDataLakeAnalyticsCatalogCredential</S>
+                <S>Set-AzureRmDataLakeAnalyticsCatalogSecret</S>
+                <S>New-AzureRmDataLakeAnalyticsCatalogSecret</S>
+                <S>Test-AzureRmDataLakeAnalyticsCatalogItem</S>
+                <S>Get-AzureRmDataLakeAnalyticsCatalogItem</S>
+                <S>Get-AzureRmDataLakeAnalyticsCatalogItemAclEntry</S>
+                <S>Set-AzureRmDataLakeAnalyticsCatalogItemAclEntry</S>
+                <S>Remove-AzureRmDataLakeAnalyticsCatalogItemAclEntry</S>
+                <S>Set-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>Wait-AzureRmDataLakeAnalyticsJob</S>
+                <S>Test-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Remove-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>Add-AzureRmDataLakeAnalyticsDataSource</S>
+                <S>Stop-AzureRmDataLakeAnalyticsJob</S>
+                <S>Get-AzureRmDataLakeAnalyticsJob</S>
+                <S>Get-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Submit-AzureRmDataLakeAnalyticsJob</S>
+                <S>New-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Remove-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Set-AzureRmDataLakeAnalyticsAccount</S>
+                <S>Add-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>Get-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>Set-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>Remove-AzureRmDataLakeAnalyticsFirewallRule</S>
+                <S>New-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Get-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Update-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Remove-AzureRmDataLakeAnalyticsComputePolicy</S>
+                <S>Get-AzureRmDataLakeAnalyticsJobPipeline</S>
+                <S>Get-AzureRmDataLakeAnalyticsJobRecurrence</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Data Lake Analytics</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5847858</S>
+          <S N="downloadCount">8743618</S>
+          <S N="packageSize">319675</S>
+          <S N="published">8/29/2018 10:41:03 PM -04:00</S>
+          <S N="created">8/29/2018 10:41:03 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM DataLake Analytics PSModule PSCmdlet_Get-AzureRmDataLakeAnalyticsDataSource PSCommand_Get-AzureRmDataLakeAnalyticsDataSource PSCmdlet_New-AzureRmDataLakeAnalyticsCatalogCredential PSCommand_New-AzureRmDataLakeAnalyticsCatalogCredential PSCmdlet_Remove-AzureRmDataLakeAnalyticsCatalogCredential PSCommand_Remove-AzureRmDataLakeAnalyticsCatalogCredential PSCmdlet_Remove-AzureRmDataLakeAnalyticsCatalogSecret PSCommand_Remove-AzureRmDataLakeAnalyticsCatalogSecret PSCmdlet_Set-AzureRmDataLakeAnalyticsCatalogCredential PSCommand_Set-AzureRmDataLakeAnalyticsCatalogCredential PSCmdlet_Set-AzureRmDataLakeAnalyticsCatalogSecret PSCommand_Set-AzureRmDataLakeAnalyticsCatalogSecret PSCmdlet_New-AzureRmDataLakeAnalyticsCatalogSecret PSCommand_New-AzureRmDataLakeAnalyticsCatalogSecret PSCmdlet_Test-AzureRmDataLakeAnalyticsCatalogItem PSCommand_Test-AzureRmDataLakeAnalyticsCatalogItem PSCmdlet_Get-AzureRmDataLakeAnalyticsCatalogItem PSCommand_Get-AzureRmDataLakeAnalyticsCatalogItem PSCmdlet_Get-AzureRmDataLakeAnalyticsCatalogItemAclEntry PSCommand_Get-AzureRmDataLakeAnalyticsCatalogItemAclEntry PSCmdlet_Set-AzureRmDataLakeAnalyticsCatalogItemAclEntry PSCommand_Set-AzureRmDataLakeAnalyticsCatalogItemAclEntry PSCmdlet_Remove-AzureRmDataLakeAnalyticsCatalogItemAclEntry PSCommand_Remove-AzureRmDataLakeAnalyticsCatalogItemAclEntry PSCmdlet_Set-AzureRmDataLakeAnalyticsDataSource PSCommand_Set-AzureRmDataLakeAnalyticsDataSource PSCmdlet_Wait-AzureRmDataLakeAnalyticsJob PSCommand_Wait-AzureRmDataLakeAnalyticsJob PSCmdlet_Test-AzureRmDataLakeAnalyticsAccount PSCommand_Test-AzureRmDataLakeAnalyticsAccount PSCmdlet_Remove-AzureRmDataLakeAnalyticsDataSource PSCommand_Remove-AzureRmDataLakeAnalyticsDataSource PSCmdlet_Add-AzureRmDataLakeAnalyticsDataSource PSCommand_Add-AzureRmDataLakeAnalyticsDataSource PSCmdlet_Stop-AzureRmDataLakeAnalyticsJob PSCommand_Stop-AzureRmDataLakeAnalyticsJob PSCmdlet_Get-AzureRmDataLakeAnalyticsJob PSCommand_Get-AzureRmDataLakeAnalyticsJob PSCmdlet_Get-AzureRmDataLakeAnalyticsAccount PSCommand_Get-AzureRmDataLakeAnalyticsAccount PSCmdlet_Submit-AzureRmDataLakeAnalyticsJob PSCommand_Submit-AzureRmDataLakeAnalyticsJob PSCmdlet_New-AzureRmDataLakeAnalyticsAccount PSCommand_New-AzureRmDataLakeAnalyticsAccount PSCmdlet_Remove-AzureRmDataLakeAnalyticsAccount PSCommand_Remove-AzureRmDataLakeAnalyticsAccount PSCmdlet_Set-AzureRmDataLakeAnalyticsAccount PSCommand_Set-AzureRmDataLakeAnalyticsAccount PSCmdlet_Add-AzureRmDataLakeAnalyticsFirewallRule PSCommand_Add-AzureRmDataLakeAnalyticsFirewallRule PSCmdlet_Get-AzureRmDataLakeAnalyticsFirewallRule PSCommand_Get-AzureRmDataLakeAnalyticsFirewallRule PSCmdlet_Set-AzureRmDataLakeAnalyticsFirewallRule PSCommand_Set-AzureRmDataLakeAnalyticsFirewallRule PSCmdlet_Remove-AzureRmDataLakeAnalyticsFirewallRule PSCommand_Remove-AzureRmDataLakeAnalyticsFirewallRule PSCmdlet_New-AzureRmDataLakeAnalyticsComputePolicy PSCommand_New-AzureRmDataLakeAnalyticsComputePolicy PSCmdlet_Get-AzureRmDataLakeAnalyticsComputePolicy PSCommand_Get-AzureRmDataLakeAnalyticsComputePolicy PSCmdlet_Update-AzureRmDataLakeAnalyticsComputePolicy PSCommand_Update-AzureRmDataLakeAnalyticsComputePolicy PSCmdlet_Remove-AzureRmDataLakeAnalyticsComputePolicy PSCommand_Remove-AzureRmDataLakeAnalyticsComputePolicy PSCmdlet_Get-AzureRmDataLakeAnalyticsJobPipeline PSCommand_Get-AzureRmDataLakeAnalyticsJobPipeline PSCmdlet_Get-AzureRmDataLakeAnalyticsJobRecurrence PSCommand_Get-AzureRmDataLakeAnalyticsJobRecurrence PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.1.4</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.DataLakeAnalytics.nuspec|AzureRM.DataLakeAnalytics.psd1|AzureRM.DataLakeAnalytics.psm1|Microsoft.Azure.Commands.DataLakeAnalytics.dll|Microsoft.Azure.Commands.DataLakeAnalytics.dll-Help.xml|Microsoft.Azure.Commands.DataLakeAnalytics.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.DataLake.Analytics.dll</S>
+          <S N="GUID">eca73aa1-a68f-4ceb-9775-70759316a57b</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.DataLakeAnalytics\5.1.4</S>
+    </MS>
+  </Obj>
+</Objs>

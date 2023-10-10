@@ -1,0 +1,178 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.AnalysisServices</S>
+      <Version N="Version">0.6.14</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Analysis Services</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:40:03-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:14.4273989-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>AzureAS</S>
+          <S>AS</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Resume-AzureRmAnalysisServicesServer</S>
+                <S>Suspend-AzureRmAnalysisServicesServer</S>
+                <S>Get-AzureRmAnalysisServicesServer</S>
+                <S>Remove-AzureRmAnalysisServicesServer</S>
+                <S>Set-AzureRmAnalysisServicesServer</S>
+                <S>Test-AzureRmAnalysisServicesServer</S>
+                <S>New-AzureRmAnalysisServicesServer</S>
+                <S>New-AzureRmAnalysisServicesFirewallRule</S>
+                <S>New-AzureRmAnalysisServicesFirewallConfig</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Resume-AzureRmAnalysisServicesServer</S>
+                <S>Suspend-AzureRmAnalysisServicesServer</S>
+                <S>Get-AzureRmAnalysisServicesServer</S>
+                <S>Remove-AzureRmAnalysisServicesServer</S>
+                <S>Set-AzureRmAnalysisServicesServer</S>
+                <S>Test-AzureRmAnalysisServicesServer</S>
+                <S>New-AzureRmAnalysisServicesServer</S>
+                <S>New-AzureRmAnalysisServicesFirewallRule</S>
+                <S>New-AzureRmAnalysisServicesFirewallConfig</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_ * Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Analysis Services</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_ * Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">6689854</S>
+          <S N="downloadCount">9563926</S>
+          <S N="packageSize">85445</S>
+          <S N="published">8/29/2018 10:40:03 PM -04:00</S>
+          <S N="created">8/29/2018 10:40:03 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM AzureAS AS PSModule PSCmdlet_Resume-AzureRmAnalysisServicesServer PSCommand_Resume-AzureRmAnalysisServicesServer PSCmdlet_Suspend-AzureRmAnalysisServicesServer PSCommand_Suspend-AzureRmAnalysisServicesServer PSCmdlet_Get-AzureRmAnalysisServicesServer PSCommand_Get-AzureRmAnalysisServicesServer PSCmdlet_Remove-AzureRmAnalysisServicesServer PSCommand_Remove-AzureRmAnalysisServicesServer PSCmdlet_Set-AzureRmAnalysisServicesServer PSCommand_Set-AzureRmAnalysisServicesServer PSCmdlet_Test-AzureRmAnalysisServicesServer PSCommand_Test-AzureRmAnalysisServicesServer PSCmdlet_New-AzureRmAnalysisServicesServer PSCommand_New-AzureRmAnalysisServicesServer PSCmdlet_New-AzureRmAnalysisServicesFirewallRule PSCommand_New-AzureRmAnalysisServicesFirewallRule PSCmdlet_New-AzureRmAnalysisServicesFirewallConfig PSCommand_New-AzureRmAnalysisServicesFirewallConfig PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">0.6.14</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.AnalysisServices.nuspec|AzureRM.AnalysisServices.psd1|AzureRM.AnalysisServices.psm1|Microsoft.Azure.Commands.AnalysisServices.dll|Microsoft.Azure.Commands.AnalysisServices.dll-Help.xml|Microsoft.Azure.Management.Analysis.dll</S>
+          <S N="GUID">acace26c-1775-4100-85c0-20c4d71eaa21</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.AnalysisServices\0.6.14</S>
+    </MS>
+  </Obj>
+</Objs>

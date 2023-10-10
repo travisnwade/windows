@@ -1,0 +1,206 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.IotHub</S>
+      <Version N="Version">3.1.8</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - IotHub service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:41:40-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:52.7025699-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>IoT</S>
+          <S>IoTHub</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmIotHubKey</S>
+                <S>Get-AzureRmIotHubEventHubConsumerGroup</S>
+                <S>Get-AzureRmIotHubConnectionString</S>
+                <S>Get-AzureRmIotHubJob</S>
+                <S>Get-AzureRmIotHubKey</S>
+                <S>Get-AzureRmIotHubQuotaMetric</S>
+                <S>Get-AzureRmIotHub</S>
+                <S>Get-AzureRmIotHubRegistryStatistic</S>
+                <S>Get-AzureRmIotHubValidSku</S>
+                <S>Add-AzureRmIotHubEventHubConsumerGroup</S>
+                <S>New-AzureRmIotHub</S>
+                <S>New-AzureRmIotHubExportDevices</S>
+                <S>New-AzureRmIotHubImportDevices</S>
+                <S>Remove-AzureRmIotHub</S>
+                <S>Remove-AzureRmIotHubEventHubConsumerGroup</S>
+                <S>Remove-AzureRmIotHubKey</S>
+                <S>Set-AzureRmIotHub</S>
+                <S>Update-AzureRmIotHub</S>
+                <S>Add-AzureRmIotHubCertificate</S>
+                <S>Get-AzureRmIotHubCertificate</S>
+                <S>Get-AzureRmIotHubCertificateVerificationCode</S>
+                <S>Set-AzureRmIotHubVerifiedCertificate</S>
+                <S>Remove-AzureRmIotHubCertificate</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmIotHubKey</S>
+                <S>Get-AzureRmIotHubEventHubConsumerGroup</S>
+                <S>Get-AzureRmIotHubConnectionString</S>
+                <S>Get-AzureRmIotHubJob</S>
+                <S>Get-AzureRmIotHubKey</S>
+                <S>Get-AzureRmIotHubQuotaMetric</S>
+                <S>Get-AzureRmIotHub</S>
+                <S>Get-AzureRmIotHubRegistryStatistic</S>
+                <S>Get-AzureRmIotHubValidSku</S>
+                <S>Add-AzureRmIotHubEventHubConsumerGroup</S>
+                <S>New-AzureRmIotHub</S>
+                <S>New-AzureRmIotHubExportDevices</S>
+                <S>New-AzureRmIotHubImportDevices</S>
+                <S>Remove-AzureRmIotHub</S>
+                <S>Remove-AzureRmIotHubEventHubConsumerGroup</S>
+                <S>Remove-AzureRmIotHubKey</S>
+                <S>Set-AzureRmIotHub</S>
+                <S>Update-AzureRmIotHub</S>
+                <S>Add-AzureRmIotHubCertificate</S>
+                <S>Get-AzureRmIotHubCertificate</S>
+                <S>Get-AzureRmIotHubCertificateVerificationCode</S>
+                <S>Set-AzureRmIotHubVerifiedCertificate</S>
+                <S>Remove-AzureRmIotHubCertificate</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies_x000D__x000A_* Fixed examples for New-AzureRmIotHubExportDevices and New-AzureRmIotHubImportDevices</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - IotHub service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies_x000D__x000A_* Fixed examples for New-AzureRmIotHubExportDevices and New-AzureRmIotHubImportDevices</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5771417</S>
+          <S N="downloadCount">8342248</S>
+          <S N="packageSize">164012</S>
+          <S N="published">8/29/2018 10:41:40 PM -04:00</S>
+          <S N="created">8/29/2018 10:41:40 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM IoT IoTHub PSModule PSCmdlet_Add-AzureRmIotHubKey PSCommand_Add-AzureRmIotHubKey PSCmdlet_Get-AzureRmIotHubEventHubConsumerGroup PSCommand_Get-AzureRmIotHubEventHubConsumerGroup PSCmdlet_Get-AzureRmIotHubConnectionString PSCommand_Get-AzureRmIotHubConnectionString PSCmdlet_Get-AzureRmIotHubJob PSCommand_Get-AzureRmIotHubJob PSCmdlet_Get-AzureRmIotHubKey PSCommand_Get-AzureRmIotHubKey PSCmdlet_Get-AzureRmIotHubQuotaMetric PSCommand_Get-AzureRmIotHubQuotaMetric PSCmdlet_Get-AzureRmIotHub PSCommand_Get-AzureRmIotHub PSCmdlet_Get-AzureRmIotHubRegistryStatistic PSCommand_Get-AzureRmIotHubRegistryStatistic PSCmdlet_Get-AzureRmIotHubValidSku PSCommand_Get-AzureRmIotHubValidSku PSCmdlet_Add-AzureRmIotHubEventHubConsumerGroup PSCommand_Add-AzureRmIotHubEventHubConsumerGroup PSCmdlet_New-AzureRmIotHub PSCommand_New-AzureRmIotHub PSCmdlet_New-AzureRmIotHubExportDevices PSCommand_New-AzureRmIotHubExportDevices PSCmdlet_New-AzureRmIotHubImportDevices PSCommand_New-AzureRmIotHubImportDevices PSCmdlet_Remove-AzureRmIotHub PSCommand_Remove-AzureRmIotHub PSCmdlet_Remove-AzureRmIotHubEventHubConsumerGroup PSCommand_Remove-AzureRmIotHubEventHubConsumerGroup PSCmdlet_Remove-AzureRmIotHubKey PSCommand_Remove-AzureRmIotHubKey PSCmdlet_Set-AzureRmIotHub PSCommand_Set-AzureRmIotHub PSCmdlet_Update-AzureRmIotHub PSCommand_Update-AzureRmIotHub PSCmdlet_Add-AzureRmIotHubCertificate PSCommand_Add-AzureRmIotHubCertificate PSCmdlet_Get-AzureRmIotHubCertificate PSCommand_Get-AzureRmIotHubCertificate PSCmdlet_Get-AzureRmIotHubCertificateVerificationCode PSCommand_Get-AzureRmIotHubCertificateVerificationCode PSCmdlet_Set-AzureRmIotHubVerifiedCertificate PSCommand_Set-AzureRmIotHubVerifiedCertificate PSCmdlet_Remove-AzureRmIotHubCertificate PSCommand_Remove-AzureRmIotHubCertificate PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">3.1.8</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.IotHub.nuspec|AzureRM.IotHub.psd1|AzureRM.IotHub.psm1|Microsoft.Azure.Commands.IotHub.dll|Microsoft.Azure.Commands.IotHub.dll-Help.xml|Microsoft.Azure.Commands.IotHub.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.IotHub.dll</S>
+          <S N="GUID">51a3a993-fe39-4f8f-a437-2cb751584af5</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.IotHub\3.1.8</S>
+    </MS>
+  </Obj>
+</Objs>

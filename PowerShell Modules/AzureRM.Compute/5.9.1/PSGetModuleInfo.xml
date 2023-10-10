@@ -1,0 +1,528 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Compute</S>
+      <Version N="Version">5.9.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Compute service cmdlets for Azure Resource Manager.  Manages virtual machines, hosted services, and related resources in Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:29:18-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:31.2092198-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Compute</S>
+          <S>IAAS</S>
+          <S>VM</S>
+          <S>VirtualMachine</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Remove-AzureRmAvailabilitySet</S>
+                <S>Get-AzureRmAvailabilitySet</S>
+                <S>New-AzureRmAvailabilitySet</S>
+                <S>Update-AzureRmAvailabilitySet</S>
+                <S>Get-AzureRmVMExtensionImageType</S>
+                <S>Get-AzureRmVMExtensionImage</S>
+                <S>Get-AzureRmVMADDomainExtension</S>
+                <S>Set-AzureRmVMADDomainExtension</S>
+                <S>Get-AzureRmVMAEMExtension</S>
+                <S>Remove-AzureRmVMAEMExtension</S>
+                <S>Set-AzureRmVMAEMExtension</S>
+                <S>Test-AzureRmVMAEMExtension</S>
+                <S>Set-AzureRmVMBginfoExtension</S>
+                <S>Get-AzureRmVMCustomScriptExtension</S>
+                <S>Remove-AzureRmVMCustomScriptExtension</S>
+                <S>Set-AzureRmVMCustomScriptExtension</S>
+                <S>Get-AzureRmVMDiagnosticsExtension</S>
+                <S>Remove-AzureRmVMDiagnosticsExtension</S>
+                <S>Remove-AzureRmVmssDiagnosticsExtension</S>
+                <S>Set-AzureRmVMDiagnosticsExtension</S>
+                <S>Set-AzureRmVMExtension</S>
+                <S>Remove-AzureRmVMExtension</S>
+                <S>Get-AzureRmVMExtension</S>
+                <S>Get-AzureRmVMSqlServerExtension</S>
+                <S>New-AzureRmVMSqlServerAutoBackupConfig</S>
+                <S>New-AzureRmVMSqlServerAutoPatchingConfig</S>
+                <S>New-AzureRmVMSqlServerKeyVaultCredentialConfig</S>
+                <S>Remove-AzureRmVMSqlServerExtension</S>
+                <S>Set-AzureRmVMSqlServerExtension</S>
+                <S>Get-AzureRmVMImage</S>
+                <S>Get-AzureRmVMAccessExtension</S>
+                <S>Remove-AzureRmVMAccessExtension</S>
+                <S>Set-AzureRmVMAccessExtension</S>
+                <S>Get-AzureRmVMImageSku</S>
+                <S>Get-AzureRmVMImagePublisher</S>
+                <S>Get-AzureRmVMImageOffer</S>
+                <S>Get-AzureRmRemoteDesktopFile</S>
+                <S>Get-AzureRmVMUsage</S>
+                <S>Get-AzureRmVMSize</S>
+                <S>Save-AzureRmVMImage</S>
+                <S>Set-AzureRmVM</S>
+                <S>Add-AzureRmVMAdditionalUnattendContent</S>
+                <S>Add-AzureRmVMSshPublicKey</S>
+                <S>Add-AzureRmVMSecret</S>
+                <S>Remove-AzureRmVMSecret</S>
+                <S>Remove-AzureRmVMNetworkInterface</S>
+                <S>Remove-AzureRmVMDataDisk</S>
+                <S>Set-AzureRmVMBootDiagnostics</S>
+                <S>Set-AzureRmVMDataDisk</S>
+                <S>Set-AzureRmVMPlan</S>
+                <S>Set-AzureRmVMSourceImage</S>
+                <S>Set-AzureRmVMOSDisk</S>
+                <S>Get-AzureRmVMBootDiagnosticsData</S>
+                <S>Get-AzureRmVM</S>
+                <S>Update-AzureRmVM</S>
+                <S>Restart-AzureRmVM</S>
+                <S>New-AzureRmVM</S>
+                <S>Start-AzureRmVM</S>
+                <S>Stop-AzureRmVM</S>
+                <S>Remove-AzureRmVM</S>
+                <S>New-AzureRmVMConfig</S>
+                <S>Set-AzureRmVMOperatingSystem</S>
+                <S>Add-AzureRmVMDataDisk</S>
+                <S>Add-AzureRmVMNetworkInterface</S>
+                <S>Add-AzureRmVhd</S>
+                <S>Save-AzureRmVhd</S>
+                <S>Add-AzureRmContainerServiceAgentPoolProfile</S>
+                <S>New-AzureRmContainerServiceConfig</S>
+                <S>Remove-AzureRmContainerServiceAgentPoolProfile</S>
+                <S>New-AzureRmContainerService</S>
+                <S>Update-AzureRmContainerService</S>
+                <S>Remove-AzureRmContainerService</S>
+                <S>Get-AzureRmContainerService</S>
+                <S>Get-AzureRmVmssVM</S>
+                <S>Set-AzureRmVmssVM</S>
+                <S>Add-AzureRmVmssAdditionalUnattendContent</S>
+                <S>Add-AzureRmVmssExtension</S>
+                <S>Add-AzureRmVmssDataDisk</S>
+                <S>Add-AzureRmVmssNetworkInterfaceConfiguration</S>
+                <S>Add-AzureRmVmssSecret</S>
+                <S>Add-AzureRmVmssSshPublicKey</S>
+                <S>Add-AzureRmVmssWinRMListener</S>
+                <S>New-AzureRmVmssConfig</S>
+                <S>New-AzureRmVmssIpConfig</S>
+                <S>New-AzureRmVmssVaultCertificateConfig</S>
+                <S>Remove-AzureRmVmssExtension</S>
+                <S>Remove-AzureRmVmssDataDisk</S>
+                <S>Remove-AzureRmVmssNetworkInterfaceConfiguration</S>
+                <S>Set-AzureRmVmssOsProfile</S>
+                <S>Set-AzureRmVmssStorageProfile</S>
+                <S>New-AzureRmVmss</S>
+                <S>Update-AzureRmVmss</S>
+                <S>Stop-AzureRmVmss</S>
+                <S>Remove-AzureRmVmss</S>
+                <S>Get-AzureRmVmss</S>
+                <S>Get-AzureRmVmssSku</S>
+                <S>Set-AzureRmVmss</S>
+                <S>Restart-AzureRmVmss</S>
+                <S>Start-AzureRmVmss</S>
+                <S>Update-AzureRmVmssInstance</S>
+                <S>Get-AzureRmVMDscExtensionStatus</S>
+                <S>Publish-AzureRmVMDscConfiguration</S>
+                <S>Remove-AzureRmVMDscExtension</S>
+                <S>Set-AzureRmVMDscExtension</S>
+                <S>Get-AzureRmVMDscExtension</S>
+                <S>Add-AzureRmVmssDiagnosticsExtension</S>
+                <S>Get-AzureRmVMChefExtension</S>
+                <S>Remove-AzureRmVMChefExtension</S>
+                <S>Set-AzureRmVMChefExtension</S>
+                <S>Remove-AzureRmVMBackup</S>
+                <S>Disable-AzureRmVMDiskEncryption</S>
+                <S>Get-AzureRmVMDiskEncryptionStatus</S>
+                <S>Remove-AzureRmVMDiskEncryptionExtension</S>
+                <S>Set-AzureRmVMDiskEncryptionExtension</S>
+                <S>Set-AzureRmVMBackupExtension</S>
+                <S>New-AzureRmDisk</S>
+                <S>Update-AzureRmDisk</S>
+                <S>Get-AzureRmDisk</S>
+                <S>Remove-AzureRmDisk</S>
+                <S>Grant-AzureRmDiskAccess</S>
+                <S>Revoke-AzureRmDiskAccess</S>
+                <S>New-AzureRmDiskConfig</S>
+                <S>Set-AzureRmDiskDiskEncryptionKey</S>
+                <S>Set-AzureRmDiskImageReference</S>
+                <S>Set-AzureRmDiskKeyEncryptionKey</S>
+                <S>New-AzureRmDiskUpdateConfig</S>
+                <S>Set-AzureRmDiskUpdateDiskEncryptionKey</S>
+                <S>Set-AzureRmDiskUpdateKeyEncryptionKey</S>
+                <S>New-AzureRmSnapshot</S>
+                <S>Update-AzureRmSnapshot</S>
+                <S>Get-AzureRmSnapshot</S>
+                <S>Remove-AzureRmSnapshot</S>
+                <S>Grant-AzureRmSnapshotAccess</S>
+                <S>Revoke-AzureRmSnapshotAccess</S>
+                <S>New-AzureRmSnapshotConfig</S>
+                <S>Set-AzureRmSnapshotDiskEncryptionKey</S>
+                <S>Set-AzureRmSnapshotImageReference</S>
+                <S>Set-AzureRmSnapshotKeyEncryptionKey</S>
+                <S>New-AzureRmSnapshotUpdateConfig</S>
+                <S>Set-AzureRmSnapshotUpdateDiskEncryptionKey</S>
+                <S>Set-AzureRmSnapshotUpdateKeyEncryptionKey</S>
+                <S>New-AzureRmImage</S>
+                <S>Update-AzureRmImage</S>
+                <S>Get-AzureRmImage</S>
+                <S>Remove-AzureRmImage</S>
+                <S>New-AzureRmImageConfig</S>
+                <S>Set-AzureRmImageOsDisk</S>
+                <S>Add-AzureRmImageDataDisk</S>
+                <S>Remove-AzureRmImageDataDisk</S>
+                <S>ConvertTo-AzureRmVMManagedDisk</S>
+                <S>Set-AzureRmVmssBootDiagnostic</S>
+                <S>Get-AzureRmComputeResourceSku</S>
+                <S>Get-AzureRmVMRunCommandDocument</S>
+                <S>Invoke-AzureRmVMRunCommand</S>
+                <S>Start-AzureRmVmssRollingOSUpgrade</S>
+                <S>Stop-AzureRmVmssRollingUpgrade</S>
+                <S>Get-AzureRmVmssRollingUpgrade</S>
+                <S>Set-AzureRmVmssRollingUpgradePolicy</S>
+                <S>Set-AzureRmVmssDiskEncryptionExtension</S>
+                <S>Disable-AzureRmVmssDiskEncryption</S>
+                <S>Get-AzureRmVmssDiskEncryption</S>
+                <S>Get-AzureRmVmssVMDiskEncryption</S>
+                <S>Export-AzureRmLogAnalyticRequestRateByInterval</S>
+                <S>Export-AzureRmLogAnalyticThrottledRequests</S>
+                <S>Repair-AzureRmVmssServiceFabricUpdateDomain</S>
+                <S>New-AzureRmVMDataDisk</S>
+                <S>Update-AzureRmVmssVM</S>
+                <S>New-AzureRmVmssIpTagConfig</S>
+                <S>Invoke-AzureRmVmssVMRunCommand</S>
+                <S>New-AzureRmGallery</S>
+                <S>Update-AzureRmGallery</S>
+                <S>Get-AzureRmGallery</S>
+                <S>Remove-AzureRmGallery</S>
+                <S>New-AzureRmGalleryImageDefinition</S>
+                <S>Update-AzureRmGalleryImageDefinition</S>
+                <S>Get-AzureRmGalleryImageDefinition</S>
+                <S>Remove-AzureRmGalleryImageDefinition</S>
+                <S>New-AzureRmGalleryImageVersion</S>
+                <S>Update-AzureRmGalleryImageVersion</S>
+                <S>Get-AzureRmGalleryImageVersion</S>
+                <S>Remove-AzureRmGalleryImageVersion</S>
+                <S>Add-AzureRmVmssVMDataDisk</S>
+                <S>Remove-AzureRmVmssVMDataDisk</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Remove-AzureRmAvailabilitySet</S>
+                <S>Get-AzureRmAvailabilitySet</S>
+                <S>New-AzureRmAvailabilitySet</S>
+                <S>Update-AzureRmAvailabilitySet</S>
+                <S>Get-AzureRmVMExtensionImageType</S>
+                <S>Get-AzureRmVMExtensionImage</S>
+                <S>Get-AzureRmVMADDomainExtension</S>
+                <S>Set-AzureRmVMADDomainExtension</S>
+                <S>Get-AzureRmVMAEMExtension</S>
+                <S>Remove-AzureRmVMAEMExtension</S>
+                <S>Set-AzureRmVMAEMExtension</S>
+                <S>Test-AzureRmVMAEMExtension</S>
+                <S>Set-AzureRmVMBginfoExtension</S>
+                <S>Get-AzureRmVMCustomScriptExtension</S>
+                <S>Remove-AzureRmVMCustomScriptExtension</S>
+                <S>Set-AzureRmVMCustomScriptExtension</S>
+                <S>Get-AzureRmVMDiagnosticsExtension</S>
+                <S>Remove-AzureRmVMDiagnosticsExtension</S>
+                <S>Remove-AzureRmVmssDiagnosticsExtension</S>
+                <S>Set-AzureRmVMDiagnosticsExtension</S>
+                <S>Set-AzureRmVMExtension</S>
+                <S>Remove-AzureRmVMExtension</S>
+                <S>Get-AzureRmVMExtension</S>
+                <S>Get-AzureRmVMSqlServerExtension</S>
+                <S>New-AzureRmVMSqlServerAutoBackupConfig</S>
+                <S>New-AzureRmVMSqlServerAutoPatchingConfig</S>
+                <S>New-AzureRmVMSqlServerKeyVaultCredentialConfig</S>
+                <S>Remove-AzureRmVMSqlServerExtension</S>
+                <S>Set-AzureRmVMSqlServerExtension</S>
+                <S>Get-AzureRmVMImage</S>
+                <S>Get-AzureRmVMAccessExtension</S>
+                <S>Remove-AzureRmVMAccessExtension</S>
+                <S>Set-AzureRmVMAccessExtension</S>
+                <S>Get-AzureRmVMImageSku</S>
+                <S>Get-AzureRmVMImagePublisher</S>
+                <S>Get-AzureRmVMImageOffer</S>
+                <S>Get-AzureRmRemoteDesktopFile</S>
+                <S>Get-AzureRmVMUsage</S>
+                <S>Get-AzureRmVMSize</S>
+                <S>Save-AzureRmVMImage</S>
+                <S>Set-AzureRmVM</S>
+                <S>Add-AzureRmVMAdditionalUnattendContent</S>
+                <S>Add-AzureRmVMSshPublicKey</S>
+                <S>Add-AzureRmVMSecret</S>
+                <S>Remove-AzureRmVMSecret</S>
+                <S>Remove-AzureRmVMNetworkInterface</S>
+                <S>Remove-AzureRmVMDataDisk</S>
+                <S>Set-AzureRmVMBootDiagnostics</S>
+                <S>Set-AzureRmVMDataDisk</S>
+                <S>Set-AzureRmVMPlan</S>
+                <S>Set-AzureRmVMSourceImage</S>
+                <S>Set-AzureRmVMOSDisk</S>
+                <S>Get-AzureRmVMBootDiagnosticsData</S>
+                <S>Get-AzureRmVM</S>
+                <S>Update-AzureRmVM</S>
+                <S>Restart-AzureRmVM</S>
+                <S>New-AzureRmVM</S>
+                <S>Start-AzureRmVM</S>
+                <S>Stop-AzureRmVM</S>
+                <S>Remove-AzureRmVM</S>
+                <S>New-AzureRmVMConfig</S>
+                <S>Set-AzureRmVMOperatingSystem</S>
+                <S>Add-AzureRmVMDataDisk</S>
+                <S>Add-AzureRmVMNetworkInterface</S>
+                <S>Add-AzureRmVhd</S>
+                <S>Save-AzureRmVhd</S>
+                <S>Add-AzureRmContainerServiceAgentPoolProfile</S>
+                <S>New-AzureRmContainerServiceConfig</S>
+                <S>Remove-AzureRmContainerServiceAgentPoolProfile</S>
+                <S>New-AzureRmContainerService</S>
+                <S>Update-AzureRmContainerService</S>
+                <S>Remove-AzureRmContainerService</S>
+                <S>Get-AzureRmContainerService</S>
+                <S>Get-AzureRmVmssVM</S>
+                <S>Set-AzureRmVmssVM</S>
+                <S>Add-AzureRmVmssAdditionalUnattendContent</S>
+                <S>Add-AzureRmVmssExtension</S>
+                <S>Add-AzureRmVmssDataDisk</S>
+                <S>Add-AzureRmVmssNetworkInterfaceConfiguration</S>
+                <S>Add-AzureRmVmssSecret</S>
+                <S>Add-AzureRmVmssSshPublicKey</S>
+                <S>Add-AzureRmVmssWinRMListener</S>
+                <S>New-AzureRmVmssConfig</S>
+                <S>New-AzureRmVmssIpConfig</S>
+                <S>New-AzureRmVmssVaultCertificateConfig</S>
+                <S>Remove-AzureRmVmssExtension</S>
+                <S>Remove-AzureRmVmssDataDisk</S>
+                <S>Remove-AzureRmVmssNetworkInterfaceConfiguration</S>
+                <S>Set-AzureRmVmssOsProfile</S>
+                <S>Set-AzureRmVmssStorageProfile</S>
+                <S>New-AzureRmVmss</S>
+                <S>Update-AzureRmVmss</S>
+                <S>Stop-AzureRmVmss</S>
+                <S>Remove-AzureRmVmss</S>
+                <S>Get-AzureRmVmss</S>
+                <S>Get-AzureRmVmssSku</S>
+                <S>Set-AzureRmVmss</S>
+                <S>Restart-AzureRmVmss</S>
+                <S>Start-AzureRmVmss</S>
+                <S>Update-AzureRmVmssInstance</S>
+                <S>Get-AzureRmVMDscExtensionStatus</S>
+                <S>Publish-AzureRmVMDscConfiguration</S>
+                <S>Remove-AzureRmVMDscExtension</S>
+                <S>Set-AzureRmVMDscExtension</S>
+                <S>Get-AzureRmVMDscExtension</S>
+                <S>Add-AzureRmVmssDiagnosticsExtension</S>
+                <S>Get-AzureRmVMChefExtension</S>
+                <S>Remove-AzureRmVMChefExtension</S>
+                <S>Set-AzureRmVMChefExtension</S>
+                <S>Remove-AzureRmVMBackup</S>
+                <S>Disable-AzureRmVMDiskEncryption</S>
+                <S>Get-AzureRmVMDiskEncryptionStatus</S>
+                <S>Remove-AzureRmVMDiskEncryptionExtension</S>
+                <S>Set-AzureRmVMDiskEncryptionExtension</S>
+                <S>Set-AzureRmVMBackupExtension</S>
+                <S>New-AzureRmDisk</S>
+                <S>Update-AzureRmDisk</S>
+                <S>Get-AzureRmDisk</S>
+                <S>Remove-AzureRmDisk</S>
+                <S>Grant-AzureRmDiskAccess</S>
+                <S>Revoke-AzureRmDiskAccess</S>
+                <S>New-AzureRmDiskConfig</S>
+                <S>Set-AzureRmDiskDiskEncryptionKey</S>
+                <S>Set-AzureRmDiskImageReference</S>
+                <S>Set-AzureRmDiskKeyEncryptionKey</S>
+                <S>New-AzureRmDiskUpdateConfig</S>
+                <S>Set-AzureRmDiskUpdateDiskEncryptionKey</S>
+                <S>Set-AzureRmDiskUpdateKeyEncryptionKey</S>
+                <S>New-AzureRmSnapshot</S>
+                <S>Update-AzureRmSnapshot</S>
+                <S>Get-AzureRmSnapshot</S>
+                <S>Remove-AzureRmSnapshot</S>
+                <S>Grant-AzureRmSnapshotAccess</S>
+                <S>Revoke-AzureRmSnapshotAccess</S>
+                <S>New-AzureRmSnapshotConfig</S>
+                <S>Set-AzureRmSnapshotDiskEncryptionKey</S>
+                <S>Set-AzureRmSnapshotImageReference</S>
+                <S>Set-AzureRmSnapshotKeyEncryptionKey</S>
+                <S>New-AzureRmSnapshotUpdateConfig</S>
+                <S>Set-AzureRmSnapshotUpdateDiskEncryptionKey</S>
+                <S>Set-AzureRmSnapshotUpdateKeyEncryptionKey</S>
+                <S>New-AzureRmImage</S>
+                <S>Update-AzureRmImage</S>
+                <S>Get-AzureRmImage</S>
+                <S>Remove-AzureRmImage</S>
+                <S>New-AzureRmImageConfig</S>
+                <S>Set-AzureRmImageOsDisk</S>
+                <S>Add-AzureRmImageDataDisk</S>
+                <S>Remove-AzureRmImageDataDisk</S>
+                <S>ConvertTo-AzureRmVMManagedDisk</S>
+                <S>Set-AzureRmVmssBootDiagnostic</S>
+                <S>Get-AzureRmComputeResourceSku</S>
+                <S>Get-AzureRmVMRunCommandDocument</S>
+                <S>Invoke-AzureRmVMRunCommand</S>
+                <S>Start-AzureRmVmssRollingOSUpgrade</S>
+                <S>Stop-AzureRmVmssRollingUpgrade</S>
+                <S>Get-AzureRmVmssRollingUpgrade</S>
+                <S>Set-AzureRmVmssRollingUpgradePolicy</S>
+                <S>Set-AzureRmVmssDiskEncryptionExtension</S>
+                <S>Disable-AzureRmVmssDiskEncryption</S>
+                <S>Get-AzureRmVmssDiskEncryption</S>
+                <S>Get-AzureRmVmssVMDiskEncryption</S>
+                <S>Export-AzureRmLogAnalyticRequestRateByInterval</S>
+                <S>Export-AzureRmLogAnalyticThrottledRequests</S>
+                <S>Repair-AzureRmVmssServiceFabricUpdateDomain</S>
+                <S>New-AzureRmVMDataDisk</S>
+                <S>Update-AzureRmVmssVM</S>
+                <S>New-AzureRmVmssIpTagConfig</S>
+                <S>Invoke-AzureRmVmssVMRunCommand</S>
+                <S>New-AzureRmGallery</S>
+                <S>Update-AzureRmGallery</S>
+                <S>Get-AzureRmGallery</S>
+                <S>Remove-AzureRmGallery</S>
+                <S>New-AzureRmGalleryImageDefinition</S>
+                <S>Update-AzureRmGalleryImageDefinition</S>
+                <S>Get-AzureRmGalleryImageDefinition</S>
+                <S>Remove-AzureRmGalleryImageDefinition</S>
+                <S>New-AzureRmGalleryImageVersion</S>
+                <S>Update-AzureRmGalleryImageVersion</S>
+                <S>Get-AzureRmGalleryImageVersion</S>
+                <S>Remove-AzureRmGalleryImageVersion</S>
+                <S>Add-AzureRmVmssVMDataDisk</S>
+                <S>Remove-AzureRmVmssVMDataDisk</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed identity issue for SystemAssigned identity_x000D__x000A_* Update dependencies for type mapping issue</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Compute service cmdlets for Azure Resource Manager.  Manages virtual machines, hosted services, and related resources in Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed identity issue for SystemAssigned identity_x000D__x000A_* Update dependencies for type mapping issue</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5719389</S>
+          <S N="downloadCount">10540022</S>
+          <S N="packageSize">2347986</S>
+          <S N="published">11/21/2018 6:29:18 PM -05:00</S>
+          <S N="created">11/21/2018 6:29:18 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Compute IAAS VM VirtualMachine PSModule PSCmdlet_Remove-AzureRmAvailabilitySet PSCommand_Remove-AzureRmAvailabilitySet PSCmdlet_Get-AzureRmAvailabilitySet PSCommand_Get-AzureRmAvailabilitySet PSCmdlet_New-AzureRmAvailabilitySet PSCommand_New-AzureRmAvailabilitySet PSCmdlet_Update-AzureRmAvailabilitySet PSCommand_Update-AzureRmAvailabilitySet PSCmdlet_Get-AzureRmVMExtensionImageType PSCommand_Get-AzureRmVMExtensionImageType PSCmdlet_Get-AzureRmVMExtensionImage PSCommand_Get-AzureRmVMExtensionImage PSCmdlet_Get-AzureRmVMADDomainExtension PSCommand_Get-AzureRmVMADDomainExtension PSCmdlet_Set-AzureRmVMADDomainExtension PSCommand_Set-AzureRmVMADDomainExtension PSCmdlet_Get-AzureRmVMAEMExtension PSCommand_Get-AzureRmVMAEMExtension PSCmdlet_Remove-AzureRmVMAEMExtension PSCommand_Remove-AzureRmVMAEMExtension PSCmdlet_Set-AzureRmVMAEMExtension PSCommand_Set-AzureRmVMAEMExtension PSCmdlet_Test-AzureRmVMAEMExtension PSCommand_Test-AzureRmVMAEMExtension PSCmdlet_Set-AzureRmVMBginfoExtension PSCommand_Set-AzureRmVMBginfoExtension PSCmdlet_Get-AzureRmVMCustomScriptExtension PSCommand_Get-AzureRmVMCustomScriptExtension PSCmdlet_Remove-AzureRmVMCustomScriptExtension PSCommand_Remove-AzureRmVMCustomScriptExtension PSCmdlet_Set-AzureRmVMCustomScriptExtension PSCommand_Set-AzureRmVMCustomScriptExtension PSCmdlet_Get-AzureRmVMDiagnosticsExtension PSCommand_Get-AzureRmVMDiagnosticsExtension PSCmdlet_Remove-AzureRmVMDiagnosticsExtension PSCommand_Remove-AzureRmVMDiagnosticsExtension PSCmdlet_Remove-AzureRmVmssDiagnosticsExtension PSCommand_Remove-AzureRmVmssDiagnosticsExtension PSCmdlet_Set-AzureRmVMDiagnosticsExtension PSCommand_Set-AzureRmVMDiagnosticsExtension PSCmdlet_Set-AzureRmVMExtension PSCommand_Set-AzureRmVMExtension PSCmdlet_Remove-AzureRmVMExtension PSCommand_Remove-AzureRmVMExtension PSCmdlet_Get-AzureRmVMExtension PSCommand_Get-AzureRmVMExtension PSCmdlet_Get-AzureRmVMSqlServerExtension PSCommand_Get-AzureRmVMSqlServerExtension PSCmdlet_New-AzureRmVMSqlServerAutoBackupConfig PSCommand_New-AzureRmVMSqlServerAutoBackupConfig PSCmdlet_New-AzureRmVMSqlServerAutoPatchingConfig PSCommand_New-AzureRmVMSqlServerAutoPatchingConfig PSCmdlet_New-AzureRmVMSqlServerKeyVaultCredentialConfig PSCommand_New-AzureRmVMSqlServerKeyVaultCredentialConfig PSCmdlet_Remove-AzureRmVMSqlServerExtension PSCommand_Remove-AzureRmVMSqlServerExtension PSCmdlet_Set-AzureRmVMSqlServerExtension PSCommand_Set-AzureRmVMSqlServerExtension PSCmdlet_Get-AzureRmVMImage PSCommand_Get-AzureRmVMImage PSCmdlet_Get-AzureRmVMAccessExtension PSCommand_Get-AzureRmVMAccessExtension PSCmdlet_Remove-AzureRmVMAccessExtension PSCommand_Remove-AzureRmVMAccessExtension PSCmdlet_Set-AzureRmVMAccessExtension PSCommand_Set-AzureRmVMAccessExtension PSCmdlet_Get-AzureRmVMImageSku PSCommand_Get-AzureRmVMImageSku PSCmdlet_Get-AzureRmVMImagePublisher PSCommand_Get-AzureRmVMImagePublisher PSCmdlet_Get-AzureRmVMImageOffer PSCommand_Get-AzureRmVMImageOffer PSCmdlet_Get-AzureRmRemoteDesktopFile PSCommand_Get-AzureRmRemoteDesktopFile PSCmdlet_Get-AzureRmVMUsage PSCommand_Get-AzureRmVMUsage PSCmdlet_Get-AzureRmVMSize PSCommand_Get-AzureRmVMSize PSCmdlet_Save-AzureRmVMImage PSCommand_Save-AzureRmVMImage PSCmdlet_Set-AzureRmVM PSCommand_Set-AzureRmVM PSCmdlet_Add-AzureRmVMAdditionalUnattendContent PSCommand_Add-AzureRmVMAdditionalUnattendContent PSCmdlet_Add-AzureRmVMSshPublicKey PSCommand_Add-AzureRmVMSshPublicKey PSCmdlet_Add-AzureRmVMSecret PSCommand_Add-AzureRmVMSecret PSCmdlet_Remove-AzureRmVMSecret PSCommand_Remove-AzureRmVMSecret PSCmdlet_Remove-AzureRmVMNetworkInterface PSCommand_Remove-AzureRmVMNetworkInterface PSCmdlet_Remove-AzureRmVMDataDisk PSCommand_Remove-AzureRmVMDataDisk PSCmdlet_Set-AzureRmVMBootDiagnostics PSCommand_Set-AzureRmVMBootDiagnostics PSCmdlet_Set-AzureRmVMDataDisk PSCommand_Set-AzureRmVMDataDisk PSCmdlet_Set-AzureRmVMPlan PSCommand_Set-AzureRmVMPlan PSCmdlet_Set-AzureRmVMSourceImage PSCommand_Set-AzureRmVMSourceImage PSCmdlet_Set-AzureRmVMOSDisk PSCommand_Set-AzureRmVMOSDisk PSCmdlet_Get-AzureRmVMBootDiagnosticsData PSCommand_Get-AzureRmVMBootDiagnosticsData PSCmdlet_Get-AzureRmVM PSCommand_Get-AzureRmVM PSCmdlet_Update-AzureRmVM PSCommand_Update-AzureRmVM PSCmdlet_Restart-AzureRmVM PSCommand_Restart-AzureRmVM PSCmdlet_New-AzureRmVM PSCommand_New-AzureRmVM PSCmdlet_Start-AzureRmVM PSCommand_Start-AzureRmVM PSCmdlet_Stop-AzureRmVM PSCommand_Stop-AzureRmVM PSCmdlet_Remove-AzureRmVM PSCommand_Remove-AzureRmVM PSCmdlet_New-AzureRmVMConfig PSCommand_New-AzureRmVMConfig PSCmdlet_Set-AzureRmVMOperatingSystem PSCommand_Set-AzureRmVMOperatingSystem PSCmdlet_Add-AzureRmVMDataDisk PSCommand_Add-AzureRmVMDataDisk PSCmdlet_Add-AzureRmVMNetworkInterface PSCommand_Add-AzureRmVMNetworkInterface PSCmdlet_Add-AzureRmVhd PSCommand_Add-AzureRmVhd PSCmdlet_Save-AzureRmVhd PSCommand_Save-AzureRmVhd PSCmdlet_Add-AzureRmContainerServiceAgentPoolProfile PSCommand_Add-AzureRmContainerServiceAgentPoolProfile PSCmdlet_New-AzureRmContainerServiceConfig PSCommand_New-AzureRmContainerServiceConfig PSCmdlet_Remove-AzureRmContainerServiceAgentPoolProfile PSCommand_Remove-AzureRmContainerServiceAgentPoolProfile PSCmdlet_New-AzureRmContainerService PSCommand_New-AzureRmContainerService PSCmdlet_Update-AzureRmContainerService PSCommand_Update-AzureRmContainerService PSCmdlet_Remove-AzureRmContainerService PSCommand_Remove-AzureRmContainerService PSCmdlet_Get-AzureRmContainerService PSCommand_Get-AzureRmContainerService PSCmdlet_Get-AzureRmVmssVM PSCommand_Get-AzureRmVmssVM PSCmdlet_Set-AzureRmVmssVM PSCommand_Set-AzureRmVmssVM PSCmdlet_Add-AzureRmVmssAdditionalUnattendContent PSCommand_Add-AzureRmVmssAdditionalUnattendContent PSCmdlet_Add-AzureRmVmssExtension PSCommand_Add-AzureRmVmssExtension PSCmdlet_Add-AzureRmVmssDataDisk PSCommand_Add-AzureRmVmssDataDisk PSCmdlet_Add-AzureRmVmssNetworkInterfaceConfiguration PSCommand_Add-AzureRmVmssNetworkInterfaceConfiguration PSCmdlet_Add-AzureRmVmssSecret PSCommand_Add-AzureRmVmssSecret PSCmdlet_Add-AzureRmVmssSshPublicKey PSCommand_Add-AzureRmVmssSshPublicKey PSCmdlet_Add-AzureRmVmssWinRMListener PSCommand_Add-AzureRmVmssWinRMListener PSCmdlet_New-AzureRmVmssConfig PSCommand_New-AzureRmVmssConfig PSCmdlet_New-AzureRmVmssIpConfig PSCommand_New-AzureRmVmssIpConfig PSCmdlet_New-AzureRmVmssVaultCertificateConfig PSCommand_New-AzureRmVmssVaultCertificateConfig PSCmdlet_Remove-AzureRmVmssExtension PSCommand_Remove-AzureRmVmssExtension PSCmdlet_Remove-AzureRmVmssDataDisk PSCommand_Remove-AzureRmVmssDataDisk PSCmdlet_Remove-AzureRmVmssNetworkInterfaceConfiguration PSCommand_Remove-AzureRmVmssNetworkInterfaceConfiguration PSCmdlet_Set-AzureRmVmssOsProfile PSCommand_Set-AzureRmVmssOsProfile PSCmdlet_Set-AzureRmVmssStorageProfile PSCommand_Set-AzureRmVmssStorageProfile PSCmdlet_New-AzureRmVmss PSCommand_New-AzureRmVmss PSCmdlet_Update-AzureRmVmss PSCommand_Update-AzureRmVmss PSCmdlet_Stop-AzureRmVmss PSCommand_Stop-AzureRmVmss PSCmdlet_Remove-AzureRmVmss PSCommand_Remove-AzureRmVmss PSCmdlet_Get-AzureRmVmss PSCommand_Get-AzureRmVmss PSCmdlet_Get-AzureRmVmssSku PSCommand_Get-AzureRmVmssSku PSCmdlet_Set-AzureRmVmss PSCommand_Set-AzureRmVmss PSCmdlet_Restart-AzureRmVmss PSCommand_Restart-AzureRmVmss PSCmdlet_Start-AzureRmVmss PSCommand_Start-AzureRmVmss PSCmdlet_Update-AzureRmVmssInstance PSCommand_Update-AzureRmVmssInstance PSCmdlet_Get-AzureRmVMDscExtensionStatus PSCommand_Get-AzureRmVMDscExtensionStatus PSCmdlet_Publish-AzureRmVMDscConfiguration PSCommand_Publish-AzureRmVMDscConfiguration PSCmdlet_Remove-AzureRmVMDscExtension PSCommand_Remove-AzureRmVMDscExtension PSCmdlet_Set-AzureRmVMDscExtension PSCommand_Set-AzureRmVMDscExtension PSCmdlet_Get-AzureRmVMDscExtension PSCommand_Get-AzureRmVMDscExtension PSCmdlet_Add-AzureRmVmssDiagnosticsExtension PSCommand_Add-AzureRmVmssDiagnosticsExtension PSCmdlet_Get-AzureRmVMChefExtension PSCommand_Get-AzureRmVMChefExtension PSCmdlet_Remove-AzureRmVMChefExtension PSCommand_Remove-AzureRmVMChefExtension PSCmdlet_Set-AzureRmVMChefExtension PSCommand_Set-AzureRmVMChefExtension PSCmdlet_Remove-AzureRmVMBackup PSCommand_Remove-AzureRmVMBackup PSCmdlet_Disable-AzureRmVMDiskEncryption PSCommand_Disable-AzureRmVMDiskEncryption PSCmdlet_Get-AzureRmVMDiskEncryptionStatus PSCommand_Get-AzureRmVMDiskEncryptionStatus PSCmdlet_Remove-AzureRmVMDiskEncryptionExtension PSCommand_Remove-AzureRmVMDiskEncryptionExtension PSCmdlet_Set-AzureRmVMDiskEncryptionExtension PSCommand_Set-AzureRmVMDiskEncryptionExtension PSCmdlet_Set-AzureRmVMBackupExtension PSCommand_Set-AzureRmVMBackupExtension PSCmdlet_New-AzureRmDisk PSCommand_New-AzureRmDisk PSCmdlet_Update-AzureRmDisk PSCommand_Update-AzureRmDisk PSCmdlet_Get-AzureRmDisk PSCommand_Get-AzureRmDisk PSCmdlet_Remove-AzureRmDisk PSCommand_Remove-AzureRmDisk PSCmdlet_Grant-AzureRmDiskAccess PSCommand_Grant-AzureRmDiskAccess PSCmdlet_Revoke-AzureRmDiskAccess PSCommand_Revoke-AzureRmDiskAccess PSCmdlet_New-AzureRmDiskConfig PSCommand_New-AzureRmDiskConfig PSCmdlet_Set-AzureRmDiskDiskEncryptionKey PSCommand_Set-AzureRmDiskDiskEncryptionKey PSCmdlet_Set-AzureRmDiskImageReference PSCommand_Set-AzureRmDiskImageReference PSCmdlet_Set-AzureRmDiskKeyEncryptionKey PSCommand_Set-AzureRmDiskKeyEncryptionKey PSCmdlet_New-AzureRmDiskUpdateConfig PSCommand_New-AzureRmDiskUpdateConfig PSCmdlet_Set-AzureRmDiskUpdateDiskEncryptionKey PSCommand_Set-AzureRmDiskUpdateDiskEncryptionKey PSCmdlet_Set-AzureRmDiskUpdateKeyEncryptionKey PSCommand_Set-AzureRmDiskUpdateKeyEncryptionKey PSCmdlet_New-AzureRmSnapshot PSCommand_New-AzureRmSnapshot PSCmdlet_Update-AzureRmSnapshot PSCommand_Update-AzureRmSnapshot PSCmdlet_Get-AzureRmSnapshot PSCommand_Get-AzureRmSnapshot PSCmdlet_Remove-AzureRmSnapshot PSCommand_Remove-AzureRmSnapshot PSCmdlet_Grant-AzureRmSnapshotAccess PSCommand_Grant-AzureRmSnapshotAccess PSCmdlet_Revoke-AzureRmSnapshotAccess PSCommand_Revoke-AzureRmSnapshotAccess PSCmdlet_New-AzureRmSnapshotConfig PSCommand_New-AzureRmSnapshotConfig PSCmdlet_Set-AzureRmSnapshotDiskEncryptionKey PSCommand_Set-AzureRmSnapshotDiskEncryptionKey PSCmdlet_Set-AzureRmSnapshotImageReference PSCommand_Set-AzureRmSnapshotImageReference PSCmdlet_Set-AzureRmSnapshotKeyEncryptionKey PSCommand_Set-AzureRmSnapshotKeyEncryptionKey PSCmdlet_New-AzureRmSnapshotUpdateConfig PSCommand_New-AzureRmSnapshotUpdateConfig PSCmdlet_Set-AzureRmSnapshotUpdateDiskEncryptionKey PSCommand_Set-AzureRmSnapshotUpdateDiskEncryptionKey PSCmdlet_Set-AzureRmSnapshotUpdateKeyEncryptionKey PSCommand_Set-AzureRmSnapshotUpdateKeyEncryptionKey PSCmdlet_New-AzureRmImage PSCommand_New-AzureRmImage PSCmdlet_Update-AzureRmImage PSCommand_Update-AzureRmImage PSCmdlet_Get-AzureRmImage PSCommand_Get-AzureRmImage PSCmdlet_Remove-AzureRmImage PSCommand_Remove-AzureRmImage PSCmdlet_New-AzureRmImageConfig PSCommand_New-AzureRmImageConfig PSCmdlet_Set-AzureRmImageOsDisk PSCommand_Set-AzureRmImageOsDisk PSCmdlet_Add-AzureRmImageDataDisk PSCommand_Add-AzureRmImageDataDisk PSCmdlet_Remove-AzureRmImageDataDisk PSCommand_Remove-AzureRmImageDataDisk PSCmdlet_ConvertTo-AzureRmVMManagedDisk PSCommand_ConvertTo-AzureRmVMManagedDisk PSCmdlet_Set-AzureRmVmssBootDiagnostic PSCommand_Set-AzureRmVmssBootDiagnostic PSCmdlet_Get-AzureRmComputeResourceSku PSCommand_Get-AzureRmComputeResourceSku PSCmdlet_Get-AzureRmVMRunCommandDocument PSCommand_Get-AzureRmVMRunCommandDocument PSCmdlet_Invoke-AzureRmVMRunCommand PSCommand_Invoke-AzureRmVMRunCommand PSCmdlet_Start-AzureRmVmssRollingOSUpgrade PSCommand_Start-AzureRmVmssRollingOSUpgrade PSCmdlet_Stop-AzureRmVmssRollingUpgrade PSCommand_Stop-AzureRmVmssRollingUpgrade PSCmdlet_Get-AzureRmVmssRollingUpgrade PSCommand_Get-AzureRmVmssRollingUpgrade PSCmdlet_Set-AzureRmVmssRollingUpgradePolicy PSCommand_Set-AzureRmVmssRollingUpgradePolicy PSCmdlet_Set-AzureRmVmssDiskEncryptionExtension PSCommand_Set-AzureRmVmssDiskEncryptionExtension PSCmdlet_Disable-AzureRmVmssDiskEncryption PSCommand_Disable-AzureRmVmssDiskEncryption PSCmdlet_Get-AzureRmVmssDiskEncryption PSCommand_Get-AzureRmVmssDiskEncryption PSCmdlet_Get-AzureRmVmssVMDiskEncryption PSCommand_Get-AzureRmVmssVMDiskEncryption PSCmdlet_Export-AzureRmLogAnalyticRequestRateByInterval PSCommand_Export-AzureRmLogAnalyticRequestRateByInterval PSCmdlet_Export-AzureRmLogAnalyticThrottledRequests PSCommand_Export-AzureRmLogAnalyticThrottledRequests PSCmdlet_Repair-AzureRmVmssServiceFabricUpdateDomain PSCommand_Repair-AzureRmVmssServiceFabricUpdateDomain PSCmdlet_New-AzureRmVMDataDisk PSCommand_New-AzureRmVMDataDisk PSCmdlet_Update-AzureRmVmssVM PSCommand_Update-AzureRmVmssVM PSCmdlet_New-AzureRmVmssIpTagConfig PSCommand_New-AzureRmVmssIpTagConfig PSCmdlet_Invoke-AzureRmVmssVMRunCommand PSCommand_Invoke-AzureRmVmssVMRunCommand PSCmdlet_New-AzureRmGallery PSCommand_New-AzureRmGallery PSCmdlet_Update-AzureRmGallery PSCommand_Update-AzureRmGallery PSCmdlet_Get-AzureRmGallery PSCommand_Get-AzureRmGallery PSCmdlet_Remove-AzureRmGallery PSCommand_Remove-AzureRmGallery PSCmdlet_New-AzureRmGalleryImageDefinition PSCommand_New-AzureRmGalleryImageDefinition PSCmdlet_Update-AzureRmGalleryImageDefinition PSCommand_Update-AzureRmGalleryImageDefinition PSCmdlet_Get-AzureRmGalleryImageDefinition PSCommand_Get-AzureRmGalleryImageDefinition PSCmdlet_Remove-AzureRmGalleryImageDefinition PSCommand_Remove-AzureRmGalleryImageDefinition PSCmdlet_New-AzureRmGalleryImageVersion PSCommand_New-AzureRmGalleryImageVersion PSCmdlet_Update-AzureRmGalleryImageVersion PSCommand_Update-AzureRmGalleryImageVersion PSCmdlet_Get-AzureRmGalleryImageVersion PSCommand_Get-AzureRmGalleryImageVersion PSCmdlet_Remove-AzureRmGalleryImageVersion PSCommand_Remove-AzureRmGalleryImageVersion PSCmdlet_Add-AzureRmVmssVMDataDisk PSCommand_Add-AzureRmVmssVMDataDisk PSCmdlet_Remove-AzureRmVmssVMDataDisk PSCommand_Remove-AzureRmVmssVMDataDisk PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.9.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Compute.nuspec|AutoMapper.dll|AzureRM.Compute.psd1|AzureRM.Compute.psm1|Microsoft.Azure.Commands.Common.Strategies.4.dll|Microsoft.Azure.Commands.Compute.dll|Microsoft.Azure.Commands.Compute.dll-Help.xml|Microsoft.Azure.Commands.Compute.format.generated.ps1xml|Microsoft.Azure.Commands.Compute.format.ps1xml|Microsoft.Azure.Commands.Compute.Types.ps1xml|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Management.Compute.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.WindowsAzure.Storage.dll|System.Spatial.dll|Generated\Microsoft.Azure.Commands.Compute.Automation.format.generated.ps1xml|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">0a83c907-1ffb-4d87-a492-c65ac7d7ed37</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Compute\5.9.1</S>
+    </MS>
+  </Obj>
+</Objs>

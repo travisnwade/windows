@@ -1,0 +1,203 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.TrafficManager</S>
+      <Version N="Version">4.1.3</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - TrafficManager service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:31:38-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:32.1268278-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>TrafficManager</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmTrafficManagerCustomHeaderToEndpoint</S>
+                <S>Remove-AzureRmTrafficManagerCustomHeaderFromEndpoint</S>
+                <S>Add-AzureRmTrafficManagerCustomHeaderToProfile</S>
+                <S>Remove-AzureRmTrafficManagerCustomHeaderFromProfile</S>
+                <S>Disable-AzureRmTrafficManagerEndpoint</S>
+                <S>Enable-AzureRmTrafficManagerEndpoint</S>
+                <S>Set-AzureRmTrafficManagerEndpoint</S>
+                <S>Get-AzureRmTrafficManagerEndpoint</S>
+                <S>Remove-AzureRmTrafficManagerEndpoint</S>
+                <S>New-AzureRmTrafficManagerEndpoint</S>
+                <S>Remove-AzureRmTrafficManagerEndpointConfig</S>
+                <S>Add-AzureRmTrafficManagerEndpointConfig</S>
+                <S>Add-AzureRmTrafficManagerExpectedStatusCodeRange</S>
+                <S>Remove-AzureRmTrafficManagerExpectedStatusCodeRange</S>
+                <S>Add-AzureRmTrafficManagerIpAddressRange</S>
+                <S>Remove-AzureRmTrafficManagerIpAddressRange</S>
+                <S>Disable-AzureRmTrafficManagerProfile</S>
+                <S>Enable-AzureRmTrafficManagerProfile</S>
+                <S>Remove-AzureRmTrafficManagerProfile</S>
+                <S>Set-AzureRmTrafficManagerProfile</S>
+                <S>Get-AzureRmTrafficManagerProfile</S>
+                <S>New-AzureRmTrafficManagerProfile</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmTrafficManagerCustomHeaderToEndpoint</S>
+                <S>Remove-AzureRmTrafficManagerCustomHeaderFromEndpoint</S>
+                <S>Add-AzureRmTrafficManagerCustomHeaderToProfile</S>
+                <S>Remove-AzureRmTrafficManagerCustomHeaderFromProfile</S>
+                <S>Disable-AzureRmTrafficManagerEndpoint</S>
+                <S>Enable-AzureRmTrafficManagerEndpoint</S>
+                <S>Set-AzureRmTrafficManagerEndpoint</S>
+                <S>Get-AzureRmTrafficManagerEndpoint</S>
+                <S>Remove-AzureRmTrafficManagerEndpoint</S>
+                <S>New-AzureRmTrafficManagerEndpoint</S>
+                <S>Remove-AzureRmTrafficManagerEndpointConfig</S>
+                <S>Add-AzureRmTrafficManagerEndpointConfig</S>
+                <S>Add-AzureRmTrafficManagerExpectedStatusCodeRange</S>
+                <S>Remove-AzureRmTrafficManagerExpectedStatusCodeRange</S>
+                <S>Add-AzureRmTrafficManagerIpAddressRange</S>
+                <S>Remove-AzureRmTrafficManagerIpAddressRange</S>
+                <S>Disable-AzureRmTrafficManagerProfile</S>
+                <S>Enable-AzureRmTrafficManagerProfile</S>
+                <S>Remove-AzureRmTrafficManagerProfile</S>
+                <S>Set-AzureRmTrafficManagerProfile</S>
+                <S>Get-AzureRmTrafficManagerProfile</S>
+                <S>New-AzureRmTrafficManagerProfile</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with serializing id, name and type properties of resources.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - TrafficManager service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with serializing id, name and type properties of resources.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4415745</S>
+          <S N="downloadCount">7065356</S>
+          <S N="packageSize">140481</S>
+          <S N="published">11/21/2018 6:31:38 PM -05:00</S>
+          <S N="created">11/21/2018 6:31:38 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM TrafficManager PSModule PSCmdlet_Add-AzureRmTrafficManagerCustomHeaderToEndpoint PSCommand_Add-AzureRmTrafficManagerCustomHeaderToEndpoint PSCmdlet_Remove-AzureRmTrafficManagerCustomHeaderFromEndpoint PSCommand_Remove-AzureRmTrafficManagerCustomHeaderFromEndpoint PSCmdlet_Add-AzureRmTrafficManagerCustomHeaderToProfile PSCommand_Add-AzureRmTrafficManagerCustomHeaderToProfile PSCmdlet_Remove-AzureRmTrafficManagerCustomHeaderFromProfile PSCommand_Remove-AzureRmTrafficManagerCustomHeaderFromProfile PSCmdlet_Disable-AzureRmTrafficManagerEndpoint PSCommand_Disable-AzureRmTrafficManagerEndpoint PSCmdlet_Enable-AzureRmTrafficManagerEndpoint PSCommand_Enable-AzureRmTrafficManagerEndpoint PSCmdlet_Set-AzureRmTrafficManagerEndpoint PSCommand_Set-AzureRmTrafficManagerEndpoint PSCmdlet_Get-AzureRmTrafficManagerEndpoint PSCommand_Get-AzureRmTrafficManagerEndpoint PSCmdlet_Remove-AzureRmTrafficManagerEndpoint PSCommand_Remove-AzureRmTrafficManagerEndpoint PSCmdlet_New-AzureRmTrafficManagerEndpoint PSCommand_New-AzureRmTrafficManagerEndpoint PSCmdlet_Remove-AzureRmTrafficManagerEndpointConfig PSCommand_Remove-AzureRmTrafficManagerEndpointConfig PSCmdlet_Add-AzureRmTrafficManagerEndpointConfig PSCommand_Add-AzureRmTrafficManagerEndpointConfig PSCmdlet_Add-AzureRmTrafficManagerExpectedStatusCodeRange PSCommand_Add-AzureRmTrafficManagerExpectedStatusCodeRange PSCmdlet_Remove-AzureRmTrafficManagerExpectedStatusCodeRange PSCommand_Remove-AzureRmTrafficManagerExpectedStatusCodeRange PSCmdlet_Add-AzureRmTrafficManagerIpAddressRange PSCommand_Add-AzureRmTrafficManagerIpAddressRange PSCmdlet_Remove-AzureRmTrafficManagerIpAddressRange PSCommand_Remove-AzureRmTrafficManagerIpAddressRange PSCmdlet_Disable-AzureRmTrafficManagerProfile PSCommand_Disable-AzureRmTrafficManagerProfile PSCmdlet_Enable-AzureRmTrafficManagerProfile PSCommand_Enable-AzureRmTrafficManagerProfile PSCmdlet_Remove-AzureRmTrafficManagerProfile PSCommand_Remove-AzureRmTrafficManagerProfile PSCmdlet_Set-AzureRmTrafficManagerProfile PSCommand_Set-AzureRmTrafficManagerProfile PSCmdlet_Get-AzureRmTrafficManagerProfile PSCommand_Get-AzureRmTrafficManagerProfile PSCmdlet_New-AzureRmTrafficManagerProfile PSCommand_New-AzureRmTrafficManagerProfile PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">4.1.3</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.TrafficManager.nuspec|AzureRM.TrafficManager.psd1|AzureRM.TrafficManager.psm1|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Commands.TrafficManager.dll|Microsoft.Azure.Commands.TrafficManager.dll-Help.xml|Microsoft.Azure.Management.TrafficManager.dll|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">59713673-194f-418a-b1f2-ac60db82edf9</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.TrafficManager\4.1.3</S>
+    </MS>
+  </Obj>
+</Objs>

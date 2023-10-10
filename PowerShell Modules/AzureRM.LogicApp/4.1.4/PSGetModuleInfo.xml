@@ -1,0 +1,245 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.LogicApp</S>
+      <Version N="Version">4.1.4</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - LogicApp cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:41:49-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:55.2762638-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>LogicApp</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmIntegrationAccountAgreement</S>
+                <S>Get-AzureRmIntegrationAccountCallbackUrl</S>
+                <S>Get-AzureRmIntegrationAccountCertificate</S>
+                <S>Get-AzureRmIntegrationAccount</S>
+                <S>Get-AzureRmIntegrationAccountMap</S>
+                <S>Get-AzureRmIntegrationAccountPartner</S>
+                <S>Get-AzureRmIntegrationAccountSchema</S>
+                <S>Get-AzureRmIntegrationAccountGeneratedIcn</S>
+                <S>Get-AzureRmIntegrationAccountReceivedIcn</S>
+                <S>New-AzureRmIntegrationAccountAgreement</S>
+                <S>New-AzureRmIntegrationAccountCertificate</S>
+                <S>New-AzureRmIntegrationAccount</S>
+                <S>New-AzureRmIntegrationAccountMap</S>
+                <S>New-AzureRmIntegrationAccountPartner</S>
+                <S>New-AzureRmIntegrationAccountSchema</S>
+                <S>Remove-AzureRmIntegrationAccountAgreement</S>
+                <S>Remove-AzureRmIntegrationAccountCertificate</S>
+                <S>Remove-AzureRmIntegrationAccount</S>
+                <S>Remove-AzureRmIntegrationAccountMap</S>
+                <S>Remove-AzureRmIntegrationAccountPartner</S>
+                <S>Remove-AzureRmIntegrationAccountSchema</S>
+                <S>Remove-AzureRmIntegrationAccountReceivedIcn</S>
+                <S>Set-AzureRmIntegrationAccountAgreement</S>
+                <S>Set-AzureRmIntegrationAccountCertificate</S>
+                <S>Set-AzureRmIntegrationAccount</S>
+                <S>Set-AzureRmIntegrationAccountMap</S>
+                <S>Set-AzureRmIntegrationAccountPartner</S>
+                <S>Set-AzureRmIntegrationAccountSchema</S>
+                <S>Stop-AzureRmLogicAppRun</S>
+                <S>Set-AzureRmIntegrationAccountGeneratedIcn</S>
+                <S>Set-AzureRmIntegrationAccountReceivedIcn</S>
+                <S>Get-AzureRmLogicApp</S>
+                <S>Get-AzureRmLogicAppRunAction</S>
+                <S>Get-AzureRmLogicAppRunHistory</S>
+                <S>Get-AzureRmLogicAppTriggerCallbackUrl</S>
+                <S>Get-AzureRmLogicAppTrigger</S>
+                <S>Get-AzureRmLogicAppTriggerHistory</S>
+                <S>Get-AzureRmLogicAppUpgradedDefinition</S>
+                <S>New-AzureRmLogicApp</S>
+                <S>Remove-AzureRmLogicApp</S>
+                <S>Start-AzureRmLogicApp</S>
+                <S>Set-AzureRmLogicApp</S>
+                <S>Test-AzureRmLogicApp</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmIntegrationAccountAgreement</S>
+                <S>Get-AzureRmIntegrationAccountCallbackUrl</S>
+                <S>Get-AzureRmIntegrationAccountCertificate</S>
+                <S>Get-AzureRmIntegrationAccount</S>
+                <S>Get-AzureRmIntegrationAccountMap</S>
+                <S>Get-AzureRmIntegrationAccountPartner</S>
+                <S>Get-AzureRmIntegrationAccountSchema</S>
+                <S>Get-AzureRmIntegrationAccountGeneratedIcn</S>
+                <S>Get-AzureRmIntegrationAccountReceivedIcn</S>
+                <S>New-AzureRmIntegrationAccountAgreement</S>
+                <S>New-AzureRmIntegrationAccountCertificate</S>
+                <S>New-AzureRmIntegrationAccount</S>
+                <S>New-AzureRmIntegrationAccountMap</S>
+                <S>New-AzureRmIntegrationAccountPartner</S>
+                <S>New-AzureRmIntegrationAccountSchema</S>
+                <S>Remove-AzureRmIntegrationAccountAgreement</S>
+                <S>Remove-AzureRmIntegrationAccountCertificate</S>
+                <S>Remove-AzureRmIntegrationAccount</S>
+                <S>Remove-AzureRmIntegrationAccountMap</S>
+                <S>Remove-AzureRmIntegrationAccountPartner</S>
+                <S>Remove-AzureRmIntegrationAccountSchema</S>
+                <S>Remove-AzureRmIntegrationAccountReceivedIcn</S>
+                <S>Set-AzureRmIntegrationAccountAgreement</S>
+                <S>Set-AzureRmIntegrationAccountCertificate</S>
+                <S>Set-AzureRmIntegrationAccount</S>
+                <S>Set-AzureRmIntegrationAccountMap</S>
+                <S>Set-AzureRmIntegrationAccountPartner</S>
+                <S>Set-AzureRmIntegrationAccountSchema</S>
+                <S>Stop-AzureRmLogicAppRun</S>
+                <S>Set-AzureRmIntegrationAccountGeneratedIcn</S>
+                <S>Set-AzureRmIntegrationAccountReceivedIcn</S>
+                <S>Get-AzureRmLogicApp</S>
+                <S>Get-AzureRmLogicAppRunAction</S>
+                <S>Get-AzureRmLogicAppRunHistory</S>
+                <S>Get-AzureRmLogicAppTriggerCallbackUrl</S>
+                <S>Get-AzureRmLogicAppTrigger</S>
+                <S>Get-AzureRmLogicAppTriggerHistory</S>
+                <S>Get-AzureRmLogicAppUpgradedDefinition</S>
+                <S>New-AzureRmLogicApp</S>
+                <S>Remove-AzureRmLogicApp</S>
+                <S>Start-AzureRmLogicApp</S>
+                <S>Set-AzureRmLogicApp</S>
+                <S>Test-AzureRmLogicApp</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - LogicApp cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5809869</S>
+          <S N="downloadCount">8510689</S>
+          <S N="packageSize">249598</S>
+          <S N="published">8/29/2018 10:41:49 PM -04:00</S>
+          <S N="created">8/29/2018 10:41:49 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM LogicApp PSModule PSCmdlet_Get-AzureRmIntegrationAccountAgreement PSCommand_Get-AzureRmIntegrationAccountAgreement PSCmdlet_Get-AzureRmIntegrationAccountCallbackUrl PSCommand_Get-AzureRmIntegrationAccountCallbackUrl PSCmdlet_Get-AzureRmIntegrationAccountCertificate PSCommand_Get-AzureRmIntegrationAccountCertificate PSCmdlet_Get-AzureRmIntegrationAccount PSCommand_Get-AzureRmIntegrationAccount PSCmdlet_Get-AzureRmIntegrationAccountMap PSCommand_Get-AzureRmIntegrationAccountMap PSCmdlet_Get-AzureRmIntegrationAccountPartner PSCommand_Get-AzureRmIntegrationAccountPartner PSCmdlet_Get-AzureRmIntegrationAccountSchema PSCommand_Get-AzureRmIntegrationAccountSchema PSCmdlet_Get-AzureRmIntegrationAccountGeneratedIcn PSCommand_Get-AzureRmIntegrationAccountGeneratedIcn PSCmdlet_Get-AzureRmIntegrationAccountReceivedIcn PSCommand_Get-AzureRmIntegrationAccountReceivedIcn PSCmdlet_New-AzureRmIntegrationAccountAgreement PSCommand_New-AzureRmIntegrationAccountAgreement PSCmdlet_New-AzureRmIntegrationAccountCertificate PSCommand_New-AzureRmIntegrationAccountCertificate PSCmdlet_New-AzureRmIntegrationAccount PSCommand_New-AzureRmIntegrationAccount PSCmdlet_New-AzureRmIntegrationAccountMap PSCommand_New-AzureRmIntegrationAccountMap PSCmdlet_New-AzureRmIntegrationAccountPartner PSCommand_New-AzureRmIntegrationAccountPartner PSCmdlet_New-AzureRmIntegrationAccountSchema PSCommand_New-AzureRmIntegrationAccountSchema PSCmdlet_Remove-AzureRmIntegrationAccountAgreement PSCommand_Remove-AzureRmIntegrationAccountAgreement PSCmdlet_Remove-AzureRmIntegrationAccountCertificate PSCommand_Remove-AzureRmIntegrationAccountCertificate PSCmdlet_Remove-AzureRmIntegrationAccount PSCommand_Remove-AzureRmIntegrationAccount PSCmdlet_Remove-AzureRmIntegrationAccountMap PSCommand_Remove-AzureRmIntegrationAccountMap PSCmdlet_Remove-AzureRmIntegrationAccountPartner PSCommand_Remove-AzureRmIntegrationAccountPartner PSCmdlet_Remove-AzureRmIntegrationAccountSchema PSCommand_Remove-AzureRmIntegrationAccountSchema PSCmdlet_Remove-AzureRmIntegrationAccountReceivedIcn PSCommand_Remove-AzureRmIntegrationAccountReceivedIcn PSCmdlet_Set-AzureRmIntegrationAccountAgreement PSCommand_Set-AzureRmIntegrationAccountAgreement PSCmdlet_Set-AzureRmIntegrationAccountCertificate PSCommand_Set-AzureRmIntegrationAccountCertificate PSCmdlet_Set-AzureRmIntegrationAccount PSCommand_Set-AzureRmIntegrationAccount PSCmdlet_Set-AzureRmIntegrationAccountMap PSCommand_Set-AzureRmIntegrationAccountMap PSCmdlet_Set-AzureRmIntegrationAccountPartner PSCommand_Set-AzureRmIntegrationAccountPartner PSCmdlet_Set-AzureRmIntegrationAccountSchema PSCommand_Set-AzureRmIntegrationAccountSchema PSCmdlet_Stop-AzureRmLogicAppRun PSCommand_Stop-AzureRmLogicAppRun PSCmdlet_Set-AzureRmIntegrationAccountGeneratedIcn PSCommand_Set-AzureRmIntegrationAccountGeneratedIcn PSCmdlet_Set-AzureRmIntegrationAccountReceivedIcn PSCommand_Set-AzureRmIntegrationAccountReceivedIcn PSCmdlet_Get-AzureRmLogicApp PSCommand_Get-AzureRmLogicApp PSCmdlet_Get-AzureRmLogicAppRunAction PSCommand_Get-AzureRmLogicAppRunAction PSCmdlet_Get-AzureRmLogicAppRunHistory PSCommand_Get-AzureRmLogicAppRunHistory PSCmdlet_Get-AzureRmLogicAppTriggerCallbackUrl PSCommand_Get-AzureRmLogicAppTriggerCallbackUrl PSCmdlet_Get-AzureRmLogicAppTrigger PSCommand_Get-AzureRmLogicAppTrigger PSCmdlet_Get-AzureRmLogicAppTriggerHistory PSCommand_Get-AzureRmLogicAppTriggerHistory PSCmdlet_Get-AzureRmLogicAppUpgradedDefinition PSCommand_Get-AzureRmLogicAppUpgradedDefinition PSCmdlet_New-AzureRmLogicApp PSCommand_New-AzureRmLogicApp PSCmdlet_Remove-AzureRmLogicApp PSCommand_Remove-AzureRmLogicApp PSCmdlet_Start-AzureRmLogicApp PSCommand_Start-AzureRmLogicApp PSCmdlet_Set-AzureRmLogicApp PSCommand_Set-AzureRmLogicApp PSCmdlet_Test-AzureRmLogicApp PSCommand_Test-AzureRmLogicApp PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">4.1.4</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.LogicApp.nuspec|AzureRM.LogicApp.psd1|AzureRM.LogicApp.psm1|Microsoft.Azure.Commands.LogicApp.dll|Microsoft.Azure.Commands.LogicApp.dll-Help.xml|Microsoft.Azure.Commands.LogicApp.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.Logic.dll</S>
+          <S N="GUID">8a7d44bb-e747-4265-8f22-b3937961d709</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.LogicApp\4.1.4</S>
+    </MS>
+  </Obj>
+</Objs>

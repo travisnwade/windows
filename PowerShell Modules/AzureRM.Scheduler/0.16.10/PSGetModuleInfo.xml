@@ -1,0 +1,193 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Scheduler</S>
+      <Version N="Version">0.16.10</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Scheduler cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:42:53-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:18.7660608-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Scheduler</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Disable-AzureRmSchedulerJobCollection</S>
+                <S>Enable-AzureRmSchedulerJobCollection</S>
+                <S>Get-AzureRmSchedulerJobCollection</S>
+                <S>Get-AzureRmSchedulerJob</S>
+                <S>Get-AzureRmSchedulerJobHistory</S>
+                <S>New-AzureRmSchedulerJobCollection</S>
+                <S>New-AzureRmSchedulerHttpJob</S>
+                <S>New-AzureRmSchedulerServiceBusQueueJob</S>
+                <S>New-AzureRmSchedulerServiceBusTopicJob</S>
+                <S>New-AzureRmSchedulerStorageQueueJob</S>
+                <S>Remove-AzureRmSchedulerJobCollection</S>
+                <S>Remove-AzureRmSchedulerJob</S>
+                <S>Set-AzureRmSchedulerHttpJob</S>
+                <S>Set-AzureRmSchedulerJobCollection</S>
+                <S>Set-AzureRmSchedulerServiceBusQueueJob</S>
+                <S>Set-AzureRmSchedulerServiceBusTopicJob</S>
+                <S>Set-AzureRmSchedulerStorageQueueJob</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Disable-AzureRmSchedulerJobCollection</S>
+                <S>Enable-AzureRmSchedulerJobCollection</S>
+                <S>Get-AzureRmSchedulerJobCollection</S>
+                <S>Get-AzureRmSchedulerJob</S>
+                <S>Get-AzureRmSchedulerJobHistory</S>
+                <S>New-AzureRmSchedulerJobCollection</S>
+                <S>New-AzureRmSchedulerHttpJob</S>
+                <S>New-AzureRmSchedulerServiceBusQueueJob</S>
+                <S>New-AzureRmSchedulerServiceBusTopicJob</S>
+                <S>New-AzureRmSchedulerStorageQueueJob</S>
+                <S>Remove-AzureRmSchedulerJobCollection</S>
+                <S>Remove-AzureRmSchedulerJob</S>
+                <S>Set-AzureRmSchedulerHttpJob</S>
+                <S>Set-AzureRmSchedulerJobCollection</S>
+                <S>Set-AzureRmSchedulerServiceBusQueueJob</S>
+                <S>Set-AzureRmSchedulerServiceBusTopicJob</S>
+                <S>Set-AzureRmSchedulerStorageQueueJob</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Scheduler cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4879537</S>
+          <S N="downloadCount">7159380</S>
+          <S N="packageSize">165793</S>
+          <S N="published">8/29/2018 10:42:53 PM -04:00</S>
+          <S N="created">8/29/2018 10:42:53 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Scheduler PSModule PSCmdlet_Disable-AzureRmSchedulerJobCollection PSCommand_Disable-AzureRmSchedulerJobCollection PSCmdlet_Enable-AzureRmSchedulerJobCollection PSCommand_Enable-AzureRmSchedulerJobCollection PSCmdlet_Get-AzureRmSchedulerJobCollection PSCommand_Get-AzureRmSchedulerJobCollection PSCmdlet_Get-AzureRmSchedulerJob PSCommand_Get-AzureRmSchedulerJob PSCmdlet_Get-AzureRmSchedulerJobHistory PSCommand_Get-AzureRmSchedulerJobHistory PSCmdlet_New-AzureRmSchedulerJobCollection PSCommand_New-AzureRmSchedulerJobCollection PSCmdlet_New-AzureRmSchedulerHttpJob PSCommand_New-AzureRmSchedulerHttpJob PSCmdlet_New-AzureRmSchedulerServiceBusQueueJob PSCommand_New-AzureRmSchedulerServiceBusQueueJob PSCmdlet_New-AzureRmSchedulerServiceBusTopicJob PSCommand_New-AzureRmSchedulerServiceBusTopicJob PSCmdlet_New-AzureRmSchedulerStorageQueueJob PSCommand_New-AzureRmSchedulerStorageQueueJob PSCmdlet_Remove-AzureRmSchedulerJobCollection PSCommand_Remove-AzureRmSchedulerJobCollection PSCmdlet_Remove-AzureRmSchedulerJob PSCommand_Remove-AzureRmSchedulerJob PSCmdlet_Set-AzureRmSchedulerHttpJob PSCommand_Set-AzureRmSchedulerHttpJob PSCmdlet_Set-AzureRmSchedulerJobCollection PSCommand_Set-AzureRmSchedulerJobCollection PSCmdlet_Set-AzureRmSchedulerServiceBusQueueJob PSCommand_Set-AzureRmSchedulerServiceBusQueueJob PSCmdlet_Set-AzureRmSchedulerServiceBusTopicJob PSCommand_Set-AzureRmSchedulerServiceBusTopicJob PSCmdlet_Set-AzureRmSchedulerStorageQueueJob PSCommand_Set-AzureRmSchedulerStorageQueueJob PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">0.16.10</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Scheduler.nuspec|AzureRM.Scheduler.psd1|AzureRM.Scheduler.psm1|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Commands.Scheduler.dll|Microsoft.Azure.Commands.Scheduler.dll-Help.xml|Microsoft.Azure.Commands.Scheduler.format.ps1xml|Microsoft.Azure.Management.Scheduler.dll</S>
+          <S N="GUID">5c8a1c13-7e88-42d8-bbea-f3a81fdd6c1e</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Scheduler\0.16.10</S>
+    </MS>
+  </Obj>
+</Objs>

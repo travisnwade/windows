@@ -1,0 +1,367 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.ApiManagement</S>
+      <Version N="Version">6.1.7</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Api Management service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:28:47-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:17.6558064-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>ApiManagement</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmApiManagementRegion</S>
+                <S>Get-AzureRmApiManagementSsoToken</S>
+                <S>New-AzureRmApiManagementHostnameConfiguration</S>
+                <S>New-AzureRmApiManagementCustomHostnameConfiguration</S>
+                <S>New-AzureRmApiManagementSystemCertificate</S>
+                <S>New-AzureRmApiManagementRegion</S>
+                <S>New-AzureRmApiManagementVirtualNetwork</S>
+                <S>Remove-AzureRmApiManagementRegion</S>
+                <S>Set-AzureRmApiManagementHostnames</S>
+                <S>Update-AzureRmApiManagementDeployment</S>
+                <S>Update-AzureRmApiManagementRegion</S>
+                <S>Import-AzureRmApiManagementHostnameCertificate</S>
+                <S>Backup-AzureRmApiManagement</S>
+                <S>Get-AzureRmApiManagement</S>
+                <S>New-AzureRmApiManagement</S>
+                <S>Remove-AzureRmApiManagement</S>
+                <S>Restore-AzureRmApiManagement</S>
+                <S>Add-AzureRmApiManagementApiToProduct</S>
+                <S>Add-AzureRmApiManagementProductToGroup</S>
+                <S>Add-AzureRmApiManagementUserToGroup</S>
+                <S>Export-AzureRmApiManagementApi</S>
+                <S>Get-AzureRmApiManagementApi</S>
+                <S>Get-AzureRmApiManagementApiRelease</S>
+                <S>Get-AzureRmApiManagementApiRevision</S>
+                <S>Get-AzureRmApiManagementApiVersionSet</S>
+                <S>Get-AzureRmApiManagementAuthorizationServer</S>
+                <S>Get-AzureRmApiManagementCertificate</S>
+                <S>Get-AzureRmApiManagementGroup</S>
+                <S>Get-AzureRmApiManagementLogger</S>
+                <S>Get-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>Get-AzureRmApiManagementOperation</S>
+                <S>Get-AzureRmApiManagementPolicy</S>
+                <S>Get-AzureRmApiManagementProduct</S>
+                <S>Get-AzureRmApiManagementProperty</S>
+                <S>Get-AzureRmApiManagementSubscription</S>
+                <S>Get-AzureRmApiManagementTenantSyncState</S>
+                <S>Get-AzureRmApiManagementUser</S>
+                <S>Get-AzureRmApiManagementUserSsoUrl</S>
+                <S>Get-AzureRmApiManagementTenantAccess</S>
+                <S>Get-AzureRmApiManagementTenantGitAccess</S>
+                <S>Import-AzureRmApiManagementApi</S>
+                <S>New-AzureRmApiManagementApi</S>
+                <S>New-AzureRmApiManagementApiRevision</S>
+                <S>New-AzureRmApiManagementApiRelease</S>
+                <S>New-AzureRmApiManagementApiVersionSet</S>
+                <S>New-AzureRmApiManagementAuthorizationServer</S>
+                <S>New-AzureRmApiManagementCertificate</S>
+                <S>New-AzureRmApiManagementContext</S>
+                <S>New-AzureRmApiManagementGroup</S>
+                <S>New-AzureRmApiManagementLogger</S>
+                <S>New-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>New-AzureRmApiManagementOperation</S>
+                <S>New-AzureRmApiManagementProduct</S>
+                <S>New-AzureRmApiManagementSubscription</S>
+                <S>New-AzureRmApiManagementBackendServiceFabric</S>
+                <S>New-AzureRmApiManagementUser</S>
+                <S>New-AzureRmApiManagementProperty</S>
+                <S>Publish-AzureRmApiManagementTenantGitConfiguration</S>
+                <S>Remove-AzureRmApiManagementApi</S>
+                <S>Remove-AzureRmApiManagementApiRelease</S>
+                <S>Remove-AzureRmApiManagementApiRevision</S>
+                <S>Remove-AzureRmApiManagementApiVersionSet</S>
+                <S>Remove-AzureRmApiManagementApiFromProduct</S>
+                <S>Remove-AzureRmApiManagementAuthorizationServer</S>
+                <S>Remove-AzureRmApiManagementCertificate</S>
+                <S>Remove-AzureRmApiManagementGroup</S>
+                <S>Remove-AzureRmApiManagementLogger</S>
+                <S>Remove-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>Remove-AzureRmApiManagementOperation</S>
+                <S>Remove-AzureRmApiManagementPolicy</S>
+                <S>Remove-AzureRmApiManagementProduct</S>
+                <S>Remove-AzureRmApiManagementProductFromGroup</S>
+                <S>Remove-AzureRmApiManagementProperty</S>
+                <S>Remove-AzureRmApiManagementSubscription</S>
+                <S>Remove-AzureRmApiManagementUser</S>
+                <S>Remove-AzureRmApiManagementUserFromGroup</S>
+                <S>Save-AzureRmApiManagementTenantGitConfiguration</S>
+                <S>Set-AzureRmApiManagement</S>
+                <S>Set-AzureRmApiManagementApi</S>
+                <S>Update-AzureRmApiManagementApiRelease</S>
+                <S>Set-AzureRmApiManagementApiRevision</S>
+                <S>Set-AzureRmApiManagementApiVersionSet</S>
+                <S>Set-AzureRmApiManagementAuthorizationServer</S>
+                <S>Set-AzureRmApiManagementCertificate</S>
+                <S>Set-AzureRmApiManagementGroup</S>
+                <S>Set-AzureRmApiManagementLogger</S>
+                <S>Set-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>Set-AzureRmApiManagementOperation</S>
+                <S>Set-AzureRmApiManagementPolicy</S>
+                <S>Set-AzureRmApiManagementProduct</S>
+                <S>Set-AzureRmApiManagementProperty</S>
+                <S>Set-AzureRmApiManagementSubscription</S>
+                <S>Set-AzureRmApiManagementUser</S>
+                <S>Set-AzureRmApiManagementTenantAccess</S>
+                <S>Get-AzureRmApiManagementIdentityProvider</S>
+                <S>New-AzureRmApiManagementIdentityProvider</S>
+                <S>Set-AzureRmApiManagementIdentityProvider</S>
+                <S>Remove-AzureRmApiManagementIdentityProvider</S>
+                <S>Get-AzureRmApiManagementBackend</S>
+                <S>New-AzureRmApiManagementBackend</S>
+                <S>New-AzureRmApiManagementBackendCredential</S>
+                <S>New-AzureRmApiManagementBackendProxy</S>
+                <S>Set-AzureRmApiManagementBackend</S>
+                <S>Remove-AzureRmApiManagementBackend</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmApiManagementRegion</S>
+                <S>Get-AzureRmApiManagementSsoToken</S>
+                <S>New-AzureRmApiManagementHostnameConfiguration</S>
+                <S>New-AzureRmApiManagementCustomHostnameConfiguration</S>
+                <S>New-AzureRmApiManagementSystemCertificate</S>
+                <S>New-AzureRmApiManagementRegion</S>
+                <S>New-AzureRmApiManagementVirtualNetwork</S>
+                <S>Remove-AzureRmApiManagementRegion</S>
+                <S>Set-AzureRmApiManagementHostnames</S>
+                <S>Update-AzureRmApiManagementDeployment</S>
+                <S>Update-AzureRmApiManagementRegion</S>
+                <S>Import-AzureRmApiManagementHostnameCertificate</S>
+                <S>Backup-AzureRmApiManagement</S>
+                <S>Get-AzureRmApiManagement</S>
+                <S>New-AzureRmApiManagement</S>
+                <S>Remove-AzureRmApiManagement</S>
+                <S>Restore-AzureRmApiManagement</S>
+                <S>Add-AzureRmApiManagementApiToProduct</S>
+                <S>Add-AzureRmApiManagementProductToGroup</S>
+                <S>Add-AzureRmApiManagementUserToGroup</S>
+                <S>Export-AzureRmApiManagementApi</S>
+                <S>Get-AzureRmApiManagementApi</S>
+                <S>Get-AzureRmApiManagementApiRelease</S>
+                <S>Get-AzureRmApiManagementApiRevision</S>
+                <S>Get-AzureRmApiManagementApiVersionSet</S>
+                <S>Get-AzureRmApiManagementAuthorizationServer</S>
+                <S>Get-AzureRmApiManagementCertificate</S>
+                <S>Get-AzureRmApiManagementGroup</S>
+                <S>Get-AzureRmApiManagementLogger</S>
+                <S>Get-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>Get-AzureRmApiManagementOperation</S>
+                <S>Get-AzureRmApiManagementPolicy</S>
+                <S>Get-AzureRmApiManagementProduct</S>
+                <S>Get-AzureRmApiManagementProperty</S>
+                <S>Get-AzureRmApiManagementSubscription</S>
+                <S>Get-AzureRmApiManagementTenantSyncState</S>
+                <S>Get-AzureRmApiManagementUser</S>
+                <S>Get-AzureRmApiManagementUserSsoUrl</S>
+                <S>Get-AzureRmApiManagementTenantAccess</S>
+                <S>Get-AzureRmApiManagementTenantGitAccess</S>
+                <S>Import-AzureRmApiManagementApi</S>
+                <S>New-AzureRmApiManagementApi</S>
+                <S>New-AzureRmApiManagementApiRevision</S>
+                <S>New-AzureRmApiManagementApiRelease</S>
+                <S>New-AzureRmApiManagementApiVersionSet</S>
+                <S>New-AzureRmApiManagementAuthorizationServer</S>
+                <S>New-AzureRmApiManagementCertificate</S>
+                <S>New-AzureRmApiManagementContext</S>
+                <S>New-AzureRmApiManagementGroup</S>
+                <S>New-AzureRmApiManagementLogger</S>
+                <S>New-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>New-AzureRmApiManagementOperation</S>
+                <S>New-AzureRmApiManagementProduct</S>
+                <S>New-AzureRmApiManagementSubscription</S>
+                <S>New-AzureRmApiManagementBackendServiceFabric</S>
+                <S>New-AzureRmApiManagementUser</S>
+                <S>New-AzureRmApiManagementProperty</S>
+                <S>Publish-AzureRmApiManagementTenantGitConfiguration</S>
+                <S>Remove-AzureRmApiManagementApi</S>
+                <S>Remove-AzureRmApiManagementApiRelease</S>
+                <S>Remove-AzureRmApiManagementApiRevision</S>
+                <S>Remove-AzureRmApiManagementApiVersionSet</S>
+                <S>Remove-AzureRmApiManagementApiFromProduct</S>
+                <S>Remove-AzureRmApiManagementAuthorizationServer</S>
+                <S>Remove-AzureRmApiManagementCertificate</S>
+                <S>Remove-AzureRmApiManagementGroup</S>
+                <S>Remove-AzureRmApiManagementLogger</S>
+                <S>Remove-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>Remove-AzureRmApiManagementOperation</S>
+                <S>Remove-AzureRmApiManagementPolicy</S>
+                <S>Remove-AzureRmApiManagementProduct</S>
+                <S>Remove-AzureRmApiManagementProductFromGroup</S>
+                <S>Remove-AzureRmApiManagementProperty</S>
+                <S>Remove-AzureRmApiManagementSubscription</S>
+                <S>Remove-AzureRmApiManagementUser</S>
+                <S>Remove-AzureRmApiManagementUserFromGroup</S>
+                <S>Save-AzureRmApiManagementTenantGitConfiguration</S>
+                <S>Set-AzureRmApiManagement</S>
+                <S>Set-AzureRmApiManagementApi</S>
+                <S>Update-AzureRmApiManagementApiRelease</S>
+                <S>Set-AzureRmApiManagementApiRevision</S>
+                <S>Set-AzureRmApiManagementApiVersionSet</S>
+                <S>Set-AzureRmApiManagementAuthorizationServer</S>
+                <S>Set-AzureRmApiManagementCertificate</S>
+                <S>Set-AzureRmApiManagementGroup</S>
+                <S>Set-AzureRmApiManagementLogger</S>
+                <S>Set-AzureRmApiManagementOpenIdConnectProvider</S>
+                <S>Set-AzureRmApiManagementOperation</S>
+                <S>Set-AzureRmApiManagementPolicy</S>
+                <S>Set-AzureRmApiManagementProduct</S>
+                <S>Set-AzureRmApiManagementProperty</S>
+                <S>Set-AzureRmApiManagementSubscription</S>
+                <S>Set-AzureRmApiManagementUser</S>
+                <S>Set-AzureRmApiManagementTenantAccess</S>
+                <S>Get-AzureRmApiManagementIdentityProvider</S>
+                <S>New-AzureRmApiManagementIdentityProvider</S>
+                <S>Set-AzureRmApiManagementIdentityProvider</S>
+                <S>Remove-AzureRmApiManagementIdentityProvider</S>
+                <S>Get-AzureRmApiManagementBackend</S>
+                <S>New-AzureRmApiManagementBackend</S>
+                <S>New-AzureRmApiManagementBackendCredential</S>
+                <S>New-AzureRmApiManagementBackendProxy</S>
+                <S>Set-AzureRmApiManagementBackend</S>
+                <S>Remove-AzureRmApiManagementBackend</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Update dependencies for type mapping issue</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Api Management service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Update dependencies for type mapping issue</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5615020</S>
+          <S N="downloadCount">9485971</S>
+          <S N="packageSize">2158002</S>
+          <S N="published">11/21/2018 6:28:47 PM -05:00</S>
+          <S N="created">11/21/2018 6:28:47 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM ApiManagement PSModule PSCmdlet_Add-AzureRmApiManagementRegion PSCommand_Add-AzureRmApiManagementRegion PSCmdlet_Get-AzureRmApiManagementSsoToken PSCommand_Get-AzureRmApiManagementSsoToken PSCmdlet_New-AzureRmApiManagementHostnameConfiguration PSCommand_New-AzureRmApiManagementHostnameConfiguration PSCmdlet_New-AzureRmApiManagementCustomHostnameConfiguration PSCommand_New-AzureRmApiManagementCustomHostnameConfiguration PSCmdlet_New-AzureRmApiManagementSystemCertificate PSCommand_New-AzureRmApiManagementSystemCertificate PSCmdlet_New-AzureRmApiManagementRegion PSCommand_New-AzureRmApiManagementRegion PSCmdlet_New-AzureRmApiManagementVirtualNetwork PSCommand_New-AzureRmApiManagementVirtualNetwork PSCmdlet_Remove-AzureRmApiManagementRegion PSCommand_Remove-AzureRmApiManagementRegion PSCmdlet_Set-AzureRmApiManagementHostnames PSCommand_Set-AzureRmApiManagementHostnames PSCmdlet_Update-AzureRmApiManagementDeployment PSCommand_Update-AzureRmApiManagementDeployment PSCmdlet_Update-AzureRmApiManagementRegion PSCommand_Update-AzureRmApiManagementRegion PSCmdlet_Import-AzureRmApiManagementHostnameCertificate PSCommand_Import-AzureRmApiManagementHostnameCertificate PSCmdlet_Backup-AzureRmApiManagement PSCommand_Backup-AzureRmApiManagement PSCmdlet_Get-AzureRmApiManagement PSCommand_Get-AzureRmApiManagement PSCmdlet_New-AzureRmApiManagement PSCommand_New-AzureRmApiManagement PSCmdlet_Remove-AzureRmApiManagement PSCommand_Remove-AzureRmApiManagement PSCmdlet_Restore-AzureRmApiManagement PSCommand_Restore-AzureRmApiManagement PSCmdlet_Add-AzureRmApiManagementApiToProduct PSCommand_Add-AzureRmApiManagementApiToProduct PSCmdlet_Add-AzureRmApiManagementProductToGroup PSCommand_Add-AzureRmApiManagementProductToGroup PSCmdlet_Add-AzureRmApiManagementUserToGroup PSCommand_Add-AzureRmApiManagementUserToGroup PSCmdlet_Export-AzureRmApiManagementApi PSCommand_Export-AzureRmApiManagementApi PSCmdlet_Get-AzureRmApiManagementApi PSCommand_Get-AzureRmApiManagementApi PSCmdlet_Get-AzureRmApiManagementApiRelease PSCommand_Get-AzureRmApiManagementApiRelease PSCmdlet_Get-AzureRmApiManagementApiRevision PSCommand_Get-AzureRmApiManagementApiRevision PSCmdlet_Get-AzureRmApiManagementApiVersionSet PSCommand_Get-AzureRmApiManagementApiVersionSet PSCmdlet_Get-AzureRmApiManagementAuthorizationServer PSCommand_Get-AzureRmApiManagementAuthorizationServer PSCmdlet_Get-AzureRmApiManagementCertificate PSCommand_Get-AzureRmApiManagementCertificate PSCmdlet_Get-AzureRmApiManagementGroup PSCommand_Get-AzureRmApiManagementGroup PSCmdlet_Get-AzureRmApiManagementLogger PSCommand_Get-AzureRmApiManagementLogger PSCmdlet_Get-AzureRmApiManagementOpenIdConnectProvider PSCommand_Get-AzureRmApiManagementOpenIdConnectProvider PSCmdlet_Get-AzureRmApiManagementOperation PSCommand_Get-AzureRmApiManagementOperation PSCmdlet_Get-AzureRmApiManagementPolicy PSCommand_Get-AzureRmApiManagementPolicy PSCmdlet_Get-AzureRmApiManagementProduct PSCommand_Get-AzureRmApiManagementProduct PSCmdlet_Get-AzureRmApiManagementProperty PSCommand_Get-AzureRmApiManagementProperty PSCmdlet_Get-AzureRmApiManagementSubscription PSCommand_Get-AzureRmApiManagementSubscription PSCmdlet_Get-AzureRmApiManagementTenantSyncState PSCommand_Get-AzureRmApiManagementTenantSyncState PSCmdlet_Get-AzureRmApiManagementUser PSCommand_Get-AzureRmApiManagementUser PSCmdlet_Get-AzureRmApiManagementUserSsoUrl PSCommand_Get-AzureRmApiManagementUserSsoUrl PSCmdlet_Get-AzureRmApiManagementTenantAccess PSCommand_Get-AzureRmApiManagementTenantAccess PSCmdlet_Get-AzureRmApiManagementTenantGitAccess PSCommand_Get-AzureRmApiManagementTenantGitAccess PSCmdlet_Import-AzureRmApiManagementApi PSCommand_Import-AzureRmApiManagementApi PSCmdlet_New-AzureRmApiManagementApi PSCommand_New-AzureRmApiManagementApi PSCmdlet_New-AzureRmApiManagementApiRevision PSCommand_New-AzureRmApiManagementApiRevision PSCmdlet_New-AzureRmApiManagementApiRelease PSCommand_New-AzureRmApiManagementApiRelease PSCmdlet_New-AzureRmApiManagementApiVersionSet PSCommand_New-AzureRmApiManagementApiVersionSet PSCmdlet_New-AzureRmApiManagementAuthorizationServer PSCommand_New-AzureRmApiManagementAuthorizationServer PSCmdlet_New-AzureRmApiManagementCertificate PSCommand_New-AzureRmApiManagementCertificate PSCmdlet_New-AzureRmApiManagementContext PSCommand_New-AzureRmApiManagementContext PSCmdlet_New-AzureRmApiManagementGroup PSCommand_New-AzureRmApiManagementGroup PSCmdlet_New-AzureRmApiManagementLogger PSCommand_New-AzureRmApiManagementLogger PSCmdlet_New-AzureRmApiManagementOpenIdConnectProvider PSCommand_New-AzureRmApiManagementOpenIdConnectProvider PSCmdlet_New-AzureRmApiManagementOperation PSCommand_New-AzureRmApiManagementOperation PSCmdlet_New-AzureRmApiManagementProduct PSCommand_New-AzureRmApiManagementProduct PSCmdlet_New-AzureRmApiManagementSubscription PSCommand_New-AzureRmApiManagementSubscription PSCmdlet_New-AzureRmApiManagementBackendServiceFabric PSCommand_New-AzureRmApiManagementBackendServiceFabric PSCmdlet_New-AzureRmApiManagementUser PSCommand_New-AzureRmApiManagementUser PSCmdlet_New-AzureRmApiManagementProperty PSCommand_New-AzureRmApiManagementProperty PSCmdlet_Publish-AzureRmApiManagementTenantGitConfiguration PSCommand_Publish-AzureRmApiManagementTenantGitConfiguration PSCmdlet_Remove-AzureRmApiManagementApi PSCommand_Remove-AzureRmApiManagementApi PSCmdlet_Remove-AzureRmApiManagementApiRelease PSCommand_Remove-AzureRmApiManagementApiRelease PSCmdlet_Remove-AzureRmApiManagementApiRevision PSCommand_Remove-AzureRmApiManagementApiRevision PSCmdlet_Remove-AzureRmApiManagementApiVersionSet PSCommand_Remove-AzureRmApiManagementApiVersionSet PSCmdlet_Remove-AzureRmApiManagementApiFromProduct PSCommand_Remove-AzureRmApiManagementApiFromProduct PSCmdlet_Remove-AzureRmApiManagementAuthorizationServer PSCommand_Remove-AzureRmApiManagementAuthorizationServer PSCmdlet_Remove-AzureRmApiManagementCertificate PSCommand_Remove-AzureRmApiManagementCertificate PSCmdlet_Remove-AzureRmApiManagementGroup PSCommand_Remove-AzureRmApiManagementGroup PSCmdlet_Remove-AzureRmApiManagementLogger PSCommand_Remove-AzureRmApiManagementLogger PSCmdlet_Remove-AzureRmApiManagementOpenIdConnectProvider PSCommand_Remove-AzureRmApiManagementOpenIdConnectProvider PSCmdlet_Remove-AzureRmApiManagementOperation PSCommand_Remove-AzureRmApiManagementOperation PSCmdlet_Remove-AzureRmApiManagementPolicy PSCommand_Remove-AzureRmApiManagementPolicy PSCmdlet_Remove-AzureRmApiManagementProduct PSCommand_Remove-AzureRmApiManagementProduct PSCmdlet_Remove-AzureRmApiManagementProductFromGroup PSCommand_Remove-AzureRmApiManagementProductFromGroup PSCmdlet_Remove-AzureRmApiManagementProperty PSCommand_Remove-AzureRmApiManagementProperty PSCmdlet_Remove-AzureRmApiManagementSubscription PSCommand_Remove-AzureRmApiManagementSubscription PSCmdlet_Remove-AzureRmApiManagementUser PSCommand_Remove-AzureRmApiManagementUser PSCmdlet_Remove-AzureRmApiManagementUserFromGroup PSCommand_Remove-AzureRmApiManagementUserFromGroup PSCmdlet_Save-AzureRmApiManagementTenantGitConfiguration PSCommand_Save-AzureRmApiManagementTenantGitConfiguration PSCmdlet_Set-AzureRmApiManagement PSCommand_Set-AzureRmApiManagement PSCmdlet_Set-AzureRmApiManagementApi PSCommand_Set-AzureRmApiManagementApi PSCmdlet_Update-AzureRmApiManagementApiRelease PSCommand_Update-AzureRmApiManagementApiRelease PSCmdlet_Set-AzureRmApiManagementApiRevision PSCommand_Set-AzureRmApiManagementApiRevision PSCmdlet_Set-AzureRmApiManagementApiVersionSet PSCommand_Set-AzureRmApiManagementApiVersionSet PSCmdlet_Set-AzureRmApiManagementAuthorizationServer PSCommand_Set-AzureRmApiManagementAuthorizationServer PSCmdlet_Set-AzureRmApiManagementCertificate PSCommand_Set-AzureRmApiManagementCertificate PSCmdlet_Set-AzureRmApiManagementGroup PSCommand_Set-AzureRmApiManagementGroup PSCmdlet_Set-AzureRmApiManagementLogger PSCommand_Set-AzureRmApiManagementLogger PSCmdlet_Set-AzureRmApiManagementOpenIdConnectProvider PSCommand_Set-AzureRmApiManagementOpenIdConnectProvider PSCmdlet_Set-AzureRmApiManagementOperation PSCommand_Set-AzureRmApiManagementOperation PSCmdlet_Set-AzureRmApiManagementPolicy PSCommand_Set-AzureRmApiManagementPolicy PSCmdlet_Set-AzureRmApiManagementProduct PSCommand_Set-AzureRmApiManagementProduct PSCmdlet_Set-AzureRmApiManagementProperty PSCommand_Set-AzureRmApiManagementProperty PSCmdlet_Set-AzureRmApiManagementSubscription PSCommand_Set-AzureRmApiManagementSubscription PSCmdlet_Set-AzureRmApiManagementUser PSCommand_Set-AzureRmApiManagementUser PSCmdlet_Set-AzureRmApiManagementTenantAccess PSCommand_Set-AzureRmApiManagementTenantAccess PSCmdlet_Get-AzureRmApiManagementIdentityProvider PSCommand_Get-AzureRmApiManagementIdentityProvider PSCmdlet_New-AzureRmApiManagementIdentityProvider PSCommand_New-AzureRmApiManagementIdentityProvider PSCmdlet_Set-AzureRmApiManagementIdentityProvider PSCommand_Set-AzureRmApiManagementIdentityProvider PSCmdlet_Remove-AzureRmApiManagementIdentityProvider PSCommand_Remove-AzureRmApiManagementIdentityProvider PSCmdlet_Get-AzureRmApiManagementBackend PSCommand_Get-AzureRmApiManagementBackend PSCmdlet_New-AzureRmApiManagementBackend PSCommand_New-AzureRmApiManagementBackend PSCmdlet_New-AzureRmApiManagementBackendCredential PSCommand_New-AzureRmApiManagementBackendCredential PSCmdlet_New-AzureRmApiManagementBackendProxy PSCommand_New-AzureRmApiManagementBackendProxy PSCmdlet_Set-AzureRmApiManagementBackend PSCommand_Set-AzureRmApiManagementBackend PSCmdlet_Remove-AzureRmApiManagementBackend PSCommand_Remove-AzureRmApiManagementBackend PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">6.1.7</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.ApiManagement.nuspec|AutoMapper.dll|AzureRM.ApiManagement.psd1|AzureRM.ApiManagement.psm1|Microsoft.Azure.Commands.ApiManagement.dll|Microsoft.Azure.Commands.ApiManagement.dll-Help.xml|Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll|Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Management.ApiManagement.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.WindowsAzure.Storage.dll|System.Spatial.dll|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">f875725d-8ce4-423f-a6af-ea880bc63f13</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.ApiManagement\6.1.7</S>
+    </MS>
+  </Obj>
+</Objs>

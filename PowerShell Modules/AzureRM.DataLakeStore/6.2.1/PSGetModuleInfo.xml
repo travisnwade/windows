@@ -1,0 +1,242 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.DataLakeStore</S>
+      <Version N="Version">6.2.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Data Lake Store</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-06T18:13:55-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:42.9261491-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>DataLake</S>
+          <S>Store</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Remove-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Remove-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Set-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Add-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Get-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Set-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Add-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Get-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Set-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Add-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Remove-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Add-AzureRmDataLakeStoreItemContent</S>
+                <S>Enable-AzureRmDataLakeStoreKeyVault</S>
+                <S>Export-AzureRmDataLakeStoreItem</S>
+                <S>Get-AzureRmDataLakeStoreChildItem</S>
+                <S>Get-AzureRmDataLakeStoreItem</S>
+                <S>Get-AzureRmDataLakeStoreItemAclEntry</S>
+                <S>Get-AzureRmDataLakeStoreItemContent</S>
+                <S>Get-AzureRmDataLakeStoreItemOwner</S>
+                <S>Get-AzureRmDataLakeStoreItemPermission</S>
+                <S>Import-AzureRmDataLakeStoreItem</S>
+                <S>Get-AzureRmDataLakeStoreAccount</S>
+                <S>Join-AzureRmDataLakeStoreItem</S>
+                <S>Move-AzureRmDataLakeStoreItem</S>
+                <S>New-AzureRmDataLakeStoreAccount</S>
+                <S>New-AzureRmDataLakeStoreItem</S>
+                <S>Remove-AzureRmDataLakeStoreAccount</S>
+                <S>Remove-AzureRmDataLakeStoreItem</S>
+                <S>Remove-AzureRmDataLakeStoreItemAcl</S>
+                <S>Remove-AzureRmDataLakeStoreItemAclEntry</S>
+                <S>Set-AzureRmDataLakeStoreItemAclEntry</S>
+                <S>Set-AzureRmDataLakeStoreAccount</S>
+                <S>Set-AzureRmDataLakeStoreItemAcl</S>
+                <S>Set-AzureRmDataLakeStoreItemExpiry</S>
+                <S>Set-AzureRmDataLakeStoreItemOwner</S>
+                <S>Set-AzureRmDataLakeStoreItemPermission</S>
+                <S>Test-AzureRmDataLakeStoreAccount</S>
+                <S>Test-AzureRmDataLakeStoreItem</S>
+                <S>Export-AzureRmDataLakeStoreChildItemProperties</S>
+                <S>Get-AzureRmDataLakeStoreChildItemSummary</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Remove-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Remove-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Set-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Add-AzureRmDataLakeStoreTrustedIdProvider</S>
+                <S>Get-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Set-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Add-AzureRmDataLakeStoreFirewallRule</S>
+                <S>Get-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Set-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Add-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Remove-AzureRmDataLakeStoreVirtualNetworkRule</S>
+                <S>Add-AzureRmDataLakeStoreItemContent</S>
+                <S>Enable-AzureRmDataLakeStoreKeyVault</S>
+                <S>Export-AzureRmDataLakeStoreItem</S>
+                <S>Get-AzureRmDataLakeStoreChildItem</S>
+                <S>Get-AzureRmDataLakeStoreItem</S>
+                <S>Get-AzureRmDataLakeStoreItemAclEntry</S>
+                <S>Get-AzureRmDataLakeStoreItemContent</S>
+                <S>Get-AzureRmDataLakeStoreItemOwner</S>
+                <S>Get-AzureRmDataLakeStoreItemPermission</S>
+                <S>Import-AzureRmDataLakeStoreItem</S>
+                <S>Get-AzureRmDataLakeStoreAccount</S>
+                <S>Join-AzureRmDataLakeStoreItem</S>
+                <S>Move-AzureRmDataLakeStoreItem</S>
+                <S>New-AzureRmDataLakeStoreAccount</S>
+                <S>New-AzureRmDataLakeStoreItem</S>
+                <S>Remove-AzureRmDataLakeStoreAccount</S>
+                <S>Remove-AzureRmDataLakeStoreItem</S>
+                <S>Remove-AzureRmDataLakeStoreItemAcl</S>
+                <S>Remove-AzureRmDataLakeStoreItemAclEntry</S>
+                <S>Set-AzureRmDataLakeStoreItemAclEntry</S>
+                <S>Set-AzureRmDataLakeStoreAccount</S>
+                <S>Set-AzureRmDataLakeStoreItemAcl</S>
+                <S>Set-AzureRmDataLakeStoreItemExpiry</S>
+                <S>Set-AzureRmDataLakeStoreItemOwner</S>
+                <S>Set-AzureRmDataLakeStoreItemPermission</S>
+                <S>Test-AzureRmDataLakeStoreAccount</S>
+                <S>Test-AzureRmDataLakeStoreItem</S>
+                <S>Export-AzureRmDataLakeStoreChildItemProperties</S>
+                <S>Get-AzureRmDataLakeStoreChildItemSummary</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Update the DataLake package to 1.1.10._x000D__x000A_* Add default Concurrency to multithreaded operations.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Data Lake Store</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Update the DataLake package to 1.1.10._x000D__x000A_* Add default Concurrency to multithreaded operations.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5125116</S>
+          <S N="downloadCount">8739775</S>
+          <S N="packageSize">544713</S>
+          <S N="published">11/6/2018 6:13:55 PM -05:00</S>
+          <S N="created">11/6/2018 6:13:55 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM DataLake Store PSModule PSCmdlet_Get-AzureRmDataLakeStoreTrustedIdProvider PSCommand_Get-AzureRmDataLakeStoreTrustedIdProvider PSCmdlet_Remove-AzureRmDataLakeStoreTrustedIdProvider PSCommand_Remove-AzureRmDataLakeStoreTrustedIdProvider PSCmdlet_Remove-AzureRmDataLakeStoreFirewallRule PSCommand_Remove-AzureRmDataLakeStoreFirewallRule PSCmdlet_Set-AzureRmDataLakeStoreTrustedIdProvider PSCommand_Set-AzureRmDataLakeStoreTrustedIdProvider PSCmdlet_Add-AzureRmDataLakeStoreTrustedIdProvider PSCommand_Add-AzureRmDataLakeStoreTrustedIdProvider PSCmdlet_Get-AzureRmDataLakeStoreFirewallRule PSCommand_Get-AzureRmDataLakeStoreFirewallRule PSCmdlet_Set-AzureRmDataLakeStoreFirewallRule PSCommand_Set-AzureRmDataLakeStoreFirewallRule PSCmdlet_Add-AzureRmDataLakeStoreFirewallRule PSCommand_Add-AzureRmDataLakeStoreFirewallRule PSCmdlet_Get-AzureRmDataLakeStoreVirtualNetworkRule PSCommand_Get-AzureRmDataLakeStoreVirtualNetworkRule PSCmdlet_Set-AzureRmDataLakeStoreVirtualNetworkRule PSCommand_Set-AzureRmDataLakeStoreVirtualNetworkRule PSCmdlet_Add-AzureRmDataLakeStoreVirtualNetworkRule PSCommand_Add-AzureRmDataLakeStoreVirtualNetworkRule PSCmdlet_Remove-AzureRmDataLakeStoreVirtualNetworkRule PSCommand_Remove-AzureRmDataLakeStoreVirtualNetworkRule PSCmdlet_Add-AzureRmDataLakeStoreItemContent PSCommand_Add-AzureRmDataLakeStoreItemContent PSCmdlet_Enable-AzureRmDataLakeStoreKeyVault PSCommand_Enable-AzureRmDataLakeStoreKeyVault PSCmdlet_Export-AzureRmDataLakeStoreItem PSCommand_Export-AzureRmDataLakeStoreItem PSCmdlet_Get-AzureRmDataLakeStoreChildItem PSCommand_Get-AzureRmDataLakeStoreChildItem PSCmdlet_Get-AzureRmDataLakeStoreItem PSCommand_Get-AzureRmDataLakeStoreItem PSCmdlet_Get-AzureRmDataLakeStoreItemAclEntry PSCommand_Get-AzureRmDataLakeStoreItemAclEntry PSCmdlet_Get-AzureRmDataLakeStoreItemContent PSCommand_Get-AzureRmDataLakeStoreItemContent PSCmdlet_Get-AzureRmDataLakeStoreItemOwner PSCommand_Get-AzureRmDataLakeStoreItemOwner PSCmdlet_Get-AzureRmDataLakeStoreItemPermission PSCommand_Get-AzureRmDataLakeStoreItemPermission PSCmdlet_Import-AzureRmDataLakeStoreItem PSCommand_Import-AzureRmDataLakeStoreItem PSCmdlet_Get-AzureRmDataLakeStoreAccount PSCommand_Get-AzureRmDataLakeStoreAccount PSCmdlet_Join-AzureRmDataLakeStoreItem PSCommand_Join-AzureRmDataLakeStoreItem PSCmdlet_Move-AzureRmDataLakeStoreItem PSCommand_Move-AzureRmDataLakeStoreItem PSCmdlet_New-AzureRmDataLakeStoreAccount PSCommand_New-AzureRmDataLakeStoreAccount PSCmdlet_New-AzureRmDataLakeStoreItem PSCommand_New-AzureRmDataLakeStoreItem PSCmdlet_Remove-AzureRmDataLakeStoreAccount PSCommand_Remove-AzureRmDataLakeStoreAccount PSCmdlet_Remove-AzureRmDataLakeStoreItem PSCommand_Remove-AzureRmDataLakeStoreItem PSCmdlet_Remove-AzureRmDataLakeStoreItemAcl PSCommand_Remove-AzureRmDataLakeStoreItemAcl PSCmdlet_Remove-AzureRmDataLakeStoreItemAclEntry PSCommand_Remove-AzureRmDataLakeStoreItemAclEntry PSCmdlet_Set-AzureRmDataLakeStoreItemAclEntry PSCommand_Set-AzureRmDataLakeStoreItemAclEntry PSCmdlet_Set-AzureRmDataLakeStoreAccount PSCommand_Set-AzureRmDataLakeStoreAccount PSCmdlet_Set-AzureRmDataLakeStoreItemAcl PSCommand_Set-AzureRmDataLakeStoreItemAcl PSCmdlet_Set-AzureRmDataLakeStoreItemExpiry PSCommand_Set-AzureRmDataLakeStoreItemExpiry PSCmdlet_Set-AzureRmDataLakeStoreItemOwner PSCommand_Set-AzureRmDataLakeStoreItemOwner PSCmdlet_Set-AzureRmDataLakeStoreItemPermission PSCommand_Set-AzureRmDataLakeStoreItemPermission PSCmdlet_Test-AzureRmDataLakeStoreAccount PSCommand_Test-AzureRmDataLakeStoreAccount PSCmdlet_Test-AzureRmDataLakeStoreItem PSCommand_Test-AzureRmDataLakeStoreItem PSCmdlet_Export-AzureRmDataLakeStoreChildItemProperties PSCommand_Export-AzureRmDataLakeStoreChildItemProperties PSCmdlet_Get-AzureRmDataLakeStoreChildItemSummary PSCommand_Get-AzureRmDataLakeStoreChildItemSummary PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">6.2.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.DataLakeStore.nuspec|AzureRM.DataLakeStore.psd1|AzureRM.DataLakeStore.psm1|Microsoft.Azure.Commands.DataLakeStore.dll|Microsoft.Azure.Commands.DataLakeStore.dll-Help.xml|Microsoft.Azure.Commands.DataLakeStoreFileSystem.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.DataLake.Store.dll|Microsoft.Azure.Management.DataLake.Store.dll|NLog.dll</S>
+          <S N="GUID">90dfd814-abce-4e1f-99b6-fe16760c079a</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.DataLakeStore\6.2.1</S>
+    </MS>
+  </Obj>
+</Objs>

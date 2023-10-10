@@ -1,0 +1,283 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.RecoveryServices.SiteRecovery</S>
+      <Version N="Version">0.2.12</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - SiteRecovery service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:30:54-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:12.4165726-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>SiteRecovery</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Edit-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Get-AzureRmRecoveryServicesAsrAlertSetting</S>
+                <S>Get-AzureRmRecoveryServicesAsrEvent</S>
+                <S>Get-AzureRmRecoveryServicesAsrFabric</S>
+                <S>Get-AzureRmRecoveryServicesAsrJob</S>
+                <S>Get-AzureRmRecoveryServicesAsrNetwork</S>
+                <S>Get-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>Get-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>Get-AzureRmRecoveryServicesAsrProtectableItem</S>
+                <S>Get-AzureRmRecoveryServicesAsrProtectionContainer</S>
+                <S>Get-AzureRmRecoveryServicesAsrProtectionContainerMapping</S>
+                <S>Get-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Get-AzureRmRecoveryServicesAsrRecoveryPoint</S>
+                <S>Get-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>Get-AzureRmRecoveryServicesAsrServicesProvider</S>
+                <S>Get-AzureRmRecoveryServicesAsrStorageClassification</S>
+                <S>Get-AzureRmRecoveryServicesAsrStorageClassificationMapping</S>
+                <S>Get-AzureRmRecoveryServicesAsrVaultContext</S>
+                <S>Get-AzureRmRecoveryServicesAsrvCenter</S>
+                <S>Import-AzureRmRecoveryServicesAsrVaultSettingsFile</S>
+                <S>New-AzureRmRecoveryServicesAsrFabric</S>
+                <S>New-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>New-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>New-AzureRmRecoveryServicesAsrProtectableItem</S>
+                <S>New-AzureRmRecoveryServicesAsrProtectionContainer</S>
+                <S>New-AzureRmRecoveryServicesAsrProtectionContainerMapping</S>
+                <S>New-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>New-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>New-AzureRmRecoveryServicesAsrStorageClassificationMapping</S>
+                <S>New-AzureRmRecoveryServicesAsrvCenter</S>
+                <S>New-AzureRmRecoveryServicesAsrAzureToAzureDiskReplicationConfig</S>
+                <S>Remove-AzureRmRecoveryServicesAsrFabric</S>
+                <S>Remove-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>Remove-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>Remove-AzureRmRecoveryServicesAsrProtectionContainer</S>
+                <S>Remove-AzureRmRecoveryServicesAsrProtectionContainerMapping</S>
+                <S>Remove-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Remove-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>Remove-AzureRmRecoveryServicesAsrServicesProvider</S>
+                <S>Remove-AzureRmRecoveryServicesAsrStorageClassificationMapping</S>
+                <S>Remove-AzureRmRecoveryServicesAsrvCenter</S>
+                <S>Restart-AzureRmRecoveryServicesAsrJob</S>
+                <S>Resume-AzureRmRecoveryServicesAsrJob</S>
+                <S>Set-AzureRmRecoveryServicesAsrAlertSetting</S>
+                <S>Set-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>Set-AzureRmRecoveryServicesAsrVaultContext</S>
+                <S>Start-AzureRmRecoveryServicesAsrApplyRecoveryPoint</S>
+                <S>Start-AzureRmRecoveryServicesAsrCommitFailoverJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrPlannedFailoverJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrResynchronizeReplicationJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrSwitchProcessServerJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrTestFailoverCleanupJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrTestFailoverJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrUnplannedFailoverJob</S>
+                <S>Stop-AzureRmRecoveryServicesAsrJob</S>
+                <S>Update-AzureRmRecoveryServicesAsrMobilityService</S>
+                <S>Update-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>Update-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>Update-AzureRmRecoveryServicesAsrProtectionDirection</S>
+                <S>Update-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Update-AzureRmRecoveryServicesAsrServicesProvider</S>
+                <S>Update-AzureRmRecoveryServicesAsrvCenter</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Edit-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Get-AzureRmRecoveryServicesAsrAlertSetting</S>
+                <S>Get-AzureRmRecoveryServicesAsrEvent</S>
+                <S>Get-AzureRmRecoveryServicesAsrFabric</S>
+                <S>Get-AzureRmRecoveryServicesAsrJob</S>
+                <S>Get-AzureRmRecoveryServicesAsrNetwork</S>
+                <S>Get-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>Get-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>Get-AzureRmRecoveryServicesAsrProtectableItem</S>
+                <S>Get-AzureRmRecoveryServicesAsrProtectionContainer</S>
+                <S>Get-AzureRmRecoveryServicesAsrProtectionContainerMapping</S>
+                <S>Get-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Get-AzureRmRecoveryServicesAsrRecoveryPoint</S>
+                <S>Get-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>Get-AzureRmRecoveryServicesAsrServicesProvider</S>
+                <S>Get-AzureRmRecoveryServicesAsrStorageClassification</S>
+                <S>Get-AzureRmRecoveryServicesAsrStorageClassificationMapping</S>
+                <S>Get-AzureRmRecoveryServicesAsrVaultContext</S>
+                <S>Get-AzureRmRecoveryServicesAsrvCenter</S>
+                <S>Import-AzureRmRecoveryServicesAsrVaultSettingsFile</S>
+                <S>New-AzureRmRecoveryServicesAsrFabric</S>
+                <S>New-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>New-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>New-AzureRmRecoveryServicesAsrProtectableItem</S>
+                <S>New-AzureRmRecoveryServicesAsrProtectionContainer</S>
+                <S>New-AzureRmRecoveryServicesAsrProtectionContainerMapping</S>
+                <S>New-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>New-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>New-AzureRmRecoveryServicesAsrStorageClassificationMapping</S>
+                <S>New-AzureRmRecoveryServicesAsrvCenter</S>
+                <S>New-AzureRmRecoveryServicesAsrAzureToAzureDiskReplicationConfig</S>
+                <S>Remove-AzureRmRecoveryServicesAsrFabric</S>
+                <S>Remove-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>Remove-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>Remove-AzureRmRecoveryServicesAsrProtectionContainer</S>
+                <S>Remove-AzureRmRecoveryServicesAsrProtectionContainerMapping</S>
+                <S>Remove-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Remove-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>Remove-AzureRmRecoveryServicesAsrServicesProvider</S>
+                <S>Remove-AzureRmRecoveryServicesAsrStorageClassificationMapping</S>
+                <S>Remove-AzureRmRecoveryServicesAsrvCenter</S>
+                <S>Restart-AzureRmRecoveryServicesAsrJob</S>
+                <S>Resume-AzureRmRecoveryServicesAsrJob</S>
+                <S>Set-AzureRmRecoveryServicesAsrAlertSetting</S>
+                <S>Set-AzureRmRecoveryServicesAsrReplicationProtectedItem</S>
+                <S>Set-AzureRmRecoveryServicesAsrVaultContext</S>
+                <S>Start-AzureRmRecoveryServicesAsrApplyRecoveryPoint</S>
+                <S>Start-AzureRmRecoveryServicesAsrCommitFailoverJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrPlannedFailoverJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrResynchronizeReplicationJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrSwitchProcessServerJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrTestFailoverCleanupJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrTestFailoverJob</S>
+                <S>Start-AzureRmRecoveryServicesAsrUnplannedFailoverJob</S>
+                <S>Stop-AzureRmRecoveryServicesAsrJob</S>
+                <S>Update-AzureRmRecoveryServicesAsrMobilityService</S>
+                <S>Update-AzureRmRecoveryServicesAsrNetworkMapping</S>
+                <S>Update-AzureRmRecoveryServicesAsrPolicy</S>
+                <S>Update-AzureRmRecoveryServicesAsrProtectionDirection</S>
+                <S>Update-AzureRmRecoveryServicesAsrRecoveryPlan</S>
+                <S>Update-AzureRmRecoveryServicesAsrServicesProvider</S>
+                <S>Update-AzureRmRecoveryServicesAsrvCenter</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Corrected example in New-AzureRmRecoveryServicesAsrProtectableItem_x000D__x000A_* Update dependencies for type mapping issue</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - SiteRecovery service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Corrected example in New-AzureRmRecoveryServicesAsrProtectableItem_x000D__x000A_* Update dependencies for type mapping issue</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4427975</S>
+          <S N="downloadCount">6838958</S>
+          <S N="packageSize">754491</S>
+          <S N="published">11/21/2018 6:30:54 PM -05:00</S>
+          <S N="created">11/21/2018 6:30:54 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM SiteRecovery PSModule PSCmdlet_Edit-AzureRmRecoveryServicesAsrRecoveryPlan PSCommand_Edit-AzureRmRecoveryServicesAsrRecoveryPlan PSCmdlet_Get-AzureRmRecoveryServicesAsrAlertSetting PSCommand_Get-AzureRmRecoveryServicesAsrAlertSetting PSCmdlet_Get-AzureRmRecoveryServicesAsrEvent PSCommand_Get-AzureRmRecoveryServicesAsrEvent PSCmdlet_Get-AzureRmRecoveryServicesAsrFabric PSCommand_Get-AzureRmRecoveryServicesAsrFabric PSCmdlet_Get-AzureRmRecoveryServicesAsrJob PSCommand_Get-AzureRmRecoveryServicesAsrJob PSCmdlet_Get-AzureRmRecoveryServicesAsrNetwork PSCommand_Get-AzureRmRecoveryServicesAsrNetwork PSCmdlet_Get-AzureRmRecoveryServicesAsrNetworkMapping PSCommand_Get-AzureRmRecoveryServicesAsrNetworkMapping PSCmdlet_Get-AzureRmRecoveryServicesAsrPolicy PSCommand_Get-AzureRmRecoveryServicesAsrPolicy PSCmdlet_Get-AzureRmRecoveryServicesAsrProtectableItem PSCommand_Get-AzureRmRecoveryServicesAsrProtectableItem PSCmdlet_Get-AzureRmRecoveryServicesAsrProtectionContainer PSCommand_Get-AzureRmRecoveryServicesAsrProtectionContainer PSCmdlet_Get-AzureRmRecoveryServicesAsrProtectionContainerMapping PSCommand_Get-AzureRmRecoveryServicesAsrProtectionContainerMapping PSCmdlet_Get-AzureRmRecoveryServicesAsrRecoveryPlan PSCommand_Get-AzureRmRecoveryServicesAsrRecoveryPlan PSCmdlet_Get-AzureRmRecoveryServicesAsrRecoveryPoint PSCommand_Get-AzureRmRecoveryServicesAsrRecoveryPoint PSCmdlet_Get-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCommand_Get-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCmdlet_Get-AzureRmRecoveryServicesAsrServicesProvider PSCommand_Get-AzureRmRecoveryServicesAsrServicesProvider PSCmdlet_Get-AzureRmRecoveryServicesAsrStorageClassification PSCommand_Get-AzureRmRecoveryServicesAsrStorageClassification PSCmdlet_Get-AzureRmRecoveryServicesAsrStorageClassificationMapping PSCommand_Get-AzureRmRecoveryServicesAsrStorageClassificationMapping PSCmdlet_Get-AzureRmRecoveryServicesAsrVaultContext PSCommand_Get-AzureRmRecoveryServicesAsrVaultContext PSCmdlet_Get-AzureRmRecoveryServicesAsrvCenter PSCommand_Get-AzureRmRecoveryServicesAsrvCenter PSCmdlet_Import-AzureRmRecoveryServicesAsrVaultSettingsFile PSCommand_Import-AzureRmRecoveryServicesAsrVaultSettingsFile PSCmdlet_New-AzureRmRecoveryServicesAsrFabric PSCommand_New-AzureRmRecoveryServicesAsrFabric PSCmdlet_New-AzureRmRecoveryServicesAsrNetworkMapping PSCommand_New-AzureRmRecoveryServicesAsrNetworkMapping PSCmdlet_New-AzureRmRecoveryServicesAsrPolicy PSCommand_New-AzureRmRecoveryServicesAsrPolicy PSCmdlet_New-AzureRmRecoveryServicesAsrProtectableItem PSCommand_New-AzureRmRecoveryServicesAsrProtectableItem PSCmdlet_New-AzureRmRecoveryServicesAsrProtectionContainer PSCommand_New-AzureRmRecoveryServicesAsrProtectionContainer PSCmdlet_New-AzureRmRecoveryServicesAsrProtectionContainerMapping PSCommand_New-AzureRmRecoveryServicesAsrProtectionContainerMapping PSCmdlet_New-AzureRmRecoveryServicesAsrRecoveryPlan PSCommand_New-AzureRmRecoveryServicesAsrRecoveryPlan PSCmdlet_New-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCommand_New-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCmdlet_New-AzureRmRecoveryServicesAsrStorageClassificationMapping PSCommand_New-AzureRmRecoveryServicesAsrStorageClassificationMapping PSCmdlet_New-AzureRmRecoveryServicesAsrvCenter PSCommand_New-AzureRmRecoveryServicesAsrvCenter PSCmdlet_New-AzureRmRecoveryServicesAsrAzureToAzureDiskReplicationConfig PSCommand_New-AzureRmRecoveryServicesAsrAzureToAzureDiskReplicationConfig PSCmdlet_Remove-AzureRmRecoveryServicesAsrFabric PSCommand_Remove-AzureRmRecoveryServicesAsrFabric PSCmdlet_Remove-AzureRmRecoveryServicesAsrNetworkMapping PSCommand_Remove-AzureRmRecoveryServicesAsrNetworkMapping PSCmdlet_Remove-AzureRmRecoveryServicesAsrPolicy PSCommand_Remove-AzureRmRecoveryServicesAsrPolicy PSCmdlet_Remove-AzureRmRecoveryServicesAsrProtectionContainer PSCommand_Remove-AzureRmRecoveryServicesAsrProtectionContainer PSCmdlet_Remove-AzureRmRecoveryServicesAsrProtectionContainerMapping PSCommand_Remove-AzureRmRecoveryServicesAsrProtectionContainerMapping PSCmdlet_Remove-AzureRmRecoveryServicesAsrRecoveryPlan PSCommand_Remove-AzureRmRecoveryServicesAsrRecoveryPlan PSCmdlet_Remove-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCommand_Remove-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCmdlet_Remove-AzureRmRecoveryServicesAsrServicesProvider PSCommand_Remove-AzureRmRecoveryServicesAsrServicesProvider PSCmdlet_Remove-AzureRmRecoveryServicesAsrStorageClassificationMapping PSCommand_Remove-AzureRmRecoveryServicesAsrStorageClassificationMapping PSCmdlet_Remove-AzureRmRecoveryServicesAsrvCenter PSCommand_Remove-AzureRmRecoveryServicesAsrvCenter PSCmdlet_Restart-AzureRmRecoveryServicesAsrJob PSCommand_Restart-AzureRmRecoveryServicesAsrJob PSCmdlet_Resume-AzureRmRecoveryServicesAsrJob PSCommand_Resume-AzureRmRecoveryServicesAsrJob PSCmdlet_Set-AzureRmRecoveryServicesAsrAlertSetting PSCommand_Set-AzureRmRecoveryServicesAsrAlertSetting PSCmdlet_Set-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCommand_Set-AzureRmRecoveryServicesAsrReplicationProtectedItem PSCmdlet_Set-AzureRmRecoveryServicesAsrVaultContext PSCommand_Set-AzureRmRecoveryServicesAsrVaultContext PSCmdlet_Start-AzureRmRecoveryServicesAsrApplyRecoveryPoint PSCommand_Start-AzureRmRecoveryServicesAsrApplyRecoveryPoint PSCmdlet_Start-AzureRmRecoveryServicesAsrCommitFailoverJob PSCommand_Start-AzureRmRecoveryServicesAsrCommitFailoverJob PSCmdlet_Start-AzureRmRecoveryServicesAsrPlannedFailoverJob PSCommand_Start-AzureRmRecoveryServicesAsrPlannedFailoverJob PSCmdlet_Start-AzureRmRecoveryServicesAsrResynchronizeReplicationJob PSCommand_Start-AzureRmRecoveryServicesAsrResynchronizeReplicationJob PSCmdlet_Start-AzureRmRecoveryServicesAsrSwitchProcessServerJob PSCommand_Start-AzureRmRecoveryServicesAsrSwitchProcessServerJob PSCmdlet_Start-AzureRmRecoveryServicesAsrTestFailoverCleanupJob PSCommand_Start-AzureRmRecoveryServicesAsrTestFailoverCleanupJob PSCmdlet_Start-AzureRmRecoveryServicesAsrTestFailoverJob PSCommand_Start-AzureRmRecoveryServicesAsrTestFailoverJob PSCmdlet_Start-AzureRmRecoveryServicesAsrUnplannedFailoverJob PSCommand_Start-AzureRmRecoveryServicesAsrUnplannedFailoverJob PSCmdlet_Stop-AzureRmRecoveryServicesAsrJob PSCommand_Stop-AzureRmRecoveryServicesAsrJob PSCmdlet_Update-AzureRmRecoveryServicesAsrMobilityService PSCommand_Update-AzureRmRecoveryServicesAsrMobilityService PSCmdlet_Update-AzureRmRecoveryServicesAsrNetworkMapping PSCommand_Update-AzureRmRecoveryServicesAsrNetworkMapping PSCmdlet_Update-AzureRmRecoveryServicesAsrPolicy PSCommand_Update-AzureRmRecoveryServicesAsrPolicy PSCmdlet_Update-AzureRmRecoveryServicesAsrProtectionDirection PSCommand_Update-AzureRmRecoveryServicesAsrProtectionDirection PSCmdlet_Update-AzureRmRecoveryServicesAsrRecoveryPlan PSCommand_Update-AzureRmRecoveryServicesAsrRecoveryPlan PSCmdlet_Update-AzureRmRecoveryServicesAsrServicesProvider PSCommand_Update-AzureRmRecoveryServicesAsrServicesProvider PSCmdlet_Update-AzureRmRecoveryServicesAsrvCenter PSCommand_Update-AzureRmRecoveryServicesAsrvCenter PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">0.2.12</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.RecoveryServices.SiteRecovery.nuspec|AutoMapper.dll|AzureRM.RecoveryServices.SiteRecovery.psd1|AzureRM.RecoveryServices.SiteRecovery.psm1|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Commands.RecoveryServices.ARM.dll|Microsoft.Azure.Commands.RecoveryServices.SiteRecovery.dll|Microsoft.Azure.Commands.RecoveryServices.SiteRecovery.dll-Help.xml|Microsoft.Azure.Management.RecoveryServices.dll|Microsoft.Azure.Management.RecoveryServices.SiteRecovery.dll|Security.Cryptography.dll|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">d1de7560-48e1-48f3-bc8c-4eea3af2bbe2</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.RecoveryServices.SiteRecovery\0.2.12</S>
+    </MS>
+  </Obj>
+</Objs>

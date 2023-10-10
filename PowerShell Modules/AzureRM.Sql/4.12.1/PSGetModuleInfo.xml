@@ -1,0 +1,494 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Sql</S>
+      <Version N="Version">4.12.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Sql service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:31:25-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:25.094919-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Sql</S>
+          <S>Database</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmSqlDatabaseTransparentDataEncryption</S>
+                <S>Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity</S>
+                <S>Set-AzureRmSqlDatabaseTransparentDataEncryption</S>
+                <S>Get-AzureRmSqlDatabaseUpgradeHint</S>
+                <S>Get-AzureRmSqlServerUpgradeHint</S>
+                <S>Get-AzureRmSqlServerServiceObjective</S>
+                <S>Get-AzureRmSqlServerUpgrade</S>
+                <S>Start-AzureRmSqlServerUpgrade</S>
+                <S>Stop-AzureRmSqlServerUpgrade</S>
+                <S>Get-AzureRmSqlServerActiveDirectoryAdministrator</S>
+                <S>Remove-AzureRmSqlServerActiveDirectoryAdministrator</S>
+                <S>Set-AzureRmSqlServerActiveDirectoryAdministrator</S>
+                <S>Get-AzureRmSqlServer</S>
+                <S>New-AzureRmSqlServer</S>
+                <S>Remove-AzureRmSqlServer</S>
+                <S>Set-AzureRmSqlServer</S>
+                <S>Get-AzureRmSqlServerCommunicationLink</S>
+                <S>New-AzureRmSqlServerCommunicationLink</S>
+                <S>Remove-AzureRmSqlServerCommunicationLink</S>
+                <S>Get-AzureRmSqlDatabaseSecureConnectionPolicy</S>
+                <S>Get-AzureRmSqlDatabaseReplicationLink</S>
+                <S>New-AzureRmSqlDatabaseCopy</S>
+                <S>New-AzureRmSqlDatabaseSecondary</S>
+                <S>Remove-AzureRmSqlDatabaseSecondary</S>
+                <S>Set-AzureRmSqlDatabaseSecondary</S>
+                <S>Get-AzureRmSqlElasticPoolRecommendation</S>
+                <S>Get-AzureRmSqlDatabaseIndexRecommendations</S>
+                <S>Start-AzureRmSqlDatabaseExecuteIndexRecommendation</S>
+                <S>Stop-AzureRmSqlDatabaseExecuteIndexRecommendation</S>
+                <S>Get-AzureRmSqlServerFirewallRule</S>
+                <S>New-AzureRmSqlServerFirewallRule</S>
+                <S>Remove-AzureRmSqlServerFirewallRule</S>
+                <S>Set-AzureRmSqlServerFirewallRule</S>
+                <S>Get-AzureRmSqlElasticPool</S>
+                <S>Get-AzureRmSqlElasticPoolActivity</S>
+                <S>Get-AzureRmSqlElasticPoolDatabase</S>
+                <S>New-AzureRmSqlElasticPool</S>
+                <S>Remove-AzureRmSqlElasticPool</S>
+                <S>Set-AzureRmSqlElasticPool</S>
+                <S>Get-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity</S>
+                <S>New-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Remove-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Set-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Resume-AzureRmSqlDatabase</S>
+                <S>Suspend-AzureRmSqlDatabase</S>
+                <S>Get-AzureRmSqlDatabaseDataMaskingPolicy</S>
+                <S>Get-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>New-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>Remove-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>Set-AzureRmSqlDatabaseDataMaskingPolicy</S>
+                <S>Set-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>Get-AzureRmSqlCapability</S>
+                <S>Get-AzureRmSqlServerThreatDetectionPolicy</S>
+                <S>Remove-AzureRmSqlServerThreatDetectionPolicy</S>
+                <S>Set-AzureRmSqlServerThreatDetectionPolicy</S>
+                <S>Get-AzureRmSqlDatabaseThreatDetectionPolicy</S>
+                <S>Set-AzureRmSqlDatabaseThreatDetectionPolicy</S>
+                <S>Remove-AzureRmSqlDatabaseThreatDetectionPolicy</S>
+                <S>Get-AzureRmSqlDatabase</S>
+                <S>Get-AzureRmSqlDatabaseActivity</S>
+                <S>Get-AzureRmSqlDatabaseExpanded</S>
+                <S>New-AzureRmSqlDatabase</S>
+                <S>Remove-AzureRmSqlDatabase</S>
+                <S>Set-AzureRmSqlDatabase</S>
+                <S>Get-AzureRmSqlDatabaseImportExportStatus</S>
+                <S>New-AzureRmSqlDatabaseExport</S>
+                <S>New-AzureRmSqlDatabaseImport</S>
+                <S>Get-AzureRmSqlDatabaseGeoBackupPolicy</S>
+                <S>Set-AzureRmSqlDatabaseGeoBackupPolicy</S>
+                <S>Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy</S>
+                <S>Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy</S>
+                <S>Get-AzureRmSqlDatabaseLongTermRetentionBackup</S>
+                <S>Remove-AzureRmSqlDatabaseLongTermRetentionBackup</S>
+                <S>Get-AzureRmSqlDeletedDatabaseBackup</S>
+                <S>Get-AzureRmSqlDatabaseGeoBackup</S>
+                <S>Get-AzureRmSqlServerBackupLongTermRetentionVault</S>
+                <S>Restore-AzureRmSqlDatabase</S>
+                <S>Set-AzureRmSqlServerBackupLongTermRetentionVault</S>
+                <S>Get-AzureRmSqlDatabaseRestorePoints</S>
+                <S>Get-AzureRmSqlDatabaseAuditingPolicy</S>
+                <S>Get-AzureRmSqlServerAuditingPolicy</S>
+                <S>Get-AzureRmSqlDatabaseAuditing</S>
+                <S>Get-AzureRmSqlServerAuditing</S>
+                <S>Remove-AzureRmSqlDatabaseAuditing</S>
+                <S>Remove-AzureRmSqlServerAuditing</S>
+                <S>Set-AzureRmSqlDatabaseAuditingPolicy</S>
+                <S>Set-AzureRmSqlServerAuditingPolicy</S>
+                <S>Set-AzureRmSqlDatabaseAuditing</S>
+                <S>Set-AzureRmSqlServerAuditing</S>
+                <S>Use-AzureRmSqlServerAuditingPolicy</S>
+                <S>Get-AzureRmSqlDatabaseRecommendedAction</S>
+                <S>Get-AzureRmSqlElasticPoolRecommendedAction</S>
+                <S>Get-AzureRmSqlServerRecommendedAction</S>
+                <S>Set-AzureRmSqlDatabaseRecommendedActionState</S>
+                <S>Set-AzureRmSqlElasticPoolRecommendedActionState</S>
+                <S>Set-AzureRmSqlServerRecommendedActionState</S>
+                <S>Get-AzureRmSqlElasticPoolAdvisor</S>
+                <S>Get-AzureRmSqlServerAdvisor</S>
+                <S>Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus</S>
+                <S>Set-AzureRmSqlServerAdvisorAutoExecuteStatus</S>
+                <S>Get-AzureRmSqlDatabaseAdvisor</S>
+                <S>Set-AzureRmSqlDatabaseAdvisorAutoExecuteStatus</S>
+                <S>Get-AzureRmSqlServerTransparentDataEncryptionProtector</S>
+                <S>Set-AzureRmSqlServerTransparentDataEncryptionProtector</S>
+                <S>Add-AzureRmSqlServerKeyVaultKey</S>
+                <S>Get-AzureRmSqlServerKeyVaultKey</S>
+                <S>Remove-AzureRmSqlServerKeyVaultKey</S>
+                <S>Get-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>New-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>Add-AzureRmSqlDatabaseToFailoverGroup</S>
+                <S>Remove-AzureRmSqlDatabaseFromFailoverGroup</S>
+                <S>Remove-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>Set-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>Switch-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>New-AzureRmSqlSyncGroup</S>
+                <S>Update-AzureRmSqlSyncGroup</S>
+                <S>Get-AzureRmSqlSyncGroup</S>
+                <S>Get-AzureRmSqlSyncGroupLog</S>
+                <S>Remove-AzureRmSqlSyncGroup</S>
+                <S>Update-AzureRmSqlSyncSchema</S>
+                <S>Get-AzureRmSqlSyncSchema</S>
+                <S>Start-AzureRmSqlSyncGroupSync</S>
+                <S>Stop-AzureRmSqlSyncGroupSync</S>
+                <S>New-AzureRmSqlSyncMember</S>
+                <S>Update-AzureRmSqlSyncMember</S>
+                <S>Get-AzureRmSqlSyncMember</S>
+                <S>Remove-AzureRmSqlSyncMember</S>
+                <S>New-AzureRmSqlSyncAgent</S>
+                <S>Get-AzureRmSqlSyncAgent</S>
+                <S>Remove-AzureRmSqlSyncAgent</S>
+                <S>New-AzureRmSqlSyncAgentKey</S>
+                <S>Get-AzureRmSqlSyncAgentLinkedDatabase</S>
+                <S>New-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Set-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Get-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Remove-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Stop-AzureRmSqlDatabaseActivity</S>
+                <S>Get-AzureRmSqlServerDnsAlias</S>
+                <S>Remove-AzureRmSqlServerDnsAlias</S>
+                <S>New-AzureRmSqlServerDnsAlias</S>
+                <S>Set-AzureRmSqlServerDnsAlias</S>
+                <S>New-AzureRmSqlDatabaseRestorePoint</S>
+                <S>Remove-AzureRmSqlDatabaseRestorePoint</S>
+                <S>Stop-AzureRmSqlElasticPoolActivity</S>
+                <S>Add-AzureRmSqlServerTransparentDataEncryptionCertificate</S>
+                <S>Add-AzureRmSqlManagedInstanceTransparentDataEncryptionCertificate</S>
+                <S>Enable-AzureRmSqlServerAdvancedThreatProtection</S>
+                <S>Disable-AzureRmSqlServerAdvancedThreatProtection</S>
+                <S>Get-AzureRmSqlServerAdvancedThreatProtectionPolicy</S>
+                <S>Update-AzureRmSqlDatabaseVulnerabilityAssessmentSettings</S>
+                <S>Get-AzureRmSqlDatabaseVulnerabilityAssessmentSettings</S>
+                <S>Clear-AzureRmSqlDatabaseVulnerabilityAssessmentSettings</S>
+                <S>Set-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline</S>
+                <S>Get-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline</S>
+                <S>Clear-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline</S>
+                <S>Convert-AzureRmSqlDatabaseVulnerabilityAssessmentScan</S>
+                <S>Get-AzureRmSqlDatabaseVulnerabilityAssessmentScanRecord</S>
+                <S>Start-AzureRmSqlDatabaseVulnerabilityAssessmentScan</S>
+                <S>Get-AzureRmSqlInstance</S>
+                <S>New-AzureRmSqlInstance</S>
+                <S>Remove-AzureRmSqlInstance</S>
+                <S>Set-AzureRmSqlInstance</S>
+                <S>Get-AzureRmSqlInstanceDatabase</S>
+                <S>New-AzureRmSqlInstanceDatabase</S>
+                <S>Remove-AzureRmSqlInstanceDatabase</S>
+                <S>Restore-AzureRmSqlInstanceDatabase</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmSqlDatabaseTransparentDataEncryption</S>
+                <S>Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity</S>
+                <S>Set-AzureRmSqlDatabaseTransparentDataEncryption</S>
+                <S>Get-AzureRmSqlDatabaseUpgradeHint</S>
+                <S>Get-AzureRmSqlServerUpgradeHint</S>
+                <S>Get-AzureRmSqlServerServiceObjective</S>
+                <S>Get-AzureRmSqlServerUpgrade</S>
+                <S>Start-AzureRmSqlServerUpgrade</S>
+                <S>Stop-AzureRmSqlServerUpgrade</S>
+                <S>Get-AzureRmSqlServerActiveDirectoryAdministrator</S>
+                <S>Remove-AzureRmSqlServerActiveDirectoryAdministrator</S>
+                <S>Set-AzureRmSqlServerActiveDirectoryAdministrator</S>
+                <S>Get-AzureRmSqlServer</S>
+                <S>New-AzureRmSqlServer</S>
+                <S>Remove-AzureRmSqlServer</S>
+                <S>Set-AzureRmSqlServer</S>
+                <S>Get-AzureRmSqlServerCommunicationLink</S>
+                <S>New-AzureRmSqlServerCommunicationLink</S>
+                <S>Remove-AzureRmSqlServerCommunicationLink</S>
+                <S>Get-AzureRmSqlDatabaseSecureConnectionPolicy</S>
+                <S>Get-AzureRmSqlDatabaseReplicationLink</S>
+                <S>New-AzureRmSqlDatabaseCopy</S>
+                <S>New-AzureRmSqlDatabaseSecondary</S>
+                <S>Remove-AzureRmSqlDatabaseSecondary</S>
+                <S>Set-AzureRmSqlDatabaseSecondary</S>
+                <S>Get-AzureRmSqlElasticPoolRecommendation</S>
+                <S>Get-AzureRmSqlDatabaseIndexRecommendations</S>
+                <S>Start-AzureRmSqlDatabaseExecuteIndexRecommendation</S>
+                <S>Stop-AzureRmSqlDatabaseExecuteIndexRecommendation</S>
+                <S>Get-AzureRmSqlServerFirewallRule</S>
+                <S>New-AzureRmSqlServerFirewallRule</S>
+                <S>Remove-AzureRmSqlServerFirewallRule</S>
+                <S>Set-AzureRmSqlServerFirewallRule</S>
+                <S>Get-AzureRmSqlElasticPool</S>
+                <S>Get-AzureRmSqlElasticPoolActivity</S>
+                <S>Get-AzureRmSqlElasticPoolDatabase</S>
+                <S>New-AzureRmSqlElasticPool</S>
+                <S>Remove-AzureRmSqlElasticPool</S>
+                <S>Set-AzureRmSqlElasticPool</S>
+                <S>Get-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity</S>
+                <S>New-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Remove-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Set-AzureRmSqlServerDisasterRecoveryConfiguration</S>
+                <S>Resume-AzureRmSqlDatabase</S>
+                <S>Suspend-AzureRmSqlDatabase</S>
+                <S>Get-AzureRmSqlDatabaseDataMaskingPolicy</S>
+                <S>Get-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>New-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>Remove-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>Set-AzureRmSqlDatabaseDataMaskingPolicy</S>
+                <S>Set-AzureRmSqlDatabaseDataMaskingRule</S>
+                <S>Get-AzureRmSqlCapability</S>
+                <S>Get-AzureRmSqlServerThreatDetectionPolicy</S>
+                <S>Remove-AzureRmSqlServerThreatDetectionPolicy</S>
+                <S>Set-AzureRmSqlServerThreatDetectionPolicy</S>
+                <S>Get-AzureRmSqlDatabaseThreatDetectionPolicy</S>
+                <S>Set-AzureRmSqlDatabaseThreatDetectionPolicy</S>
+                <S>Remove-AzureRmSqlDatabaseThreatDetectionPolicy</S>
+                <S>Get-AzureRmSqlDatabase</S>
+                <S>Get-AzureRmSqlDatabaseActivity</S>
+                <S>Get-AzureRmSqlDatabaseExpanded</S>
+                <S>New-AzureRmSqlDatabase</S>
+                <S>Remove-AzureRmSqlDatabase</S>
+                <S>Set-AzureRmSqlDatabase</S>
+                <S>Get-AzureRmSqlDatabaseImportExportStatus</S>
+                <S>New-AzureRmSqlDatabaseExport</S>
+                <S>New-AzureRmSqlDatabaseImport</S>
+                <S>Get-AzureRmSqlDatabaseGeoBackupPolicy</S>
+                <S>Set-AzureRmSqlDatabaseGeoBackupPolicy</S>
+                <S>Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy</S>
+                <S>Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy</S>
+                <S>Get-AzureRmSqlDatabaseLongTermRetentionBackup</S>
+                <S>Remove-AzureRmSqlDatabaseLongTermRetentionBackup</S>
+                <S>Get-AzureRmSqlDeletedDatabaseBackup</S>
+                <S>Get-AzureRmSqlDatabaseGeoBackup</S>
+                <S>Get-AzureRmSqlServerBackupLongTermRetentionVault</S>
+                <S>Restore-AzureRmSqlDatabase</S>
+                <S>Set-AzureRmSqlServerBackupLongTermRetentionVault</S>
+                <S>Get-AzureRmSqlDatabaseRestorePoints</S>
+                <S>Get-AzureRmSqlDatabaseAuditingPolicy</S>
+                <S>Get-AzureRmSqlServerAuditingPolicy</S>
+                <S>Get-AzureRmSqlDatabaseAuditing</S>
+                <S>Get-AzureRmSqlServerAuditing</S>
+                <S>Remove-AzureRmSqlDatabaseAuditing</S>
+                <S>Remove-AzureRmSqlServerAuditing</S>
+                <S>Set-AzureRmSqlDatabaseAuditingPolicy</S>
+                <S>Set-AzureRmSqlServerAuditingPolicy</S>
+                <S>Set-AzureRmSqlDatabaseAuditing</S>
+                <S>Set-AzureRmSqlServerAuditing</S>
+                <S>Use-AzureRmSqlServerAuditingPolicy</S>
+                <S>Get-AzureRmSqlDatabaseRecommendedAction</S>
+                <S>Get-AzureRmSqlElasticPoolRecommendedAction</S>
+                <S>Get-AzureRmSqlServerRecommendedAction</S>
+                <S>Set-AzureRmSqlDatabaseRecommendedActionState</S>
+                <S>Set-AzureRmSqlElasticPoolRecommendedActionState</S>
+                <S>Set-AzureRmSqlServerRecommendedActionState</S>
+                <S>Get-AzureRmSqlElasticPoolAdvisor</S>
+                <S>Get-AzureRmSqlServerAdvisor</S>
+                <S>Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus</S>
+                <S>Set-AzureRmSqlServerAdvisorAutoExecuteStatus</S>
+                <S>Get-AzureRmSqlDatabaseAdvisor</S>
+                <S>Set-AzureRmSqlDatabaseAdvisorAutoExecuteStatus</S>
+                <S>Get-AzureRmSqlServerTransparentDataEncryptionProtector</S>
+                <S>Set-AzureRmSqlServerTransparentDataEncryptionProtector</S>
+                <S>Add-AzureRmSqlServerKeyVaultKey</S>
+                <S>Get-AzureRmSqlServerKeyVaultKey</S>
+                <S>Remove-AzureRmSqlServerKeyVaultKey</S>
+                <S>Get-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>New-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>Add-AzureRmSqlDatabaseToFailoverGroup</S>
+                <S>Remove-AzureRmSqlDatabaseFromFailoverGroup</S>
+                <S>Remove-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>Set-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>Switch-AzureRmSqlDatabaseFailoverGroup</S>
+                <S>New-AzureRmSqlSyncGroup</S>
+                <S>Update-AzureRmSqlSyncGroup</S>
+                <S>Get-AzureRmSqlSyncGroup</S>
+                <S>Get-AzureRmSqlSyncGroupLog</S>
+                <S>Remove-AzureRmSqlSyncGroup</S>
+                <S>Update-AzureRmSqlSyncSchema</S>
+                <S>Get-AzureRmSqlSyncSchema</S>
+                <S>Start-AzureRmSqlSyncGroupSync</S>
+                <S>Stop-AzureRmSqlSyncGroupSync</S>
+                <S>New-AzureRmSqlSyncMember</S>
+                <S>Update-AzureRmSqlSyncMember</S>
+                <S>Get-AzureRmSqlSyncMember</S>
+                <S>Remove-AzureRmSqlSyncMember</S>
+                <S>New-AzureRmSqlSyncAgent</S>
+                <S>Get-AzureRmSqlSyncAgent</S>
+                <S>Remove-AzureRmSqlSyncAgent</S>
+                <S>New-AzureRmSqlSyncAgentKey</S>
+                <S>Get-AzureRmSqlSyncAgentLinkedDatabase</S>
+                <S>New-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Set-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Get-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Remove-AzureRmSqlServerVirtualNetworkRule</S>
+                <S>Stop-AzureRmSqlDatabaseActivity</S>
+                <S>Get-AzureRmSqlServerDnsAlias</S>
+                <S>Remove-AzureRmSqlServerDnsAlias</S>
+                <S>New-AzureRmSqlServerDnsAlias</S>
+                <S>Set-AzureRmSqlServerDnsAlias</S>
+                <S>New-AzureRmSqlDatabaseRestorePoint</S>
+                <S>Remove-AzureRmSqlDatabaseRestorePoint</S>
+                <S>Stop-AzureRmSqlElasticPoolActivity</S>
+                <S>Add-AzureRmSqlServerTransparentDataEncryptionCertificate</S>
+                <S>Add-AzureRmSqlManagedInstanceTransparentDataEncryptionCertificate</S>
+                <S>Enable-AzureRmSqlServerAdvancedThreatProtection</S>
+                <S>Disable-AzureRmSqlServerAdvancedThreatProtection</S>
+                <S>Get-AzureRmSqlServerAdvancedThreatProtectionPolicy</S>
+                <S>Update-AzureRmSqlDatabaseVulnerabilityAssessmentSettings</S>
+                <S>Get-AzureRmSqlDatabaseVulnerabilityAssessmentSettings</S>
+                <S>Clear-AzureRmSqlDatabaseVulnerabilityAssessmentSettings</S>
+                <S>Set-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline</S>
+                <S>Get-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline</S>
+                <S>Clear-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline</S>
+                <S>Convert-AzureRmSqlDatabaseVulnerabilityAssessmentScan</S>
+                <S>Get-AzureRmSqlDatabaseVulnerabilityAssessmentScanRecord</S>
+                <S>Start-AzureRmSqlDatabaseVulnerabilityAssessmentScan</S>
+                <S>Get-AzureRmSqlInstance</S>
+                <S>New-AzureRmSqlInstance</S>
+                <S>Remove-AzureRmSqlInstance</S>
+                <S>Set-AzureRmSqlInstance</S>
+                <S>Get-AzureRmSqlInstanceDatabase</S>
+                <S>New-AzureRmSqlInstanceDatabase</S>
+                <S>Remove-AzureRmSqlInstanceDatabase</S>
+                <S>Restore-AzureRmSqlInstanceDatabase</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Added new cmdlets for CRUD operations on Azure Sql Database Managed Instance and Azure Sql Managed Database_x000D__x000A__x0009_- Get-AzureRmSqlInstance_x000D__x000A__x0009_- New-AzureRmSqlInstance_x000D__x000A__x0009_- Set-AzureRmSqlInstance_x000D__x000A__x0009_- Remove-AzureRmSqlInstance_x000D__x000A__x0009_- Get-AzureRmSqlInstanceDatabase_x000D__x000A__x0009_- New-AzureRmSqlInstanceDatabase_x000D__x000A__x0009_- Restore-AzureRmSqlInstanceDatabase_x000D__x000A__x0009_- Remove-AzureRmSqlInstanceDatabase_x000D__x000A_* Enabled Extended Auditing Policy management on a server or a database._x000D__x000A__x0009_- New parameter (PredicateExpression) was added to enable filtering of audit logs._x000D__x000A__x0009_- Cmdlets were modified to use SQL clients instead of Legacy clients._x000D__x000A__x0009_- Set-AzureRmSqlServerAuditing._x000D__x000A__x0009_- Get-AzureRmSqlServerAuditing._x000D__x000A__x0009_- Set-AzureRmSqlDatabaseAuditing._x000D__x000A__x0009_- Get-AzureRmSqlDatabaseAuditing._x000D__x000A_* Fixed issue with using Update-AzureRmSqlDatabaseVulnerabilityAssessmentSettings with storage account name parameter set</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Sql service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Added new cmdlets for CRUD operations on Azure Sql Database Managed Instance and Azure Sql Managed Database_x000D__x000A__x0009_- Get-AzureRmSqlInstance_x000D__x000A__x0009_- New-AzureRmSqlInstance_x000D__x000A__x0009_- Set-AzureRmSqlInstance_x000D__x000A__x0009_- Remove-AzureRmSqlInstance_x000D__x000A__x0009_- Get-AzureRmSqlInstanceDatabase_x000D__x000A__x0009_- New-AzureRmSqlInstanceDatabase_x000D__x000A__x0009_- Restore-AzureRmSqlInstanceDatabase_x000D__x000A__x0009_- Remove-AzureRmSqlInstanceDatabase_x000D__x000A_* Enabled Extended Auditing Policy management on a server or a database._x000D__x000A__x0009_- New parameter (PredicateExpression) was added to enable filtering of audit logs._x000D__x000A__x0009_- Cmdlets were modified to use SQL clients instead of Legacy clients._x000D__x000A__x0009_- Set-AzureRmSqlServerAuditing._x000D__x000A__x0009_- Get-AzureRmSqlServerAuditing._x000D__x000A__x0009_- Set-AzureRmSqlDatabaseAuditing._x000D__x000A__x0009_- Get-AzureRmSqlDatabaseAuditing._x000D__x000A_* Fixed issue with using Update-AzureRmSqlDatabaseVulnerabilityAssessmentSettings with storage account name parameter set</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5082709</S>
+          <S N="downloadCount">8153284</S>
+          <S N="packageSize">2494395</S>
+          <S N="published">11/21/2018 6:31:25 PM -05:00</S>
+          <S N="created">11/21/2018 6:31:25 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Sql Database PSModule PSCmdlet_Get-AzureRmSqlDatabaseTransparentDataEncryption PSCommand_Get-AzureRmSqlDatabaseTransparentDataEncryption PSCmdlet_Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity PSCommand_Get-AzureRmSqlDatabaseTransparentDataEncryptionActivity PSCmdlet_Set-AzureRmSqlDatabaseTransparentDataEncryption PSCommand_Set-AzureRmSqlDatabaseTransparentDataEncryption PSCmdlet_Get-AzureRmSqlDatabaseUpgradeHint PSCommand_Get-AzureRmSqlDatabaseUpgradeHint PSCmdlet_Get-AzureRmSqlServerUpgradeHint PSCommand_Get-AzureRmSqlServerUpgradeHint PSCmdlet_Get-AzureRmSqlServerServiceObjective PSCommand_Get-AzureRmSqlServerServiceObjective PSCmdlet_Get-AzureRmSqlServerUpgrade PSCommand_Get-AzureRmSqlServerUpgrade PSCmdlet_Start-AzureRmSqlServerUpgrade PSCommand_Start-AzureRmSqlServerUpgrade PSCmdlet_Stop-AzureRmSqlServerUpgrade PSCommand_Stop-AzureRmSqlServerUpgrade PSCmdlet_Get-AzureRmSqlServerActiveDirectoryAdministrator PSCommand_Get-AzureRmSqlServerActiveDirectoryAdministrator PSCmdlet_Remove-AzureRmSqlServerActiveDirectoryAdministrator PSCommand_Remove-AzureRmSqlServerActiveDirectoryAdministrator PSCmdlet_Set-AzureRmSqlServerActiveDirectoryAdministrator PSCommand_Set-AzureRmSqlServerActiveDirectoryAdministrator PSCmdlet_Get-AzureRmSqlServer PSCommand_Get-AzureRmSqlServer PSCmdlet_New-AzureRmSqlServer PSCommand_New-AzureRmSqlServer PSCmdlet_Remove-AzureRmSqlServer PSCommand_Remove-AzureRmSqlServer PSCmdlet_Set-AzureRmSqlServer PSCommand_Set-AzureRmSqlServer PSCmdlet_Get-AzureRmSqlServerCommunicationLink PSCommand_Get-AzureRmSqlServerCommunicationLink PSCmdlet_New-AzureRmSqlServerCommunicationLink PSCommand_New-AzureRmSqlServerCommunicationLink PSCmdlet_Remove-AzureRmSqlServerCommunicationLink PSCommand_Remove-AzureRmSqlServerCommunicationLink PSCmdlet_Get-AzureRmSqlDatabaseSecureConnectionPolicy PSCommand_Get-AzureRmSqlDatabaseSecureConnectionPolicy PSCmdlet_Get-AzureRmSqlDatabaseReplicationLink PSCommand_Get-AzureRmSqlDatabaseReplicationLink PSCmdlet_New-AzureRmSqlDatabaseCopy PSCommand_New-AzureRmSqlDatabaseCopy PSCmdlet_New-AzureRmSqlDatabaseSecondary PSCommand_New-AzureRmSqlDatabaseSecondary PSCmdlet_Remove-AzureRmSqlDatabaseSecondary PSCommand_Remove-AzureRmSqlDatabaseSecondary PSCmdlet_Set-AzureRmSqlDatabaseSecondary PSCommand_Set-AzureRmSqlDatabaseSecondary PSCmdlet_Get-AzureRmSqlElasticPoolRecommendation PSCommand_Get-AzureRmSqlElasticPoolRecommendation PSCmdlet_Get-AzureRmSqlDatabaseIndexRecommendations PSCommand_Get-AzureRmSqlDatabaseIndexRecommendations PSCmdlet_Start-AzureRmSqlDatabaseExecuteIndexRecommendation PSCommand_Start-AzureRmSqlDatabaseExecuteIndexRecommendation PSCmdlet_Stop-AzureRmSqlDatabaseExecuteIndexRecommendation PSCommand_Stop-AzureRmSqlDatabaseExecuteIndexRecommendation PSCmdlet_Get-AzureRmSqlServerFirewallRule PSCommand_Get-AzureRmSqlServerFirewallRule PSCmdlet_New-AzureRmSqlServerFirewallRule PSCommand_New-AzureRmSqlServerFirewallRule PSCmdlet_Remove-AzureRmSqlServerFirewallRule PSCommand_Remove-AzureRmSqlServerFirewallRule PSCmdlet_Set-AzureRmSqlServerFirewallRule PSCommand_Set-AzureRmSqlServerFirewallRule PSCmdlet_Get-AzureRmSqlElasticPool PSCommand_Get-AzureRmSqlElasticPool PSCmdlet_Get-AzureRmSqlElasticPoolActivity PSCommand_Get-AzureRmSqlElasticPoolActivity PSCmdlet_Get-AzureRmSqlElasticPoolDatabase PSCommand_Get-AzureRmSqlElasticPoolDatabase PSCmdlet_New-AzureRmSqlElasticPool PSCommand_New-AzureRmSqlElasticPool PSCmdlet_Remove-AzureRmSqlElasticPool PSCommand_Remove-AzureRmSqlElasticPool PSCmdlet_Set-AzureRmSqlElasticPool PSCommand_Set-AzureRmSqlElasticPool PSCmdlet_Get-AzureRmSqlServerDisasterRecoveryConfiguration PSCommand_Get-AzureRmSqlServerDisasterRecoveryConfiguration PSCmdlet_Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity PSCommand_Get-AzureRmSqlServerDisasterRecoveryConfigurationActivity PSCmdlet_New-AzureRmSqlServerDisasterRecoveryConfiguration PSCommand_New-AzureRmSqlServerDisasterRecoveryConfiguration PSCmdlet_Remove-AzureRmSqlServerDisasterRecoveryConfiguration PSCommand_Remove-AzureRmSqlServerDisasterRecoveryConfiguration PSCmdlet_Set-AzureRmSqlServerDisasterRecoveryConfiguration PSCommand_Set-AzureRmSqlServerDisasterRecoveryConfiguration PSCmdlet_Resume-AzureRmSqlDatabase PSCommand_Resume-AzureRmSqlDatabase PSCmdlet_Suspend-AzureRmSqlDatabase PSCommand_Suspend-AzureRmSqlDatabase PSCmdlet_Get-AzureRmSqlDatabaseDataMaskingPolicy PSCommand_Get-AzureRmSqlDatabaseDataMaskingPolicy PSCmdlet_Get-AzureRmSqlDatabaseDataMaskingRule PSCommand_Get-AzureRmSqlDatabaseDataMaskingRule PSCmdlet_New-AzureRmSqlDatabaseDataMaskingRule PSCommand_New-AzureRmSqlDatabaseDataMaskingRule PSCmdlet_Remove-AzureRmSqlDatabaseDataMaskingRule PSCommand_Remove-AzureRmSqlDatabaseDataMaskingRule PSCmdlet_Set-AzureRmSqlDatabaseDataMaskingPolicy PSCommand_Set-AzureRmSqlDatabaseDataMaskingPolicy PSCmdlet_Set-AzureRmSqlDatabaseDataMaskingRule PSCommand_Set-AzureRmSqlDatabaseDataMaskingRule PSCmdlet_Get-AzureRmSqlCapability PSCommand_Get-AzureRmSqlCapability PSCmdlet_Get-AzureRmSqlServerThreatDetectionPolicy PSCommand_Get-AzureRmSqlServerThreatDetectionPolicy PSCmdlet_Remove-AzureRmSqlServerThreatDetectionPolicy PSCommand_Remove-AzureRmSqlServerThreatDetectionPolicy PSCmdlet_Set-AzureRmSqlServerThreatDetectionPolicy PSCommand_Set-AzureRmSqlServerThreatDetectionPolicy PSCmdlet_Get-AzureRmSqlDatabaseThreatDetectionPolicy PSCommand_Get-AzureRmSqlDatabaseThreatDetectionPolicy PSCmdlet_Set-AzureRmSqlDatabaseThreatDetectionPolicy PSCommand_Set-AzureRmSqlDatabaseThreatDetectionPolicy PSCmdlet_Remove-AzureRmSqlDatabaseThreatDetectionPolicy PSCommand_Remove-AzureRmSqlDatabaseThreatDetectionPolicy PSCmdlet_Get-AzureRmSqlDatabase PSCommand_Get-AzureRmSqlDatabase PSCmdlet_Get-AzureRmSqlDatabaseActivity PSCommand_Get-AzureRmSqlDatabaseActivity PSCmdlet_Get-AzureRmSqlDatabaseExpanded PSCommand_Get-AzureRmSqlDatabaseExpanded PSCmdlet_New-AzureRmSqlDatabase PSCommand_New-AzureRmSqlDatabase PSCmdlet_Remove-AzureRmSqlDatabase PSCommand_Remove-AzureRmSqlDatabase PSCmdlet_Set-AzureRmSqlDatabase PSCommand_Set-AzureRmSqlDatabase PSCmdlet_Get-AzureRmSqlDatabaseImportExportStatus PSCommand_Get-AzureRmSqlDatabaseImportExportStatus PSCmdlet_New-AzureRmSqlDatabaseExport PSCommand_New-AzureRmSqlDatabaseExport PSCmdlet_New-AzureRmSqlDatabaseImport PSCommand_New-AzureRmSqlDatabaseImport PSCmdlet_Get-AzureRmSqlDatabaseGeoBackupPolicy PSCommand_Get-AzureRmSqlDatabaseGeoBackupPolicy PSCmdlet_Set-AzureRmSqlDatabaseGeoBackupPolicy PSCommand_Set-AzureRmSqlDatabaseGeoBackupPolicy PSCmdlet_Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy PSCommand_Get-AzureRmSqlDatabaseBackupLongTermRetentionPolicy PSCmdlet_Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy PSCommand_Set-AzureRmSqlDatabaseBackupLongTermRetentionPolicy PSCmdlet_Get-AzureRmSqlDatabaseLongTermRetentionBackup PSCommand_Get-AzureRmSqlDatabaseLongTermRetentionBackup PSCmdlet_Remove-AzureRmSqlDatabaseLongTermRetentionBackup PSCommand_Remove-AzureRmSqlDatabaseLongTermRetentionBackup PSCmdlet_Get-AzureRmSqlDeletedDatabaseBackup PSCommand_Get-AzureRmSqlDeletedDatabaseBackup PSCmdlet_Get-AzureRmSqlDatabaseGeoBackup PSCommand_Get-AzureRmSqlDatabaseGeoBackup PSCmdlet_Get-AzureRmSqlServerBackupLongTermRetentionVault PSCommand_Get-AzureRmSqlServerBackupLongTermRetentionVault PSCmdlet_Restore-AzureRmSqlDatabase PSCommand_Restore-AzureRmSqlDatabase PSCmdlet_Set-AzureRmSqlServerBackupLongTermRetentionVault PSCommand_Set-AzureRmSqlServerBackupLongTermRetentionVault PSCmdlet_Get-AzureRmSqlDatabaseRestorePoints PSCommand_Get-AzureRmSqlDatabaseRestorePoints PSCmdlet_Get-AzureRmSqlDatabaseAuditingPolicy PSCommand_Get-AzureRmSqlDatabaseAuditingPolicy PSCmdlet_Get-AzureRmSqlServerAuditingPolicy PSCommand_Get-AzureRmSqlServerAuditingPolicy PSCmdlet_Get-AzureRmSqlDatabaseAuditing PSCommand_Get-AzureRmSqlDatabaseAuditing PSCmdlet_Get-AzureRmSqlServerAuditing PSCommand_Get-AzureRmSqlServerAuditing PSCmdlet_Remove-AzureRmSqlDatabaseAuditing PSCommand_Remove-AzureRmSqlDatabaseAuditing PSCmdlet_Remove-AzureRmSqlServerAuditing PSCommand_Remove-AzureRmSqlServerAuditing PSCmdlet_Set-AzureRmSqlDatabaseAuditingPolicy PSCommand_Set-AzureRmSqlDatabaseAuditingPolicy PSCmdlet_Set-AzureRmSqlServerAuditingPolicy PSCommand_Set-AzureRmSqlServerAuditingPolicy PSCmdlet_Set-AzureRmSqlDatabaseAuditing PSCommand_Set-AzureRmSqlDatabaseAuditing PSCmdlet_Set-AzureRmSqlServerAuditing PSCommand_Set-AzureRmSqlServerAuditing PSCmdlet_Use-AzureRmSqlServerAuditingPolicy PSCommand_Use-AzureRmSqlServerAuditingPolicy PSCmdlet_Get-AzureRmSqlDatabaseRecommendedAction PSCommand_Get-AzureRmSqlDatabaseRecommendedAction PSCmdlet_Get-AzureRmSqlElasticPoolRecommendedAction PSCommand_Get-AzureRmSqlElasticPoolRecommendedAction PSCmdlet_Get-AzureRmSqlServerRecommendedAction PSCommand_Get-AzureRmSqlServerRecommendedAction PSCmdlet_Set-AzureRmSqlDatabaseRecommendedActionState PSCommand_Set-AzureRmSqlDatabaseRecommendedActionState PSCmdlet_Set-AzureRmSqlElasticPoolRecommendedActionState PSCommand_Set-AzureRmSqlElasticPoolRecommendedActionState PSCmdlet_Set-AzureRmSqlServerRecommendedActionState PSCommand_Set-AzureRmSqlServerRecommendedActionState PSCmdlet_Get-AzureRmSqlElasticPoolAdvisor PSCommand_Get-AzureRmSqlElasticPoolAdvisor PSCmdlet_Get-AzureRmSqlServerAdvisor PSCommand_Get-AzureRmSqlServerAdvisor PSCmdlet_Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus PSCommand_Set-AzureRmSqlElasticPoolAdvisorAutoExecuteStatus PSCmdlet_Set-AzureRmSqlServerAdvisorAutoExecuteStatus PSCommand_Set-AzureRmSqlServerAdvisorAutoExecuteStatus PSCmdlet_Get-AzureRmSqlDatabaseAdvisor PSCommand_Get-AzureRmSqlDatabaseAdvisor PSCmdlet_Set-AzureRmSqlDatabaseAdvisorAutoExecuteStatus PSCommand_Set-AzureRmSqlDatabaseAdvisorAutoExecuteStatus PSCmdlet_Get-AzureRmSqlServerTransparentDataEncryptionProtector PSCommand_Get-AzureRmSqlServerTransparentDataEncryptionProtector PSCmdlet_Set-AzureRmSqlServerTransparentDataEncryptionProtector PSCommand_Set-AzureRmSqlServerTransparentDataEncryptionProtector PSCmdlet_Add-AzureRmSqlServerKeyVaultKey PSCommand_Add-AzureRmSqlServerKeyVaultKey PSCmdlet_Get-AzureRmSqlServerKeyVaultKey PSCommand_Get-AzureRmSqlServerKeyVaultKey PSCmdlet_Remove-AzureRmSqlServerKeyVaultKey PSCommand_Remove-AzureRmSqlServerKeyVaultKey PSCmdlet_Get-AzureRmSqlDatabaseFailoverGroup PSCommand_Get-AzureRmSqlDatabaseFailoverGroup PSCmdlet_New-AzureRmSqlDatabaseFailoverGroup PSCommand_New-AzureRmSqlDatabaseFailoverGroup PSCmdlet_Add-AzureRmSqlDatabaseToFailoverGroup PSCommand_Add-AzureRmSqlDatabaseToFailoverGroup PSCmdlet_Remove-AzureRmSqlDatabaseFromFailoverGroup PSCommand_Remove-AzureRmSqlDatabaseFromFailoverGroup PSCmdlet_Remove-AzureRmSqlDatabaseFailoverGroup PSCommand_Remove-AzureRmSqlDatabaseFailoverGroup PSCmdlet_Set-AzureRmSqlDatabaseFailoverGroup PSCommand_Set-AzureRmSqlDatabaseFailoverGroup PSCmdlet_Switch-AzureRmSqlDatabaseFailoverGroup PSCommand_Switch-AzureRmSqlDatabaseFailoverGroup PSCmdlet_New-AzureRmSqlSyncGroup PSCommand_New-AzureRmSqlSyncGroup PSCmdlet_Update-AzureRmSqlSyncGroup PSCommand_Update-AzureRmSqlSyncGroup PSCmdlet_Get-AzureRmSqlSyncGroup PSCommand_Get-AzureRmSqlSyncGroup PSCmdlet_Get-AzureRmSqlSyncGroupLog PSCommand_Get-AzureRmSqlSyncGroupLog PSCmdlet_Remove-AzureRmSqlSyncGroup PSCommand_Remove-AzureRmSqlSyncGroup PSCmdlet_Update-AzureRmSqlSyncSchema PSCommand_Update-AzureRmSqlSyncSchema PSCmdlet_Get-AzureRmSqlSyncSchema PSCommand_Get-AzureRmSqlSyncSchema PSCmdlet_Start-AzureRmSqlSyncGroupSync PSCommand_Start-AzureRmSqlSyncGroupSync PSCmdlet_Stop-AzureRmSqlSyncGroupSync PSCommand_Stop-AzureRmSqlSyncGroupSync PSCmdlet_New-AzureRmSqlSyncMember PSCommand_New-AzureRmSqlSyncMember PSCmdlet_Update-AzureRmSqlSyncMember PSCommand_Update-AzureRmSqlSyncMember PSCmdlet_Get-AzureRmSqlSyncMember PSCommand_Get-AzureRmSqlSyncMember PSCmdlet_Remove-AzureRmSqlSyncMember PSCommand_Remove-AzureRmSqlSyncMember PSCmdlet_New-AzureRmSqlSyncAgent PSCommand_New-AzureRmSqlSyncAgent PSCmdlet_Get-AzureRmSqlSyncAgent PSCommand_Get-AzureRmSqlSyncAgent PSCmdlet_Remove-AzureRmSqlSyncAgent PSCommand_Remove-AzureRmSqlSyncAgent PSCmdlet_New-AzureRmSqlSyncAgentKey PSCommand_New-AzureRmSqlSyncAgentKey PSCmdlet_Get-AzureRmSqlSyncAgentLinkedDatabase PSCommand_Get-AzureRmSqlSyncAgentLinkedDatabase PSCmdlet_New-AzureRmSqlServerVirtualNetworkRule PSCommand_New-AzureRmSqlServerVirtualNetworkRule PSCmdlet_Set-AzureRmSqlServerVirtualNetworkRule PSCommand_Set-AzureRmSqlServerVirtualNetworkRule PSCmdlet_Get-AzureRmSqlServerVirtualNetworkRule PSCommand_Get-AzureRmSqlServerVirtualNetworkRule PSCmdlet_Remove-AzureRmSqlServerVirtualNetworkRule PSCommand_Remove-AzureRmSqlServerVirtualNetworkRule PSCmdlet_Stop-AzureRmSqlDatabaseActivity PSCommand_Stop-AzureRmSqlDatabaseActivity PSCmdlet_Get-AzureRmSqlServerDnsAlias PSCommand_Get-AzureRmSqlServerDnsAlias PSCmdlet_Remove-AzureRmSqlServerDnsAlias PSCommand_Remove-AzureRmSqlServerDnsAlias PSCmdlet_New-AzureRmSqlServerDnsAlias PSCommand_New-AzureRmSqlServerDnsAlias PSCmdlet_Set-AzureRmSqlServerDnsAlias PSCommand_Set-AzureRmSqlServerDnsAlias PSCmdlet_New-AzureRmSqlDatabaseRestorePoint PSCommand_New-AzureRmSqlDatabaseRestorePoint PSCmdlet_Remove-AzureRmSqlDatabaseRestorePoint PSCommand_Remove-AzureRmSqlDatabaseRestorePoint PSCmdlet_Stop-AzureRmSqlElasticPoolActivity PSCommand_Stop-AzureRmSqlElasticPoolActivity PSCmdlet_Add-AzureRmSqlServerTransparentDataEncryptionCertificate PSCommand_Add-AzureRmSqlServerTransparentDataEncryptionCertificate PSCmdlet_Add-AzureRmSqlManagedInstanceTransparentDataEncryptionCertificate PSCommand_Add-AzureRmSqlManagedInstanceTransparentDataEncryptionCertificate PSCmdlet_Enable-AzureRmSqlServerAdvancedThreatProtection PSCommand_Enable-AzureRmSqlServerAdvancedThreatProtection PSCmdlet_Disable-AzureRmSqlServerAdvancedThreatProtection PSCommand_Disable-AzureRmSqlServerAdvancedThreatProtection PSCmdlet_Get-AzureRmSqlServerAdvancedThreatProtectionPolicy PSCommand_Get-AzureRmSqlServerAdvancedThreatProtectionPolicy PSCmdlet_Update-AzureRmSqlDatabaseVulnerabilityAssessmentSettings PSCommand_Update-AzureRmSqlDatabaseVulnerabilityAssessmentSettings PSCmdlet_Get-AzureRmSqlDatabaseVulnerabilityAssessmentSettings PSCommand_Get-AzureRmSqlDatabaseVulnerabilityAssessmentSettings PSCmdlet_Clear-AzureRmSqlDatabaseVulnerabilityAssessmentSettings PSCommand_Clear-AzureRmSqlDatabaseVulnerabilityAssessmentSettings PSCmdlet_Set-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline PSCommand_Set-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline PSCmdlet_Get-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline PSCommand_Get-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline PSCmdlet_Clear-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline PSCommand_Clear-AzureRmSqlDatabaseVulnerabilityAssessmentRuleBaseline PSCmdlet_Convert-AzureRmSqlDatabaseVulnerabilityAssessmentScan PSCommand_Convert-AzureRmSqlDatabaseVulnerabilityAssessmentScan PSCmdlet_Get-AzureRmSqlDatabaseVulnerabilityAssessmentScanRecord PSCommand_Get-AzureRmSqlDatabaseVulnerabilityAssessmentScanRecord PSCmdlet_Start-AzureRmSqlDatabaseVulnerabilityAssessmentScan PSCommand_Start-AzureRmSqlDatabaseVulnerabilityAssessmentScan PSCmdlet_Get-AzureRmSqlInstance PSCommand_Get-AzureRmSqlInstance PSCmdlet_New-AzureRmSqlInstance PSCommand_New-AzureRmSqlInstance PSCmdlet_Remove-AzureRmSqlInstance PSCommand_Remove-AzureRmSqlInstance PSCmdlet_Set-AzureRmSqlInstance PSCommand_Set-AzureRmSqlInstance PSCmdlet_Get-AzureRmSqlInstanceDatabase PSCommand_Get-AzureRmSqlInstanceDatabase PSCmdlet_New-AzureRmSqlInstanceDatabase PSCommand_New-AzureRmSqlInstanceDatabase PSCmdlet_Remove-AzureRmSqlInstanceDatabase PSCommand_Remove-AzureRmSqlInstanceDatabase PSCmdlet_Restore-AzureRmSqlInstanceDatabase PSCommand_Restore-AzureRmSqlInstanceDatabase PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">4.12.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Sql.nuspec|AzureRM.Sql.psd1|AzureRM.Sql.psm1|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Commands.Sql.dll|Microsoft.Azure.Commands.Sql.dll-Help.xml|Microsoft.Azure.Commands.Sql.format.ps1xml|Microsoft.Azure.Commands.Sql.Types.ps1xml|Microsoft.Azure.Management.Sql.dll|Microsoft.Azure.Management.Sql.Legacy.dll|Microsoft.Azure.Management.Storage.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.WindowsAzure.Storage.dll|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">150d9544-6348-4373-806f-10cd0b4de4cb</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Sql\4.12.1</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,301 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Batch</S>
+      <Version N="Version">4.1.5</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Batch service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:40:25-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:24.3352773-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Batch</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Remove-AzureRmBatchAccount</S>
+                <S>Get-AzureRmBatchAccount</S>
+                <S>Get-AzureRmBatchAccountKeys</S>
+                <S>New-AzureRmBatchAccount</S>
+                <S>New-AzureRmBatchAccountKey</S>
+                <S>Set-AzureRmBatchAccount</S>
+                <S>New-AzureRmBatchApplicationPackage</S>
+                <S>Get-AzureBatchJobStatistics</S>
+                <S>Remove-AzureRmBatchApplication</S>
+                <S>Remove-AzureRmBatchApplicationPackage</S>
+                <S>Get-AzureRmBatchApplicationPackage</S>
+                <S>Get-AzureRmBatchApplication</S>
+                <S>Set-AzureRmBatchApplication</S>
+                <S>New-AzureRmBatchApplication</S>
+                <S>Get-AzureBatchCertificate</S>
+                <S>Remove-AzureBatchCertificate</S>
+                <S>New-AzureBatchCertificate</S>
+                <S>Stop-AzureBatchCertificateDeletion</S>
+                <S>Disable-AzureBatchComputeNodeScheduling</S>
+                <S>Enable-AzureBatchComputeNodeScheduling</S>
+                <S>Get-AzureBatchRemoteLoginSettings</S>
+                <S>Remove-AzureBatchComputeNode</S>
+                <S>Reset-AzureBatchComputeNode</S>
+                <S>Restart-AzureBatchComputeNode</S>
+                <S>Set-AzureBatchComputeNodeUser</S>
+                <S>Get-AzureBatchNodeFile</S>
+                <S>Get-AzureBatchNodeFileContent</S>
+                <S>Get-AzureBatchRemoteDesktopProtocolFile</S>
+                <S>Remove-AzureBatchNodeFile</S>
+                <S>Disable-AzureBatchJobSchedule</S>
+                <S>Enable-AzureBatchJobSchedule</S>
+                <S>Set-AzureBatchJobSchedule</S>
+                <S>Stop-AzureBatchJobSchedule</S>
+                <S>Disable-AzureBatchJob</S>
+                <S>Enable-AzureBatchJob</S>
+                <S>New-AzureBatchJob</S>
+                <S>Remove-AzureBatchJob</S>
+                <S>Set-AzureBatchJob</S>
+                <S>Stop-AzureBatchJob</S>
+                <S>Get-AzureBatchJob</S>
+                <S>Get-AzureBatchJobPreparationAndReleaseTaskStatus</S>
+                <S>Disable-AzureBatchAutoScale</S>
+                <S>Enable-AzureBatchAutoScale</S>
+                <S>Get-AzureBatchPoolStatistics</S>
+                <S>Get-AzureBatchPoolUsageMetrics</S>
+                <S>Get-AzureBatchPool</S>
+                <S>Get-AzureBatchNodeAgentSku</S>
+                <S>New-AzureBatchPool</S>
+                <S>Remove-AzureBatchPool</S>
+                <S>Set-AzureBatchPool</S>
+                <S>Set-AzureBatchPoolOSVersion</S>
+                <S>Start-AzureBatchPoolResize</S>
+                <S>Stop-AzureBatchPoolResize</S>
+                <S>Test-AzureBatchAutoScale</S>
+                <S>Get-AzureRmBatchLocationQuotas</S>
+                <S>Get-AzureBatchSubtask</S>
+                <S>Get-AzureBatchTask</S>
+                <S>New-AzureBatchTask</S>
+                <S>Remove-AzureBatchTask</S>
+                <S>New-AzureBatchComputeNodeUser</S>
+                <S>Remove-AzureBatchComputeNodeUser</S>
+                <S>Enable-AzureBatchTask</S>
+                <S>Set-AzureBatchTask</S>
+                <S>Stop-AzureBatchTask</S>
+                <S>Get-AzureBatchComputeNode</S>
+                <S>Get-AzureBatchJobSchedule</S>
+                <S>New-AzureBatchJobSchedule</S>
+                <S>Remove-AzureBatchJobSchedule</S>
+                <S>Get-AzureBatchTaskCounts</S>
+                <S>Get-AzureBatchPoolNodeCounts</S>
+                <S>Start-AzureBatchComputeNodeServiceLogUpload</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Remove-AzureRmBatchAccount</S>
+                <S>Get-AzureRmBatchAccount</S>
+                <S>Get-AzureRmBatchAccountKeys</S>
+                <S>New-AzureRmBatchAccount</S>
+                <S>New-AzureRmBatchAccountKey</S>
+                <S>Set-AzureRmBatchAccount</S>
+                <S>New-AzureRmBatchApplicationPackage</S>
+                <S>Get-AzureBatchJobStatistics</S>
+                <S>Remove-AzureRmBatchApplication</S>
+                <S>Remove-AzureRmBatchApplicationPackage</S>
+                <S>Get-AzureRmBatchApplicationPackage</S>
+                <S>Get-AzureRmBatchApplication</S>
+                <S>Set-AzureRmBatchApplication</S>
+                <S>New-AzureRmBatchApplication</S>
+                <S>Get-AzureBatchCertificate</S>
+                <S>Remove-AzureBatchCertificate</S>
+                <S>New-AzureBatchCertificate</S>
+                <S>Stop-AzureBatchCertificateDeletion</S>
+                <S>Disable-AzureBatchComputeNodeScheduling</S>
+                <S>Enable-AzureBatchComputeNodeScheduling</S>
+                <S>Get-AzureBatchRemoteLoginSettings</S>
+                <S>Remove-AzureBatchComputeNode</S>
+                <S>Reset-AzureBatchComputeNode</S>
+                <S>Restart-AzureBatchComputeNode</S>
+                <S>Set-AzureBatchComputeNodeUser</S>
+                <S>Get-AzureBatchNodeFile</S>
+                <S>Get-AzureBatchNodeFileContent</S>
+                <S>Get-AzureBatchRemoteDesktopProtocolFile</S>
+                <S>Remove-AzureBatchNodeFile</S>
+                <S>Disable-AzureBatchJobSchedule</S>
+                <S>Enable-AzureBatchJobSchedule</S>
+                <S>Set-AzureBatchJobSchedule</S>
+                <S>Stop-AzureBatchJobSchedule</S>
+                <S>Disable-AzureBatchJob</S>
+                <S>Enable-AzureBatchJob</S>
+                <S>New-AzureBatchJob</S>
+                <S>Remove-AzureBatchJob</S>
+                <S>Set-AzureBatchJob</S>
+                <S>Stop-AzureBatchJob</S>
+                <S>Get-AzureBatchJob</S>
+                <S>Get-AzureBatchJobPreparationAndReleaseTaskStatus</S>
+                <S>Disable-AzureBatchAutoScale</S>
+                <S>Enable-AzureBatchAutoScale</S>
+                <S>Get-AzureBatchPoolStatistics</S>
+                <S>Get-AzureBatchPoolUsageMetrics</S>
+                <S>Get-AzureBatchPool</S>
+                <S>Get-AzureBatchNodeAgentSku</S>
+                <S>New-AzureBatchPool</S>
+                <S>Remove-AzureBatchPool</S>
+                <S>Set-AzureBatchPool</S>
+                <S>Set-AzureBatchPoolOSVersion</S>
+                <S>Start-AzureBatchPoolResize</S>
+                <S>Stop-AzureBatchPoolResize</S>
+                <S>Test-AzureBatchAutoScale</S>
+                <S>Get-AzureRmBatchLocationQuotas</S>
+                <S>Get-AzureBatchSubtask</S>
+                <S>Get-AzureBatchTask</S>
+                <S>New-AzureBatchTask</S>
+                <S>Remove-AzureBatchTask</S>
+                <S>New-AzureBatchComputeNodeUser</S>
+                <S>Remove-AzureBatchComputeNodeUser</S>
+                <S>Enable-AzureBatchTask</S>
+                <S>Set-AzureBatchTask</S>
+                <S>Stop-AzureBatchTask</S>
+                <S>Get-AzureBatchComputeNode</S>
+                <S>Get-AzureBatchJobSchedule</S>
+                <S>New-AzureBatchJobSchedule</S>
+                <S>Remove-AzureBatchJobSchedule</S>
+                <S>Get-AzureBatchTaskCounts</S>
+                <S>Get-AzureBatchPoolNodeCounts</S>
+                <S>Start-AzureBatchComputeNodeServiceLogUpload</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Batch service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">6053419</S>
+          <S N="downloadCount">8994180</S>
+          <S N="packageSize">1949987</S>
+          <S N="published">8/29/2018 10:40:25 PM -04:00</S>
+          <S N="created">8/29/2018 10:40:25 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Batch PSModule PSCmdlet_Remove-AzureRmBatchAccount PSCommand_Remove-AzureRmBatchAccount PSCmdlet_Get-AzureRmBatchAccount PSCommand_Get-AzureRmBatchAccount PSCmdlet_Get-AzureRmBatchAccountKeys PSCommand_Get-AzureRmBatchAccountKeys PSCmdlet_New-AzureRmBatchAccount PSCommand_New-AzureRmBatchAccount PSCmdlet_New-AzureRmBatchAccountKey PSCommand_New-AzureRmBatchAccountKey PSCmdlet_Set-AzureRmBatchAccount PSCommand_Set-AzureRmBatchAccount PSCmdlet_New-AzureRmBatchApplicationPackage PSCommand_New-AzureRmBatchApplicationPackage PSCmdlet_Get-AzureBatchJobStatistics PSCommand_Get-AzureBatchJobStatistics PSCmdlet_Remove-AzureRmBatchApplication PSCommand_Remove-AzureRmBatchApplication PSCmdlet_Remove-AzureRmBatchApplicationPackage PSCommand_Remove-AzureRmBatchApplicationPackage PSCmdlet_Get-AzureRmBatchApplicationPackage PSCommand_Get-AzureRmBatchApplicationPackage PSCmdlet_Get-AzureRmBatchApplication PSCommand_Get-AzureRmBatchApplication PSCmdlet_Set-AzureRmBatchApplication PSCommand_Set-AzureRmBatchApplication PSCmdlet_New-AzureRmBatchApplication PSCommand_New-AzureRmBatchApplication PSCmdlet_Get-AzureBatchCertificate PSCommand_Get-AzureBatchCertificate PSCmdlet_Remove-AzureBatchCertificate PSCommand_Remove-AzureBatchCertificate PSCmdlet_New-AzureBatchCertificate PSCommand_New-AzureBatchCertificate PSCmdlet_Stop-AzureBatchCertificateDeletion PSCommand_Stop-AzureBatchCertificateDeletion PSCmdlet_Disable-AzureBatchComputeNodeScheduling PSCommand_Disable-AzureBatchComputeNodeScheduling PSCmdlet_Enable-AzureBatchComputeNodeScheduling PSCommand_Enable-AzureBatchComputeNodeScheduling PSCmdlet_Get-AzureBatchRemoteLoginSettings PSCommand_Get-AzureBatchRemoteLoginSettings PSCmdlet_Remove-AzureBatchComputeNode PSCommand_Remove-AzureBatchComputeNode PSCmdlet_Reset-AzureBatchComputeNode PSCommand_Reset-AzureBatchComputeNode PSCmdlet_Restart-AzureBatchComputeNode PSCommand_Restart-AzureBatchComputeNode PSCmdlet_Set-AzureBatchComputeNodeUser PSCommand_Set-AzureBatchComputeNodeUser PSCmdlet_Get-AzureBatchNodeFile PSCommand_Get-AzureBatchNodeFile PSCmdlet_Get-AzureBatchNodeFileContent PSCommand_Get-AzureBatchNodeFileContent PSCmdlet_Get-AzureBatchRemoteDesktopProtocolFile PSCommand_Get-AzureBatchRemoteDesktopProtocolFile PSCmdlet_Remove-AzureBatchNodeFile PSCommand_Remove-AzureBatchNodeFile PSCmdlet_Disable-AzureBatchJobSchedule PSCommand_Disable-AzureBatchJobSchedule PSCmdlet_Enable-AzureBatchJobSchedule PSCommand_Enable-AzureBatchJobSchedule PSCmdlet_Set-AzureBatchJobSchedule PSCommand_Set-AzureBatchJobSchedule PSCmdlet_Stop-AzureBatchJobSchedule PSCommand_Stop-AzureBatchJobSchedule PSCmdlet_Disable-AzureBatchJob PSCommand_Disable-AzureBatchJob PSCmdlet_Enable-AzureBatchJob PSCommand_Enable-AzureBatchJob PSCmdlet_New-AzureBatchJob PSCommand_New-AzureBatchJob PSCmdlet_Remove-AzureBatchJob PSCommand_Remove-AzureBatchJob PSCmdlet_Set-AzureBatchJob PSCommand_Set-AzureBatchJob PSCmdlet_Stop-AzureBatchJob PSCommand_Stop-AzureBatchJob PSCmdlet_Get-AzureBatchJob PSCommand_Get-AzureBatchJob PSCmdlet_Get-AzureBatchJobPreparationAndReleaseTaskStatus PSCommand_Get-AzureBatchJobPreparationAndReleaseTaskStatus PSCmdlet_Disable-AzureBatchAutoScale PSCommand_Disable-AzureBatchAutoScale PSCmdlet_Enable-AzureBatchAutoScale PSCommand_Enable-AzureBatchAutoScale PSCmdlet_Get-AzureBatchPoolStatistics PSCommand_Get-AzureBatchPoolStatistics PSCmdlet_Get-AzureBatchPoolUsageMetrics PSCommand_Get-AzureBatchPoolUsageMetrics PSCmdlet_Get-AzureBatchPool PSCommand_Get-AzureBatchPool PSCmdlet_Get-AzureBatchNodeAgentSku PSCommand_Get-AzureBatchNodeAgentSku PSCmdlet_New-AzureBatchPool PSCommand_New-AzureBatchPool PSCmdlet_Remove-AzureBatchPool PSCommand_Remove-AzureBatchPool PSCmdlet_Set-AzureBatchPool PSCommand_Set-AzureBatchPool PSCmdlet_Set-AzureBatchPoolOSVersion PSCommand_Set-AzureBatchPoolOSVersion PSCmdlet_Start-AzureBatchPoolResize PSCommand_Start-AzureBatchPoolResize PSCmdlet_Stop-AzureBatchPoolResize PSCommand_Stop-AzureBatchPoolResize PSCmdlet_Test-AzureBatchAutoScale PSCommand_Test-AzureBatchAutoScale PSCmdlet_Get-AzureRmBatchLocationQuotas PSCommand_Get-AzureRmBatchLocationQuotas PSCmdlet_Get-AzureBatchSubtask PSCommand_Get-AzureBatchSubtask PSCmdlet_Get-AzureBatchTask PSCommand_Get-AzureBatchTask PSCmdlet_New-AzureBatchTask PSCommand_New-AzureBatchTask PSCmdlet_Remove-AzureBatchTask PSCommand_Remove-AzureBatchTask PSCmdlet_New-AzureBatchComputeNodeUser PSCommand_New-AzureBatchComputeNodeUser PSCmdlet_Remove-AzureBatchComputeNodeUser PSCommand_Remove-AzureBatchComputeNodeUser PSCmdlet_Enable-AzureBatchTask PSCommand_Enable-AzureBatchTask PSCmdlet_Set-AzureBatchTask PSCommand_Set-AzureBatchTask PSCmdlet_Stop-AzureBatchTask PSCommand_Stop-AzureBatchTask PSCmdlet_Get-AzureBatchComputeNode PSCommand_Get-AzureBatchComputeNode PSCmdlet_Get-AzureBatchJobSchedule PSCommand_Get-AzureBatchJobSchedule PSCmdlet_New-AzureBatchJobSchedule PSCommand_New-AzureBatchJobSchedule PSCmdlet_Remove-AzureBatchJobSchedule PSCommand_Remove-AzureBatchJobSchedule PSCmdlet_Get-AzureBatchTaskCounts PSCommand_Get-AzureBatchTaskCounts PSCmdlet_Get-AzureBatchPoolNodeCounts PSCommand_Get-AzureBatchPoolNodeCounts PSCmdlet_Start-AzureBatchComputeNodeServiceLogUpload PSCommand_Start-AzureBatchComputeNodeServiceLogUpload PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">4.1.5</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Batch.nuspec|AzureRM.Batch.psd1|AzureRM.Batch.psm1|Microsoft.Azure.Batch.dll|Microsoft.Azure.Commands.Batch.dll|Microsoft.Azure.Commands.Batch.dll-Help.xml|Microsoft.Azure.Commands.Batch.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.Batch.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.WindowsAzure.Storage.dll|System.Spatial.dll</S>
+          <S N="GUID">a8f00f40-1c1a-49b5-9db3-24076b75c3cf</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Batch\4.1.5</S>
+    </MS>
+  </Obj>
+</Objs>

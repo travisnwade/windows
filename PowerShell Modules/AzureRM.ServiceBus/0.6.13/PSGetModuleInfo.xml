@@ -1,0 +1,235 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.ServiceBus</S>
+      <Version N="Version">0.6.13</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - ServiceBus service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-06T18:16:01-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:20.3079496-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>ServiceBus</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-AzureRmServiceBusNamespace</S>
+                <S>Get-AzureRmServiceBusNamespace</S>
+                <S>Set-AzureRmServiceBusNamespace</S>
+                <S>Remove-AzureRmServiceBusNamespace</S>
+                <S>New-AzureRmServiceBusQueue</S>
+                <S>Get-AzureRmServiceBusQueue</S>
+                <S>Set-AzureRmServiceBusQueue</S>
+                <S>Remove-AzureRmServiceBusQueue</S>
+                <S>New-AzureRmServiceBusTopic</S>
+                <S>Get-AzureRmServiceBusTopic</S>
+                <S>Set-AzureRmServiceBusTopic</S>
+                <S>Remove-AzureRmServiceBusTopic</S>
+                <S>New-AzureRmServiceBusSubscription</S>
+                <S>Get-AzureRmServiceBusSubscription</S>
+                <S>Set-AzureRmServiceBusSubscription</S>
+                <S>Remove-AzureRmServiceBusSubscription</S>
+                <S>New-AzureRmServiceBusAuthorizationRule</S>
+                <S>Get-AzureRmServiceBusAuthorizationRule</S>
+                <S>Set-AzureRmServiceBusAuthorizationRule</S>
+                <S>Remove-AzureRmServiceBusAuthorizationRule</S>
+                <S>New-AzureRmServiceBusKey</S>
+                <S>Get-AzureRmServiceBusKey</S>
+                <S>Get-AzureRmServiceBusOperation</S>
+                <S>New-AzureRmServiceBusRule</S>
+                <S>Get-AzureRmServiceBusRule</S>
+                <S>Set-AzureRmServiceBusRule</S>
+                <S>Remove-AzureRmServiceBusRule</S>
+                <S>New-AzureRmServiceBusGeoDRConfiguration</S>
+                <S>Get-AzureRmServiceBusGeoDRConfiguration</S>
+                <S>Remove-AzureRmServiceBusGeoDRConfiguration</S>
+                <S>Set-AzureRmServiceBusGeoDRConfigurationBreakPair</S>
+                <S>Set-AzureRmServiceBusGeoDRConfigurationFailOver</S>
+                <S>Test-AzureRmServiceBusName</S>
+                <S>Get-AzureRmServiceBusMigration</S>
+                <S>Stop-AzureRmServiceBusMigration</S>
+                <S>Start-AzureRmServiceBusMigration</S>
+                <S>Complete-AzureRmServiceBusMigration</S>
+                <S>Remove-AzureRmServiceBusMigration</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-AzureRmServiceBusNamespace</S>
+                <S>Get-AzureRmServiceBusNamespace</S>
+                <S>Set-AzureRmServiceBusNamespace</S>
+                <S>Remove-AzureRmServiceBusNamespace</S>
+                <S>New-AzureRmServiceBusQueue</S>
+                <S>Get-AzureRmServiceBusQueue</S>
+                <S>Set-AzureRmServiceBusQueue</S>
+                <S>Remove-AzureRmServiceBusQueue</S>
+                <S>New-AzureRmServiceBusTopic</S>
+                <S>Get-AzureRmServiceBusTopic</S>
+                <S>Set-AzureRmServiceBusTopic</S>
+                <S>Remove-AzureRmServiceBusTopic</S>
+                <S>New-AzureRmServiceBusSubscription</S>
+                <S>Get-AzureRmServiceBusSubscription</S>
+                <S>Set-AzureRmServiceBusSubscription</S>
+                <S>Remove-AzureRmServiceBusSubscription</S>
+                <S>New-AzureRmServiceBusAuthorizationRule</S>
+                <S>Get-AzureRmServiceBusAuthorizationRule</S>
+                <S>Set-AzureRmServiceBusAuthorizationRule</S>
+                <S>Remove-AzureRmServiceBusAuthorizationRule</S>
+                <S>New-AzureRmServiceBusKey</S>
+                <S>Get-AzureRmServiceBusKey</S>
+                <S>Get-AzureRmServiceBusOperation</S>
+                <S>New-AzureRmServiceBusRule</S>
+                <S>Get-AzureRmServiceBusRule</S>
+                <S>Set-AzureRmServiceBusRule</S>
+                <S>Remove-AzureRmServiceBusRule</S>
+                <S>New-AzureRmServiceBusGeoDRConfiguration</S>
+                <S>Get-AzureRmServiceBusGeoDRConfiguration</S>
+                <S>Remove-AzureRmServiceBusGeoDRConfiguration</S>
+                <S>Set-AzureRmServiceBusGeoDRConfigurationBreakPair</S>
+                <S>Set-AzureRmServiceBusGeoDRConfigurationFailOver</S>
+                <S>Test-AzureRmServiceBusName</S>
+                <S>Get-AzureRmServiceBusMigration</S>
+                <S>Stop-AzureRmServiceBusMigration</S>
+                <S>Start-AzureRmServiceBusMigration</S>
+                <S>Complete-AzureRmServiceBusMigration</S>
+                <S>Remove-AzureRmServiceBusMigration</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Added MigrationState read-only property to PSServiceBusMigrationConfigurationAttributes which will help to know the Migration state.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - ServiceBus service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Added MigrationState read-only property to PSServiceBusMigrationConfigurationAttributes which will help to know the Migration state.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4489590</S>
+          <S N="downloadCount">7448244</S>
+          <S N="packageSize">225119</S>
+          <S N="published">11/6/2018 6:16:01 PM -05:00</S>
+          <S N="created">11/6/2018 6:16:01 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM ServiceBus PSModule PSCmdlet_New-AzureRmServiceBusNamespace PSCommand_New-AzureRmServiceBusNamespace PSCmdlet_Get-AzureRmServiceBusNamespace PSCommand_Get-AzureRmServiceBusNamespace PSCmdlet_Set-AzureRmServiceBusNamespace PSCommand_Set-AzureRmServiceBusNamespace PSCmdlet_Remove-AzureRmServiceBusNamespace PSCommand_Remove-AzureRmServiceBusNamespace PSCmdlet_New-AzureRmServiceBusQueue PSCommand_New-AzureRmServiceBusQueue PSCmdlet_Get-AzureRmServiceBusQueue PSCommand_Get-AzureRmServiceBusQueue PSCmdlet_Set-AzureRmServiceBusQueue PSCommand_Set-AzureRmServiceBusQueue PSCmdlet_Remove-AzureRmServiceBusQueue PSCommand_Remove-AzureRmServiceBusQueue PSCmdlet_New-AzureRmServiceBusTopic PSCommand_New-AzureRmServiceBusTopic PSCmdlet_Get-AzureRmServiceBusTopic PSCommand_Get-AzureRmServiceBusTopic PSCmdlet_Set-AzureRmServiceBusTopic PSCommand_Set-AzureRmServiceBusTopic PSCmdlet_Remove-AzureRmServiceBusTopic PSCommand_Remove-AzureRmServiceBusTopic PSCmdlet_New-AzureRmServiceBusSubscription PSCommand_New-AzureRmServiceBusSubscription PSCmdlet_Get-AzureRmServiceBusSubscription PSCommand_Get-AzureRmServiceBusSubscription PSCmdlet_Set-AzureRmServiceBusSubscription PSCommand_Set-AzureRmServiceBusSubscription PSCmdlet_Remove-AzureRmServiceBusSubscription PSCommand_Remove-AzureRmServiceBusSubscription PSCmdlet_New-AzureRmServiceBusAuthorizationRule PSCommand_New-AzureRmServiceBusAuthorizationRule PSCmdlet_Get-AzureRmServiceBusAuthorizationRule PSCommand_Get-AzureRmServiceBusAuthorizationRule PSCmdlet_Set-AzureRmServiceBusAuthorizationRule PSCommand_Set-AzureRmServiceBusAuthorizationRule PSCmdlet_Remove-AzureRmServiceBusAuthorizationRule PSCommand_Remove-AzureRmServiceBusAuthorizationRule PSCmdlet_New-AzureRmServiceBusKey PSCommand_New-AzureRmServiceBusKey PSCmdlet_Get-AzureRmServiceBusKey PSCommand_Get-AzureRmServiceBusKey PSCmdlet_Get-AzureRmServiceBusOperation PSCommand_Get-AzureRmServiceBusOperation PSCmdlet_New-AzureRmServiceBusRule PSCommand_New-AzureRmServiceBusRule PSCmdlet_Get-AzureRmServiceBusRule PSCommand_Get-AzureRmServiceBusRule PSCmdlet_Set-AzureRmServiceBusRule PSCommand_Set-AzureRmServiceBusRule PSCmdlet_Remove-AzureRmServiceBusRule PSCommand_Remove-AzureRmServiceBusRule PSCmdlet_New-AzureRmServiceBusGeoDRConfiguration PSCommand_New-AzureRmServiceBusGeoDRConfiguration PSCmdlet_Get-AzureRmServiceBusGeoDRConfiguration PSCommand_Get-AzureRmServiceBusGeoDRConfiguration PSCmdlet_Remove-AzureRmServiceBusGeoDRConfiguration PSCommand_Remove-AzureRmServiceBusGeoDRConfiguration PSCmdlet_Set-AzureRmServiceBusGeoDRConfigurationBreakPair PSCommand_Set-AzureRmServiceBusGeoDRConfigurationBreakPair PSCmdlet_Set-AzureRmServiceBusGeoDRConfigurationFailOver PSCommand_Set-AzureRmServiceBusGeoDRConfigurationFailOver PSCmdlet_Test-AzureRmServiceBusName PSCommand_Test-AzureRmServiceBusName PSCmdlet_Get-AzureRmServiceBusMigration PSCommand_Get-AzureRmServiceBusMigration PSCmdlet_Stop-AzureRmServiceBusMigration PSCommand_Stop-AzureRmServiceBusMigration PSCmdlet_Start-AzureRmServiceBusMigration PSCommand_Start-AzureRmServiceBusMigration PSCmdlet_Complete-AzureRmServiceBusMigration PSCommand_Complete-AzureRmServiceBusMigration PSCmdlet_Remove-AzureRmServiceBusMigration PSCommand_Remove-AzureRmServiceBusMigration PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">0.6.13</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.ServiceBus.nuspec|AzureRM.ServiceBus.psd1|AzureRM.ServiceBus.psm1|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Commands.ServiceBus.dll|Microsoft.Azure.Commands.ServiceBus.dll-Help.xml|Microsoft.Azure.Commands.ServiceBus.format.ps1xml|Microsoft.Azure.Management.ServiceBus.dll</S>
+          <S N="GUID">cc69c625-e961-43f4-8b50-0061eba6e4b6</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.ServiceBus\0.6.13</S>
+    </MS>
+  </Obj>
+</Objs>

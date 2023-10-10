@@ -1,0 +1,255 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Websites</S>
+      <Version N="Version">5.2.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Websites service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-10-09T18:03:47-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:35.5902551-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Websites</S>
+          <S>Website</S>
+          <S>AppService</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmAppServicePlan</S>
+                <S>Set-AzureRmAppServicePlan</S>
+                <S>New-AzureRmAppServicePlan</S>
+                <S>Remove-AzureRmAppServicePlan</S>
+                <S>Get-AzureRmWebAppSlot</S>
+                <S>Get-AzureRmWebAppSlotConfigName</S>
+                <S>Get-AzureRmWebAppSlotMetrics</S>
+                <S>Get-AzureRmWebAppSlotPublishingProfile</S>
+                <S>New-AzureRmWebAppSlot</S>
+                <S>Remove-AzureRmWebAppSlot</S>
+                <S>Reset-AzureRmWebAppSlotPublishingProfile</S>
+                <S>Restart-AzureRmWebAppSlot</S>
+                <S>Set-AzureRmWebAppSlot</S>
+                <S>Set-AzureRmWebAppSlotConfigName</S>
+                <S>Start-AzureRmWebAppSlot</S>
+                <S>Stop-AzureRmWebAppSlot</S>
+                <S>Switch-AzureRmWebAppSlot</S>
+                <S>New-AzureRmWebAppDatabaseBackupSetting</S>
+                <S>Restore-AzureRmWebAppBackup</S>
+                <S>Get-AzureRmAppServicePlanMetrics</S>
+                <S>Get-AzureRmWebAppCertificate</S>
+                <S>Get-AzureRmWebAppSSLBinding</S>
+                <S>New-AzureRmWebAppSSLBinding</S>
+                <S>Remove-AzureRmWebAppSSLBinding</S>
+                <S>Edit-AzureRmWebAppBackupConfiguration</S>
+                <S>Get-AzureRmWebAppBackup</S>
+                <S>Get-AzureRmWebAppBackupConfiguration</S>
+                <S>Get-AzureRmWebAppBackupList</S>
+                <S>Get-AzureRmWebAppMetrics</S>
+                <S>Get-AzureRmWebAppPublishingProfile</S>
+                <S>Get-AzureRmWebApp</S>
+                <S>New-AzureRmWebAppBackup</S>
+                <S>Remove-AzureRmWebApp</S>
+                <S>New-AzureRmWebApp</S>
+                <S>Remove-AzureRmWebAppBackup</S>
+                <S>Reset-AzureRmWebAppPublishingProfile</S>
+                <S>Restart-AzureRmWebApp</S>
+                <S>Set-AzureRmWebApp</S>
+                <S>Start-AzureRmWebApp</S>
+                <S>Stop-AzureRmWebApp</S>
+                <S>Get-AzureRmWebAppSnapshot</S>
+                <S>Restore-AzureRmWebAppSnapshot</S>
+                <S>Get-AzureRmDeletedWebApp</S>
+                <S>Restore-AzureRmDeletedWebApp</S>
+                <S>Get-AzureRmWebAppContainerContinuousDeploymentUrl</S>
+                <S>Enter-AzureRmWebAppContainerPSSession</S>
+                <S>New-AzureRmWebAppContainerPSSession</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmAppServicePlan</S>
+                <S>Set-AzureRmAppServicePlan</S>
+                <S>New-AzureRmAppServicePlan</S>
+                <S>Remove-AzureRmAppServicePlan</S>
+                <S>Get-AzureRmWebAppSlot</S>
+                <S>Get-AzureRmWebAppSlotConfigName</S>
+                <S>Get-AzureRmWebAppSlotMetrics</S>
+                <S>Get-AzureRmWebAppSlotPublishingProfile</S>
+                <S>New-AzureRmWebAppSlot</S>
+                <S>Remove-AzureRmWebAppSlot</S>
+                <S>Reset-AzureRmWebAppSlotPublishingProfile</S>
+                <S>Restart-AzureRmWebAppSlot</S>
+                <S>Set-AzureRmWebAppSlot</S>
+                <S>Set-AzureRmWebAppSlotConfigName</S>
+                <S>Start-AzureRmWebAppSlot</S>
+                <S>Stop-AzureRmWebAppSlot</S>
+                <S>Switch-AzureRmWebAppSlot</S>
+                <S>New-AzureRmWebAppDatabaseBackupSetting</S>
+                <S>Restore-AzureRmWebAppBackup</S>
+                <S>Get-AzureRmAppServicePlanMetrics</S>
+                <S>Get-AzureRmWebAppCertificate</S>
+                <S>Get-AzureRmWebAppSSLBinding</S>
+                <S>New-AzureRmWebAppSSLBinding</S>
+                <S>Remove-AzureRmWebAppSSLBinding</S>
+                <S>Edit-AzureRmWebAppBackupConfiguration</S>
+                <S>Get-AzureRmWebAppBackup</S>
+                <S>Get-AzureRmWebAppBackupConfiguration</S>
+                <S>Get-AzureRmWebAppBackupList</S>
+                <S>Get-AzureRmWebAppMetrics</S>
+                <S>Get-AzureRmWebAppPublishingProfile</S>
+                <S>Get-AzureRmWebApp</S>
+                <S>New-AzureRmWebAppBackup</S>
+                <S>Remove-AzureRmWebApp</S>
+                <S>New-AzureRmWebApp</S>
+                <S>Remove-AzureRmWebAppBackup</S>
+                <S>Reset-AzureRmWebAppPublishingProfile</S>
+                <S>Restart-AzureRmWebApp</S>
+                <S>Set-AzureRmWebApp</S>
+                <S>Start-AzureRmWebApp</S>
+                <S>Stop-AzureRmWebApp</S>
+                <S>Get-AzureRmWebAppSnapshot</S>
+                <S>Restore-AzureRmWebAppSnapshot</S>
+                <S>Get-AzureRmDeletedWebApp</S>
+                <S>Restore-AzureRmDeletedWebApp</S>
+                <S>Get-AzureRmWebAppContainerContinuousDeploymentUrl</S>
+                <S>Enter-AzureRmWebAppContainerPSSession</S>
+                <S>New-AzureRmWebAppContainerPSSession</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* New Cmdlet Get-AzureRMWebAppContainerContinuousDeploymentUrl - Gets the Container Continuous Deployment Webhook URL_x000D__x000A_* New Cmdlets New-AzureRMWebAppContainerPSSession and Enter-WebAppContainerPSSession  - Initiates a PowerShell remote session into a windows container app</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.6.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.6.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Websites service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* New Cmdlet Get-AzureRMWebAppContainerContinuousDeploymentUrl - Gets the Container Continuous Deployment Webhook URL_x000D__x000A_* New Cmdlets New-AzureRMWebAppContainerPSSession and Enter-WebAppContainerPSSession  - Initiates a PowerShell remote session into a windows container app</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4615054</S>
+          <S N="downloadCount">7136961</S>
+          <S N="packageSize">882202</S>
+          <S N="published">10/9/2018 6:03:47 PM -04:00</S>
+          <S N="created">10/9/2018 6:03:47 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Websites Website AppService PSModule PSCmdlet_Get-AzureRmAppServicePlan PSCommand_Get-AzureRmAppServicePlan PSCmdlet_Set-AzureRmAppServicePlan PSCommand_Set-AzureRmAppServicePlan PSCmdlet_New-AzureRmAppServicePlan PSCommand_New-AzureRmAppServicePlan PSCmdlet_Remove-AzureRmAppServicePlan PSCommand_Remove-AzureRmAppServicePlan PSCmdlet_Get-AzureRmWebAppSlot PSCommand_Get-AzureRmWebAppSlot PSCmdlet_Get-AzureRmWebAppSlotConfigName PSCommand_Get-AzureRmWebAppSlotConfigName PSCmdlet_Get-AzureRmWebAppSlotMetrics PSCommand_Get-AzureRmWebAppSlotMetrics PSCmdlet_Get-AzureRmWebAppSlotPublishingProfile PSCommand_Get-AzureRmWebAppSlotPublishingProfile PSCmdlet_New-AzureRmWebAppSlot PSCommand_New-AzureRmWebAppSlot PSCmdlet_Remove-AzureRmWebAppSlot PSCommand_Remove-AzureRmWebAppSlot PSCmdlet_Reset-AzureRmWebAppSlotPublishingProfile PSCommand_Reset-AzureRmWebAppSlotPublishingProfile PSCmdlet_Restart-AzureRmWebAppSlot PSCommand_Restart-AzureRmWebAppSlot PSCmdlet_Set-AzureRmWebAppSlot PSCommand_Set-AzureRmWebAppSlot PSCmdlet_Set-AzureRmWebAppSlotConfigName PSCommand_Set-AzureRmWebAppSlotConfigName PSCmdlet_Start-AzureRmWebAppSlot PSCommand_Start-AzureRmWebAppSlot PSCmdlet_Stop-AzureRmWebAppSlot PSCommand_Stop-AzureRmWebAppSlot PSCmdlet_Switch-AzureRmWebAppSlot PSCommand_Switch-AzureRmWebAppSlot PSCmdlet_New-AzureRmWebAppDatabaseBackupSetting PSCommand_New-AzureRmWebAppDatabaseBackupSetting PSCmdlet_Restore-AzureRmWebAppBackup PSCommand_Restore-AzureRmWebAppBackup PSCmdlet_Get-AzureRmAppServicePlanMetrics PSCommand_Get-AzureRmAppServicePlanMetrics PSCmdlet_Get-AzureRmWebAppCertificate PSCommand_Get-AzureRmWebAppCertificate PSCmdlet_Get-AzureRmWebAppSSLBinding PSCommand_Get-AzureRmWebAppSSLBinding PSCmdlet_New-AzureRmWebAppSSLBinding PSCommand_New-AzureRmWebAppSSLBinding PSCmdlet_Remove-AzureRmWebAppSSLBinding PSCommand_Remove-AzureRmWebAppSSLBinding PSCmdlet_Edit-AzureRmWebAppBackupConfiguration PSCommand_Edit-AzureRmWebAppBackupConfiguration PSCmdlet_Get-AzureRmWebAppBackup PSCommand_Get-AzureRmWebAppBackup PSCmdlet_Get-AzureRmWebAppBackupConfiguration PSCommand_Get-AzureRmWebAppBackupConfiguration PSCmdlet_Get-AzureRmWebAppBackupList PSCommand_Get-AzureRmWebAppBackupList PSCmdlet_Get-AzureRmWebAppMetrics PSCommand_Get-AzureRmWebAppMetrics PSCmdlet_Get-AzureRmWebAppPublishingProfile PSCommand_Get-AzureRmWebAppPublishingProfile PSCmdlet_Get-AzureRmWebApp PSCommand_Get-AzureRmWebApp PSCmdlet_New-AzureRmWebAppBackup PSCommand_New-AzureRmWebAppBackup PSCmdlet_Remove-AzureRmWebApp PSCommand_Remove-AzureRmWebApp PSCmdlet_New-AzureRmWebApp PSCommand_New-AzureRmWebApp PSCmdlet_Remove-AzureRmWebAppBackup PSCommand_Remove-AzureRmWebAppBackup PSCmdlet_Reset-AzureRmWebAppPublishingProfile PSCommand_Reset-AzureRmWebAppPublishingProfile PSCmdlet_Restart-AzureRmWebApp PSCommand_Restart-AzureRmWebApp PSCmdlet_Set-AzureRmWebApp PSCommand_Set-AzureRmWebApp PSCmdlet_Start-AzureRmWebApp PSCommand_Start-AzureRmWebApp PSCmdlet_Stop-AzureRmWebApp PSCommand_Stop-AzureRmWebApp PSCmdlet_Get-AzureRmWebAppSnapshot PSCommand_Get-AzureRmWebAppSnapshot PSCmdlet_Restore-AzureRmWebAppSnapshot PSCommand_Restore-AzureRmWebAppSnapshot PSCmdlet_Get-AzureRmDeletedWebApp PSCommand_Get-AzureRmDeletedWebApp PSCmdlet_Restore-AzureRmDeletedWebApp PSCommand_Restore-AzureRmDeletedWebApp PSCmdlet_Get-AzureRmWebAppContainerContinuousDeploymentUrl PSCommand_Get-AzureRmWebAppContainerContinuousDeploymentUrl PSCmdlet_Enter-AzureRmWebAppContainerPSSession PSCommand_Enter-AzureRmWebAppContainerPSSession PSCmdlet_New-AzureRmWebAppContainerPSSession PSCommand_New-AzureRmWebAppContainerPSSession PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.2.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Websites.nuspec|AzureRM.Websites.psd1|AzureRM.Websites.psm1|Microsoft.Azure.Commands.Common.Strategies.4.dll|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Commands.Websites.dll|Microsoft.Azure.Commands.Websites.dll-Help.xml|Microsoft.Azure.Management.Websites.dll</S>
+          <S N="GUID">cc69c625-e961-43f4-8b50-0061eba6e4b6</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Websites\5.2.0</S>
+    </MS>
+  </Obj>
+</Objs>

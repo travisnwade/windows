@@ -1,0 +1,191 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.ServiceFabric</S>
+      <Version N="Version">0.3.15</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Service Fabric cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:31:18-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:21.9388634-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>ServiceFabric</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmServiceFabricApplicationCertificate</S>
+                <S>Add-AzureRmServiceFabricClientCertificate</S>
+                <S>Add-AzureRmServiceFabricClusterCertificate</S>
+                <S>Add-AzureRmServiceFabricNode</S>
+                <S>Add-AzureRmServiceFabricNodeType</S>
+                <S>Get-AzureRmServiceFabricCluster</S>
+                <S>New-AzureRmServiceFabricCluster</S>
+                <S>Remove-AzureRmServiceFabricClientCertificate</S>
+                <S>Remove-AzureRmServiceFabricClusterCertificate</S>
+                <S>Remove-AzureRmServiceFabricNode</S>
+                <S>Remove-AzureRmServiceFabricNodeType</S>
+                <S>Remove-AzureRmServiceFabricSetting</S>
+                <S>Set-AzureRmServiceFabricSetting</S>
+                <S>Set-AzureRmServiceFabricUpgradeType</S>
+                <S>Update-AzureRmServiceFabricDurability</S>
+                <S>Update-AzureRmServiceFabricReliability</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureRmServiceFabricApplicationCertificate</S>
+                <S>Add-AzureRmServiceFabricClientCertificate</S>
+                <S>Add-AzureRmServiceFabricClusterCertificate</S>
+                <S>Add-AzureRmServiceFabricNode</S>
+                <S>Add-AzureRmServiceFabricNodeType</S>
+                <S>Get-AzureRmServiceFabricCluster</S>
+                <S>New-AzureRmServiceFabricCluster</S>
+                <S>Remove-AzureRmServiceFabricClientCertificate</S>
+                <S>Remove-AzureRmServiceFabricClusterCertificate</S>
+                <S>Remove-AzureRmServiceFabricNode</S>
+                <S>Remove-AzureRmServiceFabricNodeType</S>
+                <S>Remove-AzureRmServiceFabricSetting</S>
+                <S>Set-AzureRmServiceFabricSetting</S>
+                <S>Set-AzureRmServiceFabricUpgradeType</S>
+                <S>Update-AzureRmServiceFabricDurability</S>
+                <S>Update-AzureRmServiceFabricReliability</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Add deprecation messages for upcoming breaking changes</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Service Fabric cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Add deprecation messages for upcoming breaking changes</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4507390</S>
+          <S N="downloadCount">7046205</S>
+          <S N="packageSize">334515</S>
+          <S N="published">11/21/2018 6:31:18 PM -05:00</S>
+          <S N="created">11/21/2018 6:31:18 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM ServiceFabric PSModule PSCmdlet_Add-AzureRmServiceFabricApplicationCertificate PSCommand_Add-AzureRmServiceFabricApplicationCertificate PSCmdlet_Add-AzureRmServiceFabricClientCertificate PSCommand_Add-AzureRmServiceFabricClientCertificate PSCmdlet_Add-AzureRmServiceFabricClusterCertificate PSCommand_Add-AzureRmServiceFabricClusterCertificate PSCmdlet_Add-AzureRmServiceFabricNode PSCommand_Add-AzureRmServiceFabricNode PSCmdlet_Add-AzureRmServiceFabricNodeType PSCommand_Add-AzureRmServiceFabricNodeType PSCmdlet_Get-AzureRmServiceFabricCluster PSCommand_Get-AzureRmServiceFabricCluster PSCmdlet_New-AzureRmServiceFabricCluster PSCommand_New-AzureRmServiceFabricCluster PSCmdlet_Remove-AzureRmServiceFabricClientCertificate PSCommand_Remove-AzureRmServiceFabricClientCertificate PSCmdlet_Remove-AzureRmServiceFabricClusterCertificate PSCommand_Remove-AzureRmServiceFabricClusterCertificate PSCmdlet_Remove-AzureRmServiceFabricNode PSCommand_Remove-AzureRmServiceFabricNode PSCmdlet_Remove-AzureRmServiceFabricNodeType PSCommand_Remove-AzureRmServiceFabricNodeType PSCmdlet_Remove-AzureRmServiceFabricSetting PSCommand_Remove-AzureRmServiceFabricSetting PSCmdlet_Set-AzureRmServiceFabricSetting PSCommand_Set-AzureRmServiceFabricSetting PSCmdlet_Set-AzureRmServiceFabricUpgradeType PSCommand_Set-AzureRmServiceFabricUpgradeType PSCmdlet_Update-AzureRmServiceFabricDurability PSCommand_Update-AzureRmServiceFabricDurability PSCmdlet_Update-AzureRmServiceFabricReliability PSCommand_Update-AzureRmServiceFabricReliability PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">0.3.15</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.ServiceFabric.nuspec|AzureRM.ServiceFabric.psd1|AzureRM.ServiceFabric.psm1|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Commands.ServiceFabric.dll|Microsoft.Azure.Commands.ServiceFabric.dll-Help.xml|Microsoft.Azure.Commands.ServiceFabric.format.ps1xml|Microsoft.Azure.KeyVault.dll|Microsoft.Azure.KeyVault.WebKey.dll|Microsoft.Azure.Management.ServiceFabric.dll|packages.config|StartupScripts\AzureRmError.ps1|Template\Linux\parameter.json|Template\Linux\template.json|Template\Windows\parameter.json|Template\Windows\template.json</S>
+          <S N="GUID">60f3ba88-443f-46ff-88a3-318cfd11c1da</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.ServiceFabric\0.3.15</S>
+    </MS>
+  </Obj>
+</Objs>

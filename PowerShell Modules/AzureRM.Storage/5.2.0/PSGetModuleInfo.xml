@@ -1,0 +1,223 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Storage</S>
+      <Version N="Version">5.2.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Storage service management cmdlets for Azure Resource Manager.  Creates and manages storage accounts in Azure Resource Manager.</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-10-09T18:07:42-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:26.8059351-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Storage</S>
+          <S>StorageAccount</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmStorageAccount</S>
+                <S>Get-AzureRmStorageAccountKey</S>
+                <S>New-AzureRmStorageAccount</S>
+                <S>New-AzureRmStorageAccountKey</S>
+                <S>Remove-AzureRmStorageAccount</S>
+                <S>Set-AzureRmCurrentStorageAccount</S>
+                <S>Set-AzureRmStorageAccount</S>
+                <S>Get-AzureRmStorageAccountNameAvailability</S>
+                <S>Get-AzureRmStorageUsage</S>
+                <S>Update-AzureRmStorageAccountNetworkRuleSet</S>
+                <S>Get-AzureRmStorageAccountNetworkRuleSet</S>
+                <S>Add-AzureRmStorageAccountNetworkRule</S>
+                <S>Remove-AzureRmStorageAccountNetworkRule</S>
+                <S>Get-AzureRmStorageContainer</S>
+                <S>Update-AzureRmStorageContainer</S>
+                <S>New-AzureRmStorageContainer</S>
+                <S>Remove-AzureRmStorageContainer</S>
+                <S>Add-AzureRmStorageContainerLegalHold</S>
+                <S>Remove-AzureRmStorageContainerLegalHold</S>
+                <S>Set-AzureRmStorageContainerImmutabilityPolicy</S>
+                <S>Get-AzureRmStorageContainerImmutabilityPolicy</S>
+                <S>Remove-AzureRmStorageContainerImmutabilityPolicy</S>
+                <S>Lock-AzureRmStorageContainerImmutabilityPolicy</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmStorageAccount</S>
+                <S>Get-AzureRmStorageAccountKey</S>
+                <S>New-AzureRmStorageAccount</S>
+                <S>New-AzureRmStorageAccountKey</S>
+                <S>Remove-AzureRmStorageAccount</S>
+                <S>Set-AzureRmCurrentStorageAccount</S>
+                <S>Set-AzureRmStorageAccount</S>
+                <S>Get-AzureRmStorageAccountNameAvailability</S>
+                <S>Get-AzureRmStorageUsage</S>
+                <S>Update-AzureRmStorageAccountNetworkRuleSet</S>
+                <S>Get-AzureRmStorageAccountNetworkRuleSet</S>
+                <S>Add-AzureRmStorageAccountNetworkRule</S>
+                <S>Remove-AzureRmStorageAccountNetworkRule</S>
+                <S>Get-AzureRmStorageContainer</S>
+                <S>Update-AzureRmStorageContainer</S>
+                <S>New-AzureRmStorageContainer</S>
+                <S>Remove-AzureRmStorageContainer</S>
+                <S>Add-AzureRmStorageContainerLegalHold</S>
+                <S>Remove-AzureRmStorageContainerLegalHold</S>
+                <S>Set-AzureRmStorageContainerImmutabilityPolicy</S>
+                <S>Get-AzureRmStorageContainerImmutabilityPolicy</S>
+                <S>Remove-AzureRmStorageContainerImmutabilityPolicy</S>
+                <S>Lock-AzureRmStorageContainerImmutabilityPolicy</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Support get the Storage resource usage of a specific location, and add warning message for get global Storage resource usage is obsolete._x000D__x000A_    - Get-AzureRmStorageUsage</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.6.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.6.0</S>
+              </En>
+            </DCT>
+          </Obj>
+          <Obj RefId="10">
+            <TNRef RefId="4" />
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Azure.Storage</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">4.6.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Azure.Storage/4.6.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="11">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Storage service management cmdlets for Azure Resource Manager.  Creates and manages storage accounts in Azure Resource Manager.</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Support get the Storage resource usage of a specific location, and add warning message for get global Storage resource usage is obsolete._x000D__x000A_    - Get-AzureRmStorageUsage</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">5658521</S>
+          <S N="downloadCount">8785861</S>
+          <S N="packageSize">1519056</S>
+          <S N="published">10/9/2018 6:07:42 PM -04:00</S>
+          <S N="created">10/9/2018 6:07:42 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Storage StorageAccount PSModule PSCmdlet_Get-AzureRmStorageAccount PSCommand_Get-AzureRmStorageAccount PSCmdlet_Get-AzureRmStorageAccountKey PSCommand_Get-AzureRmStorageAccountKey PSCmdlet_New-AzureRmStorageAccount PSCommand_New-AzureRmStorageAccount PSCmdlet_New-AzureRmStorageAccountKey PSCommand_New-AzureRmStorageAccountKey PSCmdlet_Remove-AzureRmStorageAccount PSCommand_Remove-AzureRmStorageAccount PSCmdlet_Set-AzureRmCurrentStorageAccount PSCommand_Set-AzureRmCurrentStorageAccount PSCmdlet_Set-AzureRmStorageAccount PSCommand_Set-AzureRmStorageAccount PSCmdlet_Get-AzureRmStorageAccountNameAvailability PSCommand_Get-AzureRmStorageAccountNameAvailability PSCmdlet_Get-AzureRmStorageUsage PSCommand_Get-AzureRmStorageUsage PSCmdlet_Update-AzureRmStorageAccountNetworkRuleSet PSCommand_Update-AzureRmStorageAccountNetworkRuleSet PSCmdlet_Get-AzureRmStorageAccountNetworkRuleSet PSCommand_Get-AzureRmStorageAccountNetworkRuleSet PSCmdlet_Add-AzureRmStorageAccountNetworkRule PSCommand_Add-AzureRmStorageAccountNetworkRule PSCmdlet_Remove-AzureRmStorageAccountNetworkRule PSCommand_Remove-AzureRmStorageAccountNetworkRule PSCmdlet_Get-AzureRmStorageContainer PSCommand_Get-AzureRmStorageContainer PSCmdlet_Update-AzureRmStorageContainer PSCommand_Update-AzureRmStorageContainer PSCmdlet_New-AzureRmStorageContainer PSCommand_New-AzureRmStorageContainer PSCmdlet_Remove-AzureRmStorageContainer PSCommand_Remove-AzureRmStorageContainer PSCmdlet_Add-AzureRmStorageContainerLegalHold PSCommand_Add-AzureRmStorageContainerLegalHold PSCmdlet_Remove-AzureRmStorageContainerLegalHold PSCommand_Remove-AzureRmStorageContainerLegalHold PSCmdlet_Set-AzureRmStorageContainerImmutabilityPolicy PSCommand_Set-AzureRmStorageContainerImmutabilityPolicy PSCmdlet_Get-AzureRmStorageContainerImmutabilityPolicy PSCommand_Get-AzureRmStorageContainerImmutabilityPolicy PSCmdlet_Remove-AzureRmStorageContainerImmutabilityPolicy PSCommand_Remove-AzureRmStorageContainerImmutabilityPolicy PSCmdlet_Lock-AzureRmStorageContainerImmutabilityPolicy PSCommand_Lock-AzureRmStorageContainerImmutabilityPolicy PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.2.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Storage.nuspec|AzureRM.Storage.psd1|AzureRM.Storage.psm1|Microsoft.Azure.Commands.Management.Storage.dll|Microsoft.Azure.Commands.Management.Storage.dll-Help.xml|Microsoft.Azure.Commands.Management.Storage.format.ps1xml|Microsoft.Azure.Management.Storage.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.WindowsAzure.Storage.dll|System.Spatial.dll</S>
+          <S N="GUID">da67eaa7-4cb1-4bfa-a194-8bf3faae8ac5</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Storage\5.2.0</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,239 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.OperationalInsights</S>
+      <Version N="Version">5.0.6</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - OperationalInsights service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:42:19-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:04.5909738-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>OperationalInsights</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-AzureRmOperationalInsightsAzureActivityLogDataSource</S>
+                <S>New-AzureRmOperationalInsightsCustomLogDataSource</S>
+                <S>Disable-AzureRmOperationalInsightsLinuxCustomLogCollection</S>
+                <S>Disable-AzureRmOperationalInsightsIISLogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsLinuxCustomLogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsIISLogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsLinuxSyslogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsLinuxPerformanceCollection</S>
+                <S>Disable-AzureRmOperationalInsightsLinuxPerformanceCollection</S>
+                <S>New-AzureRmOperationalInsightsWindowsPerformanceCounterDataSource</S>
+                <S>New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource</S>
+                <S>New-AzureRmOperationalInsightsLinuxSyslogDataSource</S>
+                <S>Disable-AzureRmOperationalInsightsLinuxSyslogCollection</S>
+                <S>New-AzureRmOperationalInsightsWindowsEventDataSource</S>
+                <S>Get-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Get-AzureRmOperationalInsightsSavedSearchResults</S>
+                <S>Get-AzureRmOperationalInsightsSchema</S>
+                <S>Get-AzureRmOperationalInsightsSearchResults</S>
+                <S>New-AzureRmOperationalInsightsComputerGroup</S>
+                <S>New-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Set-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Remove-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Get-AzureRmOperationalInsightsDataSource</S>
+                <S>Remove-AzureRmOperationalInsightsDataSource</S>
+                <S>Set-AzureRmOperationalInsightsDataSource</S>
+                <S>Get-AzureRmOperationalInsightsStorageInsight</S>
+                <S>Set-AzureRmOperationalInsightsStorageInsight</S>
+                <S>New-AzureRmOperationalInsightsStorageInsight</S>
+                <S>Remove-AzureRmOperationalInsightsStorageInsight</S>
+                <S>Set-AzureRmOperationalInsightsIntelligencePack</S>
+                <S>Get-AzureRmOperationalInsightsIntelligencePacks</S>
+                <S>Get-AzureRmOperationalInsightsWorkspaceManagementGroups</S>
+                <S>Get-AzureRmOperationalInsightsLinkTargets</S>
+                <S>Get-AzureRmOperationalInsightsWorkspaceUsage</S>
+                <S>Get-AzureRmOperationalInsightsWorkspaceSharedKeys</S>
+                <S>Get-AzureRmOperationalInsightsWorkspace</S>
+                <S>New-AzureRmOperationalInsightsWorkspace</S>
+                <S>Remove-AzureRmOperationalInsightsWorkspace</S>
+                <S>Set-AzureRmOperationalInsightsWorkspace</S>
+                <S>Invoke-AzureRmOperationalInsightsQuery</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-AzureRmOperationalInsightsAzureActivityLogDataSource</S>
+                <S>New-AzureRmOperationalInsightsCustomLogDataSource</S>
+                <S>Disable-AzureRmOperationalInsightsLinuxCustomLogCollection</S>
+                <S>Disable-AzureRmOperationalInsightsIISLogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsLinuxCustomLogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsIISLogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsLinuxSyslogCollection</S>
+                <S>Enable-AzureRmOperationalInsightsLinuxPerformanceCollection</S>
+                <S>Disable-AzureRmOperationalInsightsLinuxPerformanceCollection</S>
+                <S>New-AzureRmOperationalInsightsWindowsPerformanceCounterDataSource</S>
+                <S>New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource</S>
+                <S>New-AzureRmOperationalInsightsLinuxSyslogDataSource</S>
+                <S>Disable-AzureRmOperationalInsightsLinuxSyslogCollection</S>
+                <S>New-AzureRmOperationalInsightsWindowsEventDataSource</S>
+                <S>Get-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Get-AzureRmOperationalInsightsSavedSearchResults</S>
+                <S>Get-AzureRmOperationalInsightsSchema</S>
+                <S>Get-AzureRmOperationalInsightsSearchResults</S>
+                <S>New-AzureRmOperationalInsightsComputerGroup</S>
+                <S>New-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Set-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Remove-AzureRmOperationalInsightsSavedSearch</S>
+                <S>Get-AzureRmOperationalInsightsDataSource</S>
+                <S>Remove-AzureRmOperationalInsightsDataSource</S>
+                <S>Set-AzureRmOperationalInsightsDataSource</S>
+                <S>Get-AzureRmOperationalInsightsStorageInsight</S>
+                <S>Set-AzureRmOperationalInsightsStorageInsight</S>
+                <S>New-AzureRmOperationalInsightsStorageInsight</S>
+                <S>Remove-AzureRmOperationalInsightsStorageInsight</S>
+                <S>Set-AzureRmOperationalInsightsIntelligencePack</S>
+                <S>Get-AzureRmOperationalInsightsIntelligencePacks</S>
+                <S>Get-AzureRmOperationalInsightsWorkspaceManagementGroups</S>
+                <S>Get-AzureRmOperationalInsightsLinkTargets</S>
+                <S>Get-AzureRmOperationalInsightsWorkspaceUsage</S>
+                <S>Get-AzureRmOperationalInsightsWorkspaceSharedKeys</S>
+                <S>Get-AzureRmOperationalInsightsWorkspace</S>
+                <S>New-AzureRmOperationalInsightsWorkspace</S>
+                <S>Remove-AzureRmOperationalInsightsWorkspace</S>
+                <S>Set-AzureRmOperationalInsightsWorkspace</S>
+                <S>Invoke-AzureRmOperationalInsightsQuery</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - OperationalInsights service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">8449030</S>
+          <S N="downloadCount">11701016</S>
+          <S N="packageSize">205756</S>
+          <S N="published">8/29/2018 10:42:19 PM -04:00</S>
+          <S N="created">8/29/2018 10:42:19 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM OperationalInsights PSModule PSCmdlet_New-AzureRmOperationalInsightsAzureActivityLogDataSource PSCommand_New-AzureRmOperationalInsightsAzureActivityLogDataSource PSCmdlet_New-AzureRmOperationalInsightsCustomLogDataSource PSCommand_New-AzureRmOperationalInsightsCustomLogDataSource PSCmdlet_Disable-AzureRmOperationalInsightsLinuxCustomLogCollection PSCommand_Disable-AzureRmOperationalInsightsLinuxCustomLogCollection PSCmdlet_Disable-AzureRmOperationalInsightsIISLogCollection PSCommand_Disable-AzureRmOperationalInsightsIISLogCollection PSCmdlet_Enable-AzureRmOperationalInsightsLinuxCustomLogCollection PSCommand_Enable-AzureRmOperationalInsightsLinuxCustomLogCollection PSCmdlet_Enable-AzureRmOperationalInsightsIISLogCollection PSCommand_Enable-AzureRmOperationalInsightsIISLogCollection PSCmdlet_Enable-AzureRmOperationalInsightsLinuxSyslogCollection PSCommand_Enable-AzureRmOperationalInsightsLinuxSyslogCollection PSCmdlet_Enable-AzureRmOperationalInsightsLinuxPerformanceCollection PSCommand_Enable-AzureRmOperationalInsightsLinuxPerformanceCollection PSCmdlet_Disable-AzureRmOperationalInsightsLinuxPerformanceCollection PSCommand_Disable-AzureRmOperationalInsightsLinuxPerformanceCollection PSCmdlet_New-AzureRmOperationalInsightsWindowsPerformanceCounterDataSource PSCommand_New-AzureRmOperationalInsightsWindowsPerformanceCounterDataSource PSCmdlet_New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource PSCommand_New-AzureRmOperationalInsightsLinuxPerformanceObjectDataSource PSCmdlet_New-AzureRmOperationalInsightsLinuxSyslogDataSource PSCommand_New-AzureRmOperationalInsightsLinuxSyslogDataSource PSCmdlet_Disable-AzureRmOperationalInsightsLinuxSyslogCollection PSCommand_Disable-AzureRmOperationalInsightsLinuxSyslogCollection PSCmdlet_New-AzureRmOperationalInsightsWindowsEventDataSource PSCommand_New-AzureRmOperationalInsightsWindowsEventDataSource PSCmdlet_Get-AzureRmOperationalInsightsSavedSearch PSCommand_Get-AzureRmOperationalInsightsSavedSearch PSCmdlet_Get-AzureRmOperationalInsightsSavedSearchResults PSCommand_Get-AzureRmOperationalInsightsSavedSearchResults PSCmdlet_Get-AzureRmOperationalInsightsSchema PSCommand_Get-AzureRmOperationalInsightsSchema PSCmdlet_Get-AzureRmOperationalInsightsSearchResults PSCommand_Get-AzureRmOperationalInsightsSearchResults PSCmdlet_New-AzureRmOperationalInsightsComputerGroup PSCommand_New-AzureRmOperationalInsightsComputerGroup PSCmdlet_New-AzureRmOperationalInsightsSavedSearch PSCommand_New-AzureRmOperationalInsightsSavedSearch PSCmdlet_Set-AzureRmOperationalInsightsSavedSearch PSCommand_Set-AzureRmOperationalInsightsSavedSearch PSCmdlet_Remove-AzureRmOperationalInsightsSavedSearch PSCommand_Remove-AzureRmOperationalInsightsSavedSearch PSCmdlet_Get-AzureRmOperationalInsightsDataSource PSCommand_Get-AzureRmOperationalInsightsDataSource PSCmdlet_Remove-AzureRmOperationalInsightsDataSource PSCommand_Remove-AzureRmOperationalInsightsDataSource PSCmdlet_Set-AzureRmOperationalInsightsDataSource PSCommand_Set-AzureRmOperationalInsightsDataSource PSCmdlet_Get-AzureRmOperationalInsightsStorageInsight PSCommand_Get-AzureRmOperationalInsightsStorageInsight PSCmdlet_Set-AzureRmOperationalInsightsStorageInsight PSCommand_Set-AzureRmOperationalInsightsStorageInsight PSCmdlet_New-AzureRmOperationalInsightsStorageInsight PSCommand_New-AzureRmOperationalInsightsStorageInsight PSCmdlet_Remove-AzureRmOperationalInsightsStorageInsight PSCommand_Remove-AzureRmOperationalInsightsStorageInsight PSCmdlet_Set-AzureRmOperationalInsightsIntelligencePack PSCommand_Set-AzureRmOperationalInsightsIntelligencePack PSCmdlet_Get-AzureRmOperationalInsightsIntelligencePacks PSCommand_Get-AzureRmOperationalInsightsIntelligencePacks PSCmdlet_Get-AzureRmOperationalInsightsWorkspaceManagementGroups PSCommand_Get-AzureRmOperationalInsightsWorkspaceManagementGroups PSCmdlet_Get-AzureRmOperationalInsightsLinkTargets PSCommand_Get-AzureRmOperationalInsightsLinkTargets PSCmdlet_Get-AzureRmOperationalInsightsWorkspaceUsage PSCommand_Get-AzureRmOperationalInsightsWorkspaceUsage PSCmdlet_Get-AzureRmOperationalInsightsWorkspaceSharedKeys PSCommand_Get-AzureRmOperationalInsightsWorkspaceSharedKeys PSCmdlet_Get-AzureRmOperationalInsightsWorkspace PSCommand_Get-AzureRmOperationalInsightsWorkspace PSCmdlet_New-AzureRmOperationalInsightsWorkspace PSCommand_New-AzureRmOperationalInsightsWorkspace PSCmdlet_Remove-AzureRmOperationalInsightsWorkspace PSCommand_Remove-AzureRmOperationalInsightsWorkspace PSCmdlet_Set-AzureRmOperationalInsightsWorkspace PSCommand_Set-AzureRmOperationalInsightsWorkspace PSCmdlet_Invoke-AzureRmOperationalInsightsQuery PSCommand_Invoke-AzureRmOperationalInsightsQuery PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.0.6</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.OperationalInsights.nuspec|AzureRM.OperationalInsights.psd1|AzureRM.OperationalInsights.psm1|Microsoft.Azure.Commands.OperationalInsights.dll|Microsoft.Azure.Commands.OperationalInsights.dll-Help.xml|Microsoft.Azure.Commands.OperationalInsights.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.OperationalInsights.dll|Microsoft.Azure.OperationalInsights.dll</S>
+          <S N="GUID">e827799a-7abf-4538-a61f-94dc52a48bd4</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.OperationalInsights\5.0.6</S>
+    </MS>
+  </Obj>
+</Objs>

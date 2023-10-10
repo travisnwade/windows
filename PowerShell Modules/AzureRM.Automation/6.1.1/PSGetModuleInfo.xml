@@ -1,0 +1,333 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.Automation</S>
+      <Version N="Version">6.1.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Automation service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-11-21T18:28:54-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:21.1392129-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Automation</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRMAutomationHybridWorkerGroup</S>
+                <S>Remove-AzureRmAutomationHybridWorkerGroup</S>
+                <S>Get-AzureRmAutomationJobOutputRecord</S>
+                <S>Import-AzureRmAutomationDscNodeConfiguration</S>
+                <S>Export-AzureRmAutomationDscConfiguration</S>
+                <S>Export-AzureRmAutomationDscNodeReportContent</S>
+                <S>Get-AzureRmAutomationCertificate</S>
+                <S>Get-AzureRmAutomationConnection</S>
+                <S>Get-AzureRmAutomationCredential</S>
+                <S>Get-AzureRmAutomationDscCompilationJob</S>
+                <S>Get-AzureRmAutomationDscCompilationJobOutput</S>
+                <S>Get-AzureRmAutomationDscNodeConfiguration</S>
+                <S>Get-AzureRmAutomationDscNodeReport</S>
+                <S>Get-AzureRmAutomationJob</S>
+                <S>Get-AzureRmAutomationJobOutput</S>
+                <S>Get-AzureRmAutomationModule</S>
+                <S>Get-AzureRmAutomationRunbook</S>
+                <S>Export-AzureRmAutomationRunbook</S>
+                <S>Get-AzureRmAutomationSchedule</S>
+                <S>Get-AzureRmAutomationScheduledRunbook</S>
+                <S>Get-AzureRmAutomationVariable</S>
+                <S>Get-AzureRmAutomationWebhook</S>
+                <S>New-AzureRmAutomationCertificate</S>
+                <S>New-AzureRmAutomationConnection</S>
+                <S>New-AzureRmAutomationCredential</S>
+                <S>New-AzureRmAutomationModule</S>
+                <S>New-AzureRmAutomationRunbook</S>
+                <S>New-AzureRmAutomationSchedule</S>
+                <S>New-AzureRmAutomationVariable</S>
+                <S>New-AzureRmAutomationWebhook</S>
+                <S>Publish-AzureRmAutomationRunbook</S>
+                <S>Register-AzureRmAutomationDscNode</S>
+                <S>Register-AzureRmAutomationScheduledRunbook</S>
+                <S>Remove-AzureRmAutomationCertificate</S>
+                <S>Remove-AzureRmAutomationConnectionType</S>
+                <S>Remove-AzureRmAutomationConnection</S>
+                <S>Remove-AzureRmAutomationCredential</S>
+                <S>Remove-AzureRmAutomationDscNodeConfiguration</S>
+                <S>Remove-AzureRmAutomationModule</S>
+                <S>Remove-AzureRmAutomationRunbook</S>
+                <S>Remove-AzureRmAutomationSchedule</S>
+                <S>Remove-AzureRmAutomationVariable</S>
+                <S>Remove-AzureRmAutomationDscConfiguration</S>
+                <S>Remove-AzureRmAutomationWebhook</S>
+                <S>Resume-AzureRmAutomationJob</S>
+                <S>Set-AzureRmAutomationCertificate</S>
+                <S>Set-AzureRmAutomationConnectionFieldValue</S>
+                <S>Set-AzureRmAutomationCredential</S>
+                <S>Set-AzureRmAutomationModule</S>
+                <S>Set-AzureRmAutomationRunbook</S>
+                <S>Import-AzureRmAutomationRunbook</S>
+                <S>Set-AzureRmAutomationSchedule</S>
+                <S>Set-AzureRmAutomationVariable</S>
+                <S>Set-AzureRmAutomationWebhook</S>
+                <S>Start-AzureRmAutomationDscCompilationJob</S>
+                <S>Get-AzureRmAutomationRegistrationInfo</S>
+                <S>Get-AzureRmAutomationDscConfiguration</S>
+                <S>Get-AzureRmAutomationDscNode</S>
+                <S>Get-AzureRmAutomationDscOnboardingMetaconfig</S>
+                <S>Import-AzureRmAutomationDscConfiguration</S>
+                <S>New-AzureRmAutomationKey</S>
+                <S>Start-AzureRmAutomationRunbook</S>
+                <S>Stop-AzureRmAutomationJob</S>
+                <S>Suspend-AzureRmAutomationJob</S>
+                <S>Unregister-AzureRmAutomationDscNode</S>
+                <S>Set-AzureRmAutomationAccount</S>
+                <S>Remove-AzureRmAutomationAccount</S>
+                <S>New-AzureRmAutomationAccount</S>
+                <S>Get-AzureRmAutomationAccount</S>
+                <S>Set-AzureRmAutomationDscNode</S>
+                <S>Unregister-AzureRmAutomationScheduledRunbook</S>
+                <S>Start-AzureRmAutomationDscNodeConfigurationDeployment</S>
+                <S>Stop-AzureRmAutomationDscNodeConfigurationDeployment</S>
+                <S>Get-AzureRmAutomationDscNodeConfigurationDeploymentSchedule</S>
+                <S>Get-AzureRmAutomationDscNodeConfigurationDeployment</S>
+                <S>New-AzureRmAutomationSoftwareUpdateConfiguration</S>
+                <S>Get-AzureRmAutomationSoftwareUpdateConfiguration</S>
+                <S>Remove-AzureRmAutomationSoftwareUpdateConfiguration</S>
+                <S>Get-AzureRmAutomationSoftwareUpdateRun</S>
+                <S>Get-AzureRmAutomationSoftwareUpdateMachineRun</S>
+                <S>New-AzureRmAutomationSourceControl</S>
+                <S>Get-AzureRmAutomationSourceControl</S>
+                <S>Remove-AzureRmAutomationSourceControl</S>
+                <S>Update-AzureRmAutomationSourceControl</S>
+                <S>Start-AzureRmAutomationSourceControlSyncJob</S>
+                <S>Get-AzureRmAutomationSourceControlSyncJob</S>
+                <S>Get-AzureRmAutomationSourceControlSyncJobOutput</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRMAutomationHybridWorkerGroup</S>
+                <S>Remove-AzureRmAutomationHybridWorkerGroup</S>
+                <S>Get-AzureRmAutomationJobOutputRecord</S>
+                <S>Import-AzureRmAutomationDscNodeConfiguration</S>
+                <S>Export-AzureRmAutomationDscConfiguration</S>
+                <S>Export-AzureRmAutomationDscNodeReportContent</S>
+                <S>Get-AzureRmAutomationCertificate</S>
+                <S>Get-AzureRmAutomationConnection</S>
+                <S>Get-AzureRmAutomationCredential</S>
+                <S>Get-AzureRmAutomationDscCompilationJob</S>
+                <S>Get-AzureRmAutomationDscCompilationJobOutput</S>
+                <S>Get-AzureRmAutomationDscNodeConfiguration</S>
+                <S>Get-AzureRmAutomationDscNodeReport</S>
+                <S>Get-AzureRmAutomationJob</S>
+                <S>Get-AzureRmAutomationJobOutput</S>
+                <S>Get-AzureRmAutomationModule</S>
+                <S>Get-AzureRmAutomationRunbook</S>
+                <S>Export-AzureRmAutomationRunbook</S>
+                <S>Get-AzureRmAutomationSchedule</S>
+                <S>Get-AzureRmAutomationScheduledRunbook</S>
+                <S>Get-AzureRmAutomationVariable</S>
+                <S>Get-AzureRmAutomationWebhook</S>
+                <S>New-AzureRmAutomationCertificate</S>
+                <S>New-AzureRmAutomationConnection</S>
+                <S>New-AzureRmAutomationCredential</S>
+                <S>New-AzureRmAutomationModule</S>
+                <S>New-AzureRmAutomationRunbook</S>
+                <S>New-AzureRmAutomationSchedule</S>
+                <S>New-AzureRmAutomationVariable</S>
+                <S>New-AzureRmAutomationWebhook</S>
+                <S>Publish-AzureRmAutomationRunbook</S>
+                <S>Register-AzureRmAutomationDscNode</S>
+                <S>Register-AzureRmAutomationScheduledRunbook</S>
+                <S>Remove-AzureRmAutomationCertificate</S>
+                <S>Remove-AzureRmAutomationConnectionType</S>
+                <S>Remove-AzureRmAutomationConnection</S>
+                <S>Remove-AzureRmAutomationCredential</S>
+                <S>Remove-AzureRmAutomationDscNodeConfiguration</S>
+                <S>Remove-AzureRmAutomationModule</S>
+                <S>Remove-AzureRmAutomationRunbook</S>
+                <S>Remove-AzureRmAutomationSchedule</S>
+                <S>Remove-AzureRmAutomationVariable</S>
+                <S>Remove-AzureRmAutomationDscConfiguration</S>
+                <S>Remove-AzureRmAutomationWebhook</S>
+                <S>Resume-AzureRmAutomationJob</S>
+                <S>Set-AzureRmAutomationCertificate</S>
+                <S>Set-AzureRmAutomationConnectionFieldValue</S>
+                <S>Set-AzureRmAutomationCredential</S>
+                <S>Set-AzureRmAutomationModule</S>
+                <S>Set-AzureRmAutomationRunbook</S>
+                <S>Import-AzureRmAutomationRunbook</S>
+                <S>Set-AzureRmAutomationSchedule</S>
+                <S>Set-AzureRmAutomationVariable</S>
+                <S>Set-AzureRmAutomationWebhook</S>
+                <S>Start-AzureRmAutomationDscCompilationJob</S>
+                <S>Get-AzureRmAutomationRegistrationInfo</S>
+                <S>Get-AzureRmAutomationDscConfiguration</S>
+                <S>Get-AzureRmAutomationDscNode</S>
+                <S>Get-AzureRmAutomationDscOnboardingMetaconfig</S>
+                <S>Import-AzureRmAutomationDscConfiguration</S>
+                <S>New-AzureRmAutomationKey</S>
+                <S>Start-AzureRmAutomationRunbook</S>
+                <S>Stop-AzureRmAutomationJob</S>
+                <S>Suspend-AzureRmAutomationJob</S>
+                <S>Unregister-AzureRmAutomationDscNode</S>
+                <S>Set-AzureRmAutomationAccount</S>
+                <S>Remove-AzureRmAutomationAccount</S>
+                <S>New-AzureRmAutomationAccount</S>
+                <S>Get-AzureRmAutomationAccount</S>
+                <S>Set-AzureRmAutomationDscNode</S>
+                <S>Unregister-AzureRmAutomationScheduledRunbook</S>
+                <S>Start-AzureRmAutomationDscNodeConfigurationDeployment</S>
+                <S>Stop-AzureRmAutomationDscNodeConfigurationDeployment</S>
+                <S>Get-AzureRmAutomationDscNodeConfigurationDeploymentSchedule</S>
+                <S>Get-AzureRmAutomationDscNodeConfigurationDeployment</S>
+                <S>New-AzureRmAutomationSoftwareUpdateConfiguration</S>
+                <S>Get-AzureRmAutomationSoftwareUpdateConfiguration</S>
+                <S>Remove-AzureRmAutomationSoftwareUpdateConfiguration</S>
+                <S>Get-AzureRmAutomationSoftwareUpdateRun</S>
+                <S>Get-AzureRmAutomationSoftwareUpdateMachineRun</S>
+                <S>New-AzureRmAutomationSourceControl</S>
+                <S>Get-AzureRmAutomationSourceControl</S>
+                <S>Remove-AzureRmAutomationSourceControl</S>
+                <S>Update-AzureRmAutomationSourceControl</S>
+                <S>Start-AzureRmAutomationSourceControlSyncJob</S>
+                <S>Get-AzureRmAutomationSourceControlSyncJob</S>
+                <S>Get-AzureRmAutomationSourceControlSyncJobOutput</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Swagger based Azure Automation cmdlets_x000D__x000A_* Added Update Management cmdlets_x000D__x000A_* Added Source Control cmdlets_x000D__x000A_* Added Remove-AzureRmAutomationHybridWorkerGroup cmdlet_x000D__x000A_* Fixed the DSC Register Node command</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.8.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.8.2</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Automation service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Swagger based Azure Automation cmdlets_x000D__x000A_* Added Update Management cmdlets_x000D__x000A_* Added Source Control cmdlets_x000D__x000A_* Added Remove-AzureRmAutomationHybridWorkerGroup cmdlet_x000D__x000A_* Fixed the DSC Register Node command</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">6883271</S>
+          <S N="downloadCount">11478143</S>
+          <S N="packageSize">468334</S>
+          <S N="published">11/21/2018 6:28:54 PM -05:00</S>
+          <S N="created">11/21/2018 6:28:54 PM -05:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Automation PSModule PSCmdlet_Get-AzureRMAutomationHybridWorkerGroup PSCommand_Get-AzureRMAutomationHybridWorkerGroup PSCmdlet_Remove-AzureRmAutomationHybridWorkerGroup PSCommand_Remove-AzureRmAutomationHybridWorkerGroup PSCmdlet_Get-AzureRmAutomationJobOutputRecord PSCommand_Get-AzureRmAutomationJobOutputRecord PSCmdlet_Import-AzureRmAutomationDscNodeConfiguration PSCommand_Import-AzureRmAutomationDscNodeConfiguration PSCmdlet_Export-AzureRmAutomationDscConfiguration PSCommand_Export-AzureRmAutomationDscConfiguration PSCmdlet_Export-AzureRmAutomationDscNodeReportContent PSCommand_Export-AzureRmAutomationDscNodeReportContent PSCmdlet_Get-AzureRmAutomationCertificate PSCommand_Get-AzureRmAutomationCertificate PSCmdlet_Get-AzureRmAutomationConnection PSCommand_Get-AzureRmAutomationConnection PSCmdlet_Get-AzureRmAutomationCredential PSCommand_Get-AzureRmAutomationCredential PSCmdlet_Get-AzureRmAutomationDscCompilationJob PSCommand_Get-AzureRmAutomationDscCompilationJob PSCmdlet_Get-AzureRmAutomationDscCompilationJobOutput PSCommand_Get-AzureRmAutomationDscCompilationJobOutput PSCmdlet_Get-AzureRmAutomationDscNodeConfiguration PSCommand_Get-AzureRmAutomationDscNodeConfiguration PSCmdlet_Get-AzureRmAutomationDscNodeReport PSCommand_Get-AzureRmAutomationDscNodeReport PSCmdlet_Get-AzureRmAutomationJob PSCommand_Get-AzureRmAutomationJob PSCmdlet_Get-AzureRmAutomationJobOutput PSCommand_Get-AzureRmAutomationJobOutput PSCmdlet_Get-AzureRmAutomationModule PSCommand_Get-AzureRmAutomationModule PSCmdlet_Get-AzureRmAutomationRunbook PSCommand_Get-AzureRmAutomationRunbook PSCmdlet_Export-AzureRmAutomationRunbook PSCommand_Export-AzureRmAutomationRunbook PSCmdlet_Get-AzureRmAutomationSchedule PSCommand_Get-AzureRmAutomationSchedule PSCmdlet_Get-AzureRmAutomationScheduledRunbook PSCommand_Get-AzureRmAutomationScheduledRunbook PSCmdlet_Get-AzureRmAutomationVariable PSCommand_Get-AzureRmAutomationVariable PSCmdlet_Get-AzureRmAutomationWebhook PSCommand_Get-AzureRmAutomationWebhook PSCmdlet_New-AzureRmAutomationCertificate PSCommand_New-AzureRmAutomationCertificate PSCmdlet_New-AzureRmAutomationConnection PSCommand_New-AzureRmAutomationConnection PSCmdlet_New-AzureRmAutomationCredential PSCommand_New-AzureRmAutomationCredential PSCmdlet_New-AzureRmAutomationModule PSCommand_New-AzureRmAutomationModule PSCmdlet_New-AzureRmAutomationRunbook PSCommand_New-AzureRmAutomationRunbook PSCmdlet_New-AzureRmAutomationSchedule PSCommand_New-AzureRmAutomationSchedule PSCmdlet_New-AzureRmAutomationVariable PSCommand_New-AzureRmAutomationVariable PSCmdlet_New-AzureRmAutomationWebhook PSCommand_New-AzureRmAutomationWebhook PSCmdlet_Publish-AzureRmAutomationRunbook PSCommand_Publish-AzureRmAutomationRunbook PSCmdlet_Register-AzureRmAutomationDscNode PSCommand_Register-AzureRmAutomationDscNode PSCmdlet_Register-AzureRmAutomationScheduledRunbook PSCommand_Register-AzureRmAutomationScheduledRunbook PSCmdlet_Remove-AzureRmAutomationCertificate PSCommand_Remove-AzureRmAutomationCertificate PSCmdlet_Remove-AzureRmAutomationConnectionType PSCommand_Remove-AzureRmAutomationConnectionType PSCmdlet_Remove-AzureRmAutomationConnection PSCommand_Remove-AzureRmAutomationConnection PSCmdlet_Remove-AzureRmAutomationCredential PSCommand_Remove-AzureRmAutomationCredential PSCmdlet_Remove-AzureRmAutomationDscNodeConfiguration PSCommand_Remove-AzureRmAutomationDscNodeConfiguration PSCmdlet_Remove-AzureRmAutomationModule PSCommand_Remove-AzureRmAutomationModule PSCmdlet_Remove-AzureRmAutomationRunbook PSCommand_Remove-AzureRmAutomationRunbook PSCmdlet_Remove-AzureRmAutomationSchedule PSCommand_Remove-AzureRmAutomationSchedule PSCmdlet_Remove-AzureRmAutomationVariable PSCommand_Remove-AzureRmAutomationVariable PSCmdlet_Remove-AzureRmAutomationDscConfiguration PSCommand_Remove-AzureRmAutomationDscConfiguration PSCmdlet_Remove-AzureRmAutomationWebhook PSCommand_Remove-AzureRmAutomationWebhook PSCmdlet_Resume-AzureRmAutomationJob PSCommand_Resume-AzureRmAutomationJob PSCmdlet_Set-AzureRmAutomationCertificate PSCommand_Set-AzureRmAutomationCertificate PSCmdlet_Set-AzureRmAutomationConnectionFieldValue PSCommand_Set-AzureRmAutomationConnectionFieldValue PSCmdlet_Set-AzureRmAutomationCredential PSCommand_Set-AzureRmAutomationCredential PSCmdlet_Set-AzureRmAutomationModule PSCommand_Set-AzureRmAutomationModule PSCmdlet_Set-AzureRmAutomationRunbook PSCommand_Set-AzureRmAutomationRunbook PSCmdlet_Import-AzureRmAutomationRunbook PSCommand_Import-AzureRmAutomationRunbook PSCmdlet_Set-AzureRmAutomationSchedule PSCommand_Set-AzureRmAutomationSchedule PSCmdlet_Set-AzureRmAutomationVariable PSCommand_Set-AzureRmAutomationVariable PSCmdlet_Set-AzureRmAutomationWebhook PSCommand_Set-AzureRmAutomationWebhook PSCmdlet_Start-AzureRmAutomationDscCompilationJob PSCommand_Start-AzureRmAutomationDscCompilationJob PSCmdlet_Get-AzureRmAutomationRegistrationInfo PSCommand_Get-AzureRmAutomationRegistrationInfo PSCmdlet_Get-AzureRmAutomationDscConfiguration PSCommand_Get-AzureRmAutomationDscConfiguration PSCmdlet_Get-AzureRmAutomationDscNode PSCommand_Get-AzureRmAutomationDscNode PSCmdlet_Get-AzureRmAutomationDscOnboardingMetaconfig PSCommand_Get-AzureRmAutomationDscOnboardingMetaconfig PSCmdlet_Import-AzureRmAutomationDscConfiguration PSCommand_Import-AzureRmAutomationDscConfiguration PSCmdlet_New-AzureRmAutomationKey PSCommand_New-AzureRmAutomationKey PSCmdlet_Start-AzureRmAutomationRunbook PSCommand_Start-AzureRmAutomationRunbook PSCmdlet_Stop-AzureRmAutomationJob PSCommand_Stop-AzureRmAutomationJob PSCmdlet_Suspend-AzureRmAutomationJob PSCommand_Suspend-AzureRmAutomationJob PSCmdlet_Unregister-AzureRmAutomationDscNode PSCommand_Unregister-AzureRmAutomationDscNode PSCmdlet_Set-AzureRmAutomationAccount PSCommand_Set-AzureRmAutomationAccount PSCmdlet_Remove-AzureRmAutomationAccount PSCommand_Remove-AzureRmAutomationAccount PSCmdlet_New-AzureRmAutomationAccount PSCommand_New-AzureRmAutomationAccount PSCmdlet_Get-AzureRmAutomationAccount PSCommand_Get-AzureRmAutomationAccount PSCmdlet_Set-AzureRmAutomationDscNode PSCommand_Set-AzureRmAutomationDscNode PSCmdlet_Unregister-AzureRmAutomationScheduledRunbook PSCommand_Unregister-AzureRmAutomationScheduledRunbook PSCmdlet_Start-AzureRmAutomationDscNodeConfigurationDeployment PSCommand_Start-AzureRmAutomationDscNodeConfigurationDeployment PSCmdlet_Stop-AzureRmAutomationDscNodeConfigurationDeployment PSCommand_Stop-AzureRmAutomationDscNodeConfigurationDeployment PSCmdlet_Get-AzureRmAutomationDscNodeConfigurationDeploymentSchedule PSCommand_Get-AzureRmAutomationDscNodeConfigurationDeploymentSchedule PSCmdlet_Get-AzureRmAutomationDscNodeConfigurationDeployment PSCommand_Get-AzureRmAutomationDscNodeConfigurationDeployment PSCmdlet_New-AzureRmAutomationSoftwareUpdateConfiguration PSCommand_New-AzureRmAutomationSoftwareUpdateConfiguration PSCmdlet_Get-AzureRmAutomationSoftwareUpdateConfiguration PSCommand_Get-AzureRmAutomationSoftwareUpdateConfiguration PSCmdlet_Remove-AzureRmAutomationSoftwareUpdateConfiguration PSCommand_Remove-AzureRmAutomationSoftwareUpdateConfiguration PSCmdlet_Get-AzureRmAutomationSoftwareUpdateRun PSCommand_Get-AzureRmAutomationSoftwareUpdateRun PSCmdlet_Get-AzureRmAutomationSoftwareUpdateMachineRun PSCommand_Get-AzureRmAutomationSoftwareUpdateMachineRun PSCmdlet_New-AzureRmAutomationSourceControl PSCommand_New-AzureRmAutomationSourceControl PSCmdlet_Get-AzureRmAutomationSourceControl PSCommand_Get-AzureRmAutomationSourceControl PSCmdlet_Remove-AzureRmAutomationSourceControl PSCommand_Remove-AzureRmAutomationSourceControl PSCmdlet_Update-AzureRmAutomationSourceControl PSCommand_Update-AzureRmAutomationSourceControl PSCmdlet_Start-AzureRmAutomationSourceControlSyncJob PSCommand_Start-AzureRmAutomationSourceControlSyncJob PSCmdlet_Get-AzureRmAutomationSourceControlSyncJob PSCommand_Get-AzureRmAutomationSourceControlSyncJob PSCmdlet_Get-AzureRmAutomationSourceControlSyncJobOutput PSCommand_Get-AzureRmAutomationSourceControlSyncJobOutput PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">6.1.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Automation.nuspec|AzureRM.Automation.format.ps1xml|AzureRM.Automation.psd1|AzureRM.Automation.psm1|Microsoft.Azure.Commands.Automation.dll|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help.xml|Microsoft.Azure.Management.Automation.dll|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">bcea1c70-a32b-48c3-a05c-323e1c02f4d3</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.Automation\6.1.1</S>
+    </MS>
+  </Obj>
+</Objs>

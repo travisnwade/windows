@@ -1,0 +1,273 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.KeyVault</S>
+      <Version N="Version">5.2.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - KeyVault service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:41:44-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:53.8865574-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>KeyVault</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureKeyVaultCertificate</S>
+                <S>Update-AzureKeyVaultCertificate</S>
+                <S>Stop-AzureKeyVaultCertificateOperation</S>
+                <S>Get-AzureKeyVaultCertificateOperation</S>
+                <S>Import-AzureKeyVaultCertificate</S>
+                <S>Add-AzureKeyVaultCertificateContact</S>
+                <S>Get-AzureKeyVaultCertificate</S>
+                <S>Get-AzureKeyVaultCertificateContact</S>
+                <S>Get-AzureKeyVaultCertificateIssuer</S>
+                <S>New-AzureKeyVaultCertificatePolicy</S>
+                <S>Remove-AzureKeyVaultCertificate</S>
+                <S>Remove-AzureKeyVaultCertificateContact</S>
+                <S>Remove-AzureKeyVaultCertificateIssuer</S>
+                <S>Remove-AzureKeyVaultCertificateOperation</S>
+                <S>Set-AzureKeyVaultCertificateIssuer</S>
+                <S>Set-AzureKeyVaultCertificatePolicy</S>
+                <S>Get-AzureRmKeyVault</S>
+                <S>New-AzureRmKeyVault</S>
+                <S>Remove-AzureRmKeyVault</S>
+                <S>Undo-AzureRmKeyVaultRemoval</S>
+                <S>Remove-AzureRmKeyVaultAccessPolicy</S>
+                <S>Set-AzureRmKeyVaultAccessPolicy</S>
+                <S>Backup-AzureKeyVaultKey</S>
+                <S>Get-AzureKeyVaultKey</S>
+                <S>Get-AzureKeyVaultSecret</S>
+                <S>Undo-AzureKeyVaultKeyRemoval</S>
+                <S>Undo-AzureKeyVaultSecretRemoval</S>
+                <S>Add-AzureKeyVaultKey</S>
+                <S>Remove-AzureKeyVaultKey</S>
+                <S>Remove-AzureKeyVaultSecret</S>
+                <S>Restore-AzureKeyVaultKey</S>
+                <S>Update-AzureKeyVaultKey</S>
+                <S>Set-AzureKeyVaultSecret</S>
+                <S>Update-AzureKeyVaultSecret</S>
+                <S>Get-AzureKeyVaultCertificatePolicy</S>
+                <S>New-AzureKeyVaultCertificateAdministratorDetails</S>
+                <S>New-AzureKeyVaultCertificateOrganizationDetails</S>
+                <S>Backup-AzureKeyVaultSecret</S>
+                <S>Restore-AzureKeyVaultSecret</S>
+                <S>Get-AzureKeyVaultManagedStorageAccount</S>
+                <S>Add-AzureKeyVaultManagedStorageAccount</S>
+                <S>Remove-AzureKeyVaultManagedStorageAccount</S>
+                <S>Update-AzureKeyVaultManagedStorageAccount</S>
+                <S>Update-AzureKeyVaultManagedStorageAccountKey</S>
+                <S>Get-AzureKeyVaultManagedStorageSasDefinition</S>
+                <S>Set-AzureKeyVaultManagedStorageSasDefinition</S>
+                <S>Remove-AzureKeyVaultManagedStorageSasDefinition</S>
+                <S>Undo-AzureKeyVaultCertificateRemoval</S>
+                <S>Backup-AzureKeyVaultCertificate</S>
+                <S>Restore-AzureKeyVaultCertificate</S>
+                <S>Backup-AzureKeyVaultManagedStorageAccount</S>
+                <S>Restore-AzureKeyVaultManagedStorageAccount</S>
+                <S>Undo-AzureKeyVaultManagedStorageSasDefinitionRemoval</S>
+                <S>Undo-AzureKeyVaultManagedStorageAccountRemoval</S>
+                <S>Add-AzureRmKeyVaultNetworkRule</S>
+                <S>Update-AzureRmKeyVaultNetworkRuleSet</S>
+                <S>Remove-AzureRmKeyVaultNetworkRule</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-AzureKeyVaultCertificate</S>
+                <S>Update-AzureKeyVaultCertificate</S>
+                <S>Stop-AzureKeyVaultCertificateOperation</S>
+                <S>Get-AzureKeyVaultCertificateOperation</S>
+                <S>Import-AzureKeyVaultCertificate</S>
+                <S>Add-AzureKeyVaultCertificateContact</S>
+                <S>Get-AzureKeyVaultCertificate</S>
+                <S>Get-AzureKeyVaultCertificateContact</S>
+                <S>Get-AzureKeyVaultCertificateIssuer</S>
+                <S>New-AzureKeyVaultCertificatePolicy</S>
+                <S>Remove-AzureKeyVaultCertificate</S>
+                <S>Remove-AzureKeyVaultCertificateContact</S>
+                <S>Remove-AzureKeyVaultCertificateIssuer</S>
+                <S>Remove-AzureKeyVaultCertificateOperation</S>
+                <S>Set-AzureKeyVaultCertificateIssuer</S>
+                <S>Set-AzureKeyVaultCertificatePolicy</S>
+                <S>Get-AzureRmKeyVault</S>
+                <S>New-AzureRmKeyVault</S>
+                <S>Remove-AzureRmKeyVault</S>
+                <S>Undo-AzureRmKeyVaultRemoval</S>
+                <S>Remove-AzureRmKeyVaultAccessPolicy</S>
+                <S>Set-AzureRmKeyVaultAccessPolicy</S>
+                <S>Backup-AzureKeyVaultKey</S>
+                <S>Get-AzureKeyVaultKey</S>
+                <S>Get-AzureKeyVaultSecret</S>
+                <S>Undo-AzureKeyVaultKeyRemoval</S>
+                <S>Undo-AzureKeyVaultSecretRemoval</S>
+                <S>Add-AzureKeyVaultKey</S>
+                <S>Remove-AzureKeyVaultKey</S>
+                <S>Remove-AzureKeyVaultSecret</S>
+                <S>Restore-AzureKeyVaultKey</S>
+                <S>Update-AzureKeyVaultKey</S>
+                <S>Set-AzureKeyVaultSecret</S>
+                <S>Update-AzureKeyVaultSecret</S>
+                <S>Get-AzureKeyVaultCertificatePolicy</S>
+                <S>New-AzureKeyVaultCertificateAdministratorDetails</S>
+                <S>New-AzureKeyVaultCertificateOrganizationDetails</S>
+                <S>Backup-AzureKeyVaultSecret</S>
+                <S>Restore-AzureKeyVaultSecret</S>
+                <S>Get-AzureKeyVaultManagedStorageAccount</S>
+                <S>Add-AzureKeyVaultManagedStorageAccount</S>
+                <S>Remove-AzureKeyVaultManagedStorageAccount</S>
+                <S>Update-AzureKeyVaultManagedStorageAccount</S>
+                <S>Update-AzureKeyVaultManagedStorageAccountKey</S>
+                <S>Get-AzureKeyVaultManagedStorageSasDefinition</S>
+                <S>Set-AzureKeyVaultManagedStorageSasDefinition</S>
+                <S>Remove-AzureKeyVaultManagedStorageSasDefinition</S>
+                <S>Undo-AzureKeyVaultCertificateRemoval</S>
+                <S>Backup-AzureKeyVaultCertificate</S>
+                <S>Restore-AzureKeyVaultCertificate</S>
+                <S>Backup-AzureKeyVaultManagedStorageAccount</S>
+                <S>Restore-AzureKeyVaultManagedStorageAccount</S>
+                <S>Undo-AzureKeyVaultManagedStorageSasDefinitionRemoval</S>
+                <S>Undo-AzureKeyVaultManagedStorageAccountRemoval</S>
+                <S>Add-AzureRmKeyVaultNetworkRule</S>
+                <S>Update-AzureRmKeyVaultNetworkRuleSet</S>
+                <S>Remove-AzureRmKeyVaultNetworkRule</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - KeyVault service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">13071782</S>
+          <S N="downloadCount">18065475</S>
+          <S N="packageSize">1534013</S>
+          <S N="published">8/29/2018 10:41:44 PM -04:00</S>
+          <S N="created">8/29/2018 10:41:44 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM KeyVault PSModule PSCmdlet_Add-AzureKeyVaultCertificate PSCommand_Add-AzureKeyVaultCertificate PSCmdlet_Update-AzureKeyVaultCertificate PSCommand_Update-AzureKeyVaultCertificate PSCmdlet_Stop-AzureKeyVaultCertificateOperation PSCommand_Stop-AzureKeyVaultCertificateOperation PSCmdlet_Get-AzureKeyVaultCertificateOperation PSCommand_Get-AzureKeyVaultCertificateOperation PSCmdlet_Import-AzureKeyVaultCertificate PSCommand_Import-AzureKeyVaultCertificate PSCmdlet_Add-AzureKeyVaultCertificateContact PSCommand_Add-AzureKeyVaultCertificateContact PSCmdlet_Get-AzureKeyVaultCertificate PSCommand_Get-AzureKeyVaultCertificate PSCmdlet_Get-AzureKeyVaultCertificateContact PSCommand_Get-AzureKeyVaultCertificateContact PSCmdlet_Get-AzureKeyVaultCertificateIssuer PSCommand_Get-AzureKeyVaultCertificateIssuer PSCmdlet_New-AzureKeyVaultCertificatePolicy PSCommand_New-AzureKeyVaultCertificatePolicy PSCmdlet_Remove-AzureKeyVaultCertificate PSCommand_Remove-AzureKeyVaultCertificate PSCmdlet_Remove-AzureKeyVaultCertificateContact PSCommand_Remove-AzureKeyVaultCertificateContact PSCmdlet_Remove-AzureKeyVaultCertificateIssuer PSCommand_Remove-AzureKeyVaultCertificateIssuer PSCmdlet_Remove-AzureKeyVaultCertificateOperation PSCommand_Remove-AzureKeyVaultCertificateOperation PSCmdlet_Set-AzureKeyVaultCertificateIssuer PSCommand_Set-AzureKeyVaultCertificateIssuer PSCmdlet_Set-AzureKeyVaultCertificatePolicy PSCommand_Set-AzureKeyVaultCertificatePolicy PSCmdlet_Get-AzureRmKeyVault PSCommand_Get-AzureRmKeyVault PSCmdlet_New-AzureRmKeyVault PSCommand_New-AzureRmKeyVault PSCmdlet_Remove-AzureRmKeyVault PSCommand_Remove-AzureRmKeyVault PSCmdlet_Undo-AzureRmKeyVaultRemoval PSCommand_Undo-AzureRmKeyVaultRemoval PSCmdlet_Remove-AzureRmKeyVaultAccessPolicy PSCommand_Remove-AzureRmKeyVaultAccessPolicy PSCmdlet_Set-AzureRmKeyVaultAccessPolicy PSCommand_Set-AzureRmKeyVaultAccessPolicy PSCmdlet_Backup-AzureKeyVaultKey PSCommand_Backup-AzureKeyVaultKey PSCmdlet_Get-AzureKeyVaultKey PSCommand_Get-AzureKeyVaultKey PSCmdlet_Get-AzureKeyVaultSecret PSCommand_Get-AzureKeyVaultSecret PSCmdlet_Undo-AzureKeyVaultKeyRemoval PSCommand_Undo-AzureKeyVaultKeyRemoval PSCmdlet_Undo-AzureKeyVaultSecretRemoval PSCommand_Undo-AzureKeyVaultSecretRemoval PSCmdlet_Add-AzureKeyVaultKey PSCommand_Add-AzureKeyVaultKey PSCmdlet_Remove-AzureKeyVaultKey PSCommand_Remove-AzureKeyVaultKey PSCmdlet_Remove-AzureKeyVaultSecret PSCommand_Remove-AzureKeyVaultSecret PSCmdlet_Restore-AzureKeyVaultKey PSCommand_Restore-AzureKeyVaultKey PSCmdlet_Update-AzureKeyVaultKey PSCommand_Update-AzureKeyVaultKey PSCmdlet_Set-AzureKeyVaultSecret PSCommand_Set-AzureKeyVaultSecret PSCmdlet_Update-AzureKeyVaultSecret PSCommand_Update-AzureKeyVaultSecret PSCmdlet_Get-AzureKeyVaultCertificatePolicy PSCommand_Get-AzureKeyVaultCertificatePolicy PSCmdlet_New-AzureKeyVaultCertificateAdministratorDetails PSCommand_New-AzureKeyVaultCertificateAdministratorDetails PSCmdlet_New-AzureKeyVaultCertificateOrganizationDetails PSCommand_New-AzureKeyVaultCertificateOrganizationDetails PSCmdlet_Backup-AzureKeyVaultSecret PSCommand_Backup-AzureKeyVaultSecret PSCmdlet_Restore-AzureKeyVaultSecret PSCommand_Restore-AzureKeyVaultSecret PSCmdlet_Get-AzureKeyVaultManagedStorageAccount PSCommand_Get-AzureKeyVaultManagedStorageAccount PSCmdlet_Add-AzureKeyVaultManagedStorageAccount PSCommand_Add-AzureKeyVaultManagedStorageAccount PSCmdlet_Remove-AzureKeyVaultManagedStorageAccount PSCommand_Remove-AzureKeyVaultManagedStorageAccount PSCmdlet_Update-AzureKeyVaultManagedStorageAccount PSCommand_Update-AzureKeyVaultManagedStorageAccount PSCmdlet_Update-AzureKeyVaultManagedStorageAccountKey PSCommand_Update-AzureKeyVaultManagedStorageAccountKey PSCmdlet_Get-AzureKeyVaultManagedStorageSasDefinition PSCommand_Get-AzureKeyVaultManagedStorageSasDefinition PSCmdlet_Set-AzureKeyVaultManagedStorageSasDefinition PSCommand_Set-AzureKeyVaultManagedStorageSasDefinition PSCmdlet_Remove-AzureKeyVaultManagedStorageSasDefinition PSCommand_Remove-AzureKeyVaultManagedStorageSasDefinition PSCmdlet_Undo-AzureKeyVaultCertificateRemoval PSCommand_Undo-AzureKeyVaultCertificateRemoval PSCmdlet_Backup-AzureKeyVaultCertificate PSCommand_Backup-AzureKeyVaultCertificate PSCmdlet_Restore-AzureKeyVaultCertificate PSCommand_Restore-AzureKeyVaultCertificate PSCmdlet_Backup-AzureKeyVaultManagedStorageAccount PSCommand_Backup-AzureKeyVaultManagedStorageAccount PSCmdlet_Restore-AzureKeyVaultManagedStorageAccount PSCommand_Restore-AzureKeyVaultManagedStorageAccount PSCmdlet_Undo-AzureKeyVaultManagedStorageSasDefinitionRemoval PSCommand_Undo-AzureKeyVaultManagedStorageSasDefinitionRemoval PSCmdlet_Undo-AzureKeyVaultManagedStorageAccountRemoval PSCommand_Undo-AzureKeyVaultManagedStorageAccountRemoval PSCmdlet_Add-AzureRmKeyVaultNetworkRule PSCommand_Add-AzureRmKeyVaultNetworkRule PSCmdlet_Update-AzureRmKeyVaultNetworkRuleSet PSCommand_Update-AzureRmKeyVaultNetworkRuleSet PSCmdlet_Remove-AzureRmKeyVaultNetworkRule PSCommand_Remove-AzureRmKeyVaultNetworkRule PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.2.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.KeyVault.nuspec|AzureRM.KeyVault.psd1|AzureRM.KeyVault.psm1|Microsoft.Azure.ActiveDirectory.GraphClient.dll|Microsoft.Azure.Commands.KeyVault.dll|Microsoft.Azure.Commands.KeyVault.dll-Help.xml|Microsoft.Azure.Commands.KeyVault.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.KeyVault.dll|Microsoft.Azure.KeyVault.WebKey.dll|Microsoft.Azure.Management.KeyVault.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|System.Spatial.dll</S>
+          <S N="GUID">fa236c1f-6464-4d6a-a48d-db47c0e7923d</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.KeyVault\5.2.1</S>
+    </MS>
+  </Obj>
+</Objs>

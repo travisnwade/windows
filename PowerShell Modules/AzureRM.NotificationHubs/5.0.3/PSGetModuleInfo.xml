@@ -1,0 +1,202 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.NotificationHubs</S>
+      <Version N="Version">5.0.3</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - NotificationHubs</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-14T18:01:45-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:59:03.3819082-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Media</S>
+          <S>NotificationHubs</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmNotificationHub</S>
+                <S>Get-AzureRmNotificationHubAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubListKeys</S>
+                <S>Get-AzureRmNotificationHubPNSCredentials</S>
+                <S>New-AzureRmNotificationHub</S>
+                <S>New-AzureRmNotificationHubAuthorizationRules</S>
+                <S>New-AzureRmNotificationHubKey</S>
+                <S>Remove-AzureRmNotificationHub</S>
+                <S>Remove-AzureRmNotificationHubAuthorizationRules</S>
+                <S>Set-AzureRmNotificationHub</S>
+                <S>Set-AzureRmNotificationHubAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubsNamespaceListKeys</S>
+                <S>New-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>New-AzureRmNotificationHubsNamespaceKey</S>
+                <S>Remove-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>Set-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubsNamespace</S>
+                <S>New-AzureRmNotificationHubsNamespace</S>
+                <S>Remove-AzureRmNotificationHubsNamespace</S>
+                <S>Set-AzureRmNotificationHubsNamespace</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmNotificationHub</S>
+                <S>Get-AzureRmNotificationHubAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubListKeys</S>
+                <S>Get-AzureRmNotificationHubPNSCredentials</S>
+                <S>New-AzureRmNotificationHub</S>
+                <S>New-AzureRmNotificationHubAuthorizationRules</S>
+                <S>New-AzureRmNotificationHubKey</S>
+                <S>Remove-AzureRmNotificationHub</S>
+                <S>Remove-AzureRmNotificationHubAuthorizationRules</S>
+                <S>Set-AzureRmNotificationHub</S>
+                <S>Set-AzureRmNotificationHubAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubsNamespaceListKeys</S>
+                <S>New-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>New-AzureRmNotificationHubsNamespaceKey</S>
+                <S>Remove-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>Set-AzureRmNotificationHubsNamespaceAuthorizationRules</S>
+                <S>Get-AzureRmNotificationHubsNamespace</S>
+                <S>New-AzureRmNotificationHubsNamespace</S>
+                <S>Remove-AzureRmNotificationHubsNamespace</S>
+                <S>Set-AzureRmNotificationHubsNamespace</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Updated to the latest version of the Azure ClientRuntime.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.4.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.4.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - NotificationHubs</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Updated to the latest version of the Azure ClientRuntime.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5098149</S>
+          <S N="downloadCount">7836431</S>
+          <S N="packageSize">112286</S>
+          <S N="published">8/14/2018 6:01:45 PM -04:00</S>
+          <S N="created">8/14/2018 6:01:45 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM Media NotificationHubs PSModule PSCmdlet_Get-AzureRmNotificationHub PSCommand_Get-AzureRmNotificationHub PSCmdlet_Get-AzureRmNotificationHubAuthorizationRules PSCommand_Get-AzureRmNotificationHubAuthorizationRules PSCmdlet_Get-AzureRmNotificationHubListKeys PSCommand_Get-AzureRmNotificationHubListKeys PSCmdlet_Get-AzureRmNotificationHubPNSCredentials PSCommand_Get-AzureRmNotificationHubPNSCredentials PSCmdlet_New-AzureRmNotificationHub PSCommand_New-AzureRmNotificationHub PSCmdlet_New-AzureRmNotificationHubAuthorizationRules PSCommand_New-AzureRmNotificationHubAuthorizationRules PSCmdlet_New-AzureRmNotificationHubKey PSCommand_New-AzureRmNotificationHubKey PSCmdlet_Remove-AzureRmNotificationHub PSCommand_Remove-AzureRmNotificationHub PSCmdlet_Remove-AzureRmNotificationHubAuthorizationRules PSCommand_Remove-AzureRmNotificationHubAuthorizationRules PSCmdlet_Set-AzureRmNotificationHub PSCommand_Set-AzureRmNotificationHub PSCmdlet_Set-AzureRmNotificationHubAuthorizationRules PSCommand_Set-AzureRmNotificationHubAuthorizationRules PSCmdlet_Get-AzureRmNotificationHubsNamespaceAuthorizationRules PSCommand_Get-AzureRmNotificationHubsNamespaceAuthorizationRules PSCmdlet_Get-AzureRmNotificationHubsNamespaceListKeys PSCommand_Get-AzureRmNotificationHubsNamespaceListKeys PSCmdlet_New-AzureRmNotificationHubsNamespaceAuthorizationRules PSCommand_New-AzureRmNotificationHubsNamespaceAuthorizationRules PSCmdlet_New-AzureRmNotificationHubsNamespaceKey PSCommand_New-AzureRmNotificationHubsNamespaceKey PSCmdlet_Remove-AzureRmNotificationHubsNamespaceAuthorizationRules PSCommand_Remove-AzureRmNotificationHubsNamespaceAuthorizationRules PSCmdlet_Set-AzureRmNotificationHubsNamespaceAuthorizationRules PSCommand_Set-AzureRmNotificationHubsNamespaceAuthorizationRules PSCmdlet_Get-AzureRmNotificationHubsNamespace PSCommand_Get-AzureRmNotificationHubsNamespace PSCmdlet_New-AzureRmNotificationHubsNamespace PSCommand_New-AzureRmNotificationHubsNamespace PSCmdlet_Remove-AzureRmNotificationHubsNamespace PSCommand_Remove-AzureRmNotificationHubsNamespace PSCmdlet_Set-AzureRmNotificationHubsNamespace PSCommand_Set-AzureRmNotificationHubsNamespace PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">5.0.3</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.NotificationHubs.nuspec|AzureRM.NotificationHubs.psd1|AzureRM.NotificationHubs.psm1|Microsoft.Azure.Commands.NotificationHubs.dll|Microsoft.Azure.Commands.NotificationHubs.dll-Help.xml|Microsoft.Azure.Management.NotificationHubs.dll</S>
+          <S N="GUID">f875725d-8ce4-423f-a6af-ea880bc63f13</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.NotificationHubs\5.0.3</S>
+    </MS>
+  </Obj>
+</Objs>

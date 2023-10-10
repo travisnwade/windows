@@ -1,0 +1,235 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.DataFactoryV2</S>
+      <Version N="Version">0.5.11</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - DataFactories service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-10-09T18:01:48-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:40.0138739-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>DataFactory</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Set-AzureRmDataFactoryV2</S>
+                <S>Update-AzureRmDataFactoryV2</S>
+                <S>Get-AzureRmDataFactoryV2</S>
+                <S>Remove-AzureRmDataFactoryV2</S>
+                <S>Set-AzureRmDataFactoryV2LinkedService</S>
+                <S>New-AzureRmDataFactoryV2LinkedServiceEncryptedCredential</S>
+                <S>Get-AzureRmDataFactoryV2LinkedService</S>
+                <S>Remove-AzureRmDataFactoryV2LinkedService</S>
+                <S>Set-AzureRmDataFactoryV2Dataset</S>
+                <S>Get-AzureRmDataFactoryV2Dataset</S>
+                <S>Remove-AzureRmDataFactoryV2Dataset</S>
+                <S>Set-AzureRmDataFactoryV2Trigger</S>
+                <S>Get-AzureRmDataFactoryV2Trigger</S>
+                <S>Remove-AzureRmDataFactoryV2Trigger</S>
+                <S>Start-AzureRmDataFactoryV2Trigger</S>
+                <S>Stop-AzureRmDataFactoryV2Trigger</S>
+                <S>Set-AzureRmDataFactoryV2Pipeline</S>
+                <S>Get-AzureRmDataFactoryV2Pipeline</S>
+                <S>Remove-AzureRmDataFactoryV2Pipeline</S>
+                <S>Invoke-AzureRmDataFactoryV2Pipeline</S>
+                <S>Get-AzureRmDataFactoryV2PipelineRun</S>
+                <S>Stop-AzureRmDataFactoryV2PipelineRun</S>
+                <S>Get-AzureRmDataFactoryV2ActivityRun</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntimeKey</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>New-AzureRmDataFactoryV2IntegrationRuntimeKey</S>
+                <S>Remove-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Set-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Start-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Stop-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntimeMetric</S>
+                <S>Remove-AzureRmDataFactoryV2IntegrationRuntimeNode</S>
+                <S>Update-AzureRmDataFactoryV2IntegrationRuntimeNode</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntimeNode</S>
+                <S>Invoke-AzureRmDataFactoryV2IntegrationRuntimeUpgrade</S>
+                <S>Sync-AzureRmDataFactoryV2IntegrationRuntimeCredential</S>
+                <S>Update-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Get-AzureRmDataFactoryV2TriggerRun</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Set-AzureRmDataFactoryV2</S>
+                <S>Update-AzureRmDataFactoryV2</S>
+                <S>Get-AzureRmDataFactoryV2</S>
+                <S>Remove-AzureRmDataFactoryV2</S>
+                <S>Set-AzureRmDataFactoryV2LinkedService</S>
+                <S>New-AzureRmDataFactoryV2LinkedServiceEncryptedCredential</S>
+                <S>Get-AzureRmDataFactoryV2LinkedService</S>
+                <S>Remove-AzureRmDataFactoryV2LinkedService</S>
+                <S>Set-AzureRmDataFactoryV2Dataset</S>
+                <S>Get-AzureRmDataFactoryV2Dataset</S>
+                <S>Remove-AzureRmDataFactoryV2Dataset</S>
+                <S>Set-AzureRmDataFactoryV2Trigger</S>
+                <S>Get-AzureRmDataFactoryV2Trigger</S>
+                <S>Remove-AzureRmDataFactoryV2Trigger</S>
+                <S>Start-AzureRmDataFactoryV2Trigger</S>
+                <S>Stop-AzureRmDataFactoryV2Trigger</S>
+                <S>Set-AzureRmDataFactoryV2Pipeline</S>
+                <S>Get-AzureRmDataFactoryV2Pipeline</S>
+                <S>Remove-AzureRmDataFactoryV2Pipeline</S>
+                <S>Invoke-AzureRmDataFactoryV2Pipeline</S>
+                <S>Get-AzureRmDataFactoryV2PipelineRun</S>
+                <S>Stop-AzureRmDataFactoryV2PipelineRun</S>
+                <S>Get-AzureRmDataFactoryV2ActivityRun</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntimeKey</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>New-AzureRmDataFactoryV2IntegrationRuntimeKey</S>
+                <S>Remove-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Set-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Start-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Stop-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntimeMetric</S>
+                <S>Remove-AzureRmDataFactoryV2IntegrationRuntimeNode</S>
+                <S>Update-AzureRmDataFactoryV2IntegrationRuntimeNode</S>
+                <S>Get-AzureRmDataFactoryV2IntegrationRuntimeNode</S>
+                <S>Invoke-AzureRmDataFactoryV2IntegrationRuntimeUpgrade</S>
+                <S>Sync-AzureRmDataFactoryV2IntegrationRuntimeCredential</S>
+                <S>Update-AzureRmDataFactoryV2IntegrationRuntime</S>
+                <S>Get-AzureRmDataFactoryV2TriggerRun</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Updated the ADF .Net SDK version to 2.3.0.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.6.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.6.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - DataFactories service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Updated the ADF .Net SDK version to 2.3.0.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5418965</S>
+          <S N="downloadCount">8202713</S>
+          <S N="packageSize">368796</S>
+          <S N="published">10/9/2018 6:01:48 PM -04:00</S>
+          <S N="created">10/9/2018 6:01:48 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM DataFactory PSModule PSCmdlet_Set-AzureRmDataFactoryV2 PSCommand_Set-AzureRmDataFactoryV2 PSCmdlet_Update-AzureRmDataFactoryV2 PSCommand_Update-AzureRmDataFactoryV2 PSCmdlet_Get-AzureRmDataFactoryV2 PSCommand_Get-AzureRmDataFactoryV2 PSCmdlet_Remove-AzureRmDataFactoryV2 PSCommand_Remove-AzureRmDataFactoryV2 PSCmdlet_Set-AzureRmDataFactoryV2LinkedService PSCommand_Set-AzureRmDataFactoryV2LinkedService PSCmdlet_New-AzureRmDataFactoryV2LinkedServiceEncryptedCredential PSCommand_New-AzureRmDataFactoryV2LinkedServiceEncryptedCredential PSCmdlet_Get-AzureRmDataFactoryV2LinkedService PSCommand_Get-AzureRmDataFactoryV2LinkedService PSCmdlet_Remove-AzureRmDataFactoryV2LinkedService PSCommand_Remove-AzureRmDataFactoryV2LinkedService PSCmdlet_Set-AzureRmDataFactoryV2Dataset PSCommand_Set-AzureRmDataFactoryV2Dataset PSCmdlet_Get-AzureRmDataFactoryV2Dataset PSCommand_Get-AzureRmDataFactoryV2Dataset PSCmdlet_Remove-AzureRmDataFactoryV2Dataset PSCommand_Remove-AzureRmDataFactoryV2Dataset PSCmdlet_Set-AzureRmDataFactoryV2Trigger PSCommand_Set-AzureRmDataFactoryV2Trigger PSCmdlet_Get-AzureRmDataFactoryV2Trigger PSCommand_Get-AzureRmDataFactoryV2Trigger PSCmdlet_Remove-AzureRmDataFactoryV2Trigger PSCommand_Remove-AzureRmDataFactoryV2Trigger PSCmdlet_Start-AzureRmDataFactoryV2Trigger PSCommand_Start-AzureRmDataFactoryV2Trigger PSCmdlet_Stop-AzureRmDataFactoryV2Trigger PSCommand_Stop-AzureRmDataFactoryV2Trigger PSCmdlet_Set-AzureRmDataFactoryV2Pipeline PSCommand_Set-AzureRmDataFactoryV2Pipeline PSCmdlet_Get-AzureRmDataFactoryV2Pipeline PSCommand_Get-AzureRmDataFactoryV2Pipeline PSCmdlet_Remove-AzureRmDataFactoryV2Pipeline PSCommand_Remove-AzureRmDataFactoryV2Pipeline PSCmdlet_Invoke-AzureRmDataFactoryV2Pipeline PSCommand_Invoke-AzureRmDataFactoryV2Pipeline PSCmdlet_Get-AzureRmDataFactoryV2PipelineRun PSCommand_Get-AzureRmDataFactoryV2PipelineRun PSCmdlet_Stop-AzureRmDataFactoryV2PipelineRun PSCommand_Stop-AzureRmDataFactoryV2PipelineRun PSCmdlet_Get-AzureRmDataFactoryV2ActivityRun PSCommand_Get-AzureRmDataFactoryV2ActivityRun PSCmdlet_Get-AzureRmDataFactoryV2IntegrationRuntimeKey PSCommand_Get-AzureRmDataFactoryV2IntegrationRuntimeKey PSCmdlet_Get-AzureRmDataFactoryV2IntegrationRuntime PSCommand_Get-AzureRmDataFactoryV2IntegrationRuntime PSCmdlet_New-AzureRmDataFactoryV2IntegrationRuntimeKey PSCommand_New-AzureRmDataFactoryV2IntegrationRuntimeKey PSCmdlet_Remove-AzureRmDataFactoryV2IntegrationRuntime PSCommand_Remove-AzureRmDataFactoryV2IntegrationRuntime PSCmdlet_Set-AzureRmDataFactoryV2IntegrationRuntime PSCommand_Set-AzureRmDataFactoryV2IntegrationRuntime PSCmdlet_Start-AzureRmDataFactoryV2IntegrationRuntime PSCommand_Start-AzureRmDataFactoryV2IntegrationRuntime PSCmdlet_Stop-AzureRmDataFactoryV2IntegrationRuntime PSCommand_Stop-AzureRmDataFactoryV2IntegrationRuntime PSCmdlet_Get-AzureRmDataFactoryV2IntegrationRuntimeMetric PSCommand_Get-AzureRmDataFactoryV2IntegrationRuntimeMetric PSCmdlet_Remove-AzureRmDataFactoryV2IntegrationRuntimeNode PSCommand_Remove-AzureRmDataFactoryV2IntegrationRuntimeNode PSCmdlet_Update-AzureRmDataFactoryV2IntegrationRuntimeNode PSCommand_Update-AzureRmDataFactoryV2IntegrationRuntimeNode PSCmdlet_Get-AzureRmDataFactoryV2IntegrationRuntimeNode PSCommand_Get-AzureRmDataFactoryV2IntegrationRuntimeNode PSCmdlet_Invoke-AzureRmDataFactoryV2IntegrationRuntimeUpgrade PSCommand_Invoke-AzureRmDataFactoryV2IntegrationRuntimeUpgrade PSCmdlet_Sync-AzureRmDataFactoryV2IntegrationRuntimeCredential PSCommand_Sync-AzureRmDataFactoryV2IntegrationRuntimeCredential PSCmdlet_Update-AzureRmDataFactoryV2IntegrationRuntime PSCommand_Update-AzureRmDataFactoryV2IntegrationRuntime PSCmdlet_Get-AzureRmDataFactoryV2TriggerRun PSCommand_Get-AzureRmDataFactoryV2TriggerRun PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">0.5.11</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.DataFactoryV2.nuspec|AzureRM.DataFactoryV2.psd1|AzureRM.DataFactoryV2.psm1|Microsoft.Azure.Commands.DataFactoryV2.dll|Microsoft.Azure.Commands.DataFactoryV2.dll-Help.xml|Microsoft.Azure.Commands.DataFactoryV2.format.ps1xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.DataFactory.dll|Microsoft.DataTransfer.Gateway.Encryption.dll</S>
+          <S N="GUID">e3c0f6bc-fe96-41a0-88f4-5e490a91f05d</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.DataFactoryV2\0.5.11</S>
+    </MS>
+  </Obj>
+</Objs>

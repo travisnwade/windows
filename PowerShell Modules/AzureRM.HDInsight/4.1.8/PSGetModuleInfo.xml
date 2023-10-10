@@ -1,0 +1,235 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.HDInsight</S>
+      <Version N="Version">4.1.8</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - HDInsight service cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-08-29T22:41:32-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-12-03T11:58:49.7943124-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>HDInsight</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmHDInsightJob</S>
+                <S>New-AzureRmHDInsightSqoopJobDefinition</S>
+                <S>Wait-AzureRmHDInsightJob</S>
+                <S>New-AzureRmHDInsightStreamingMapReduceJobDefinition</S>
+                <S>New-AzureRmHDInsightMapReduceJobDefinition</S>
+                <S>New-AzureRmHDInsightPigJobDefinition</S>
+                <S>New-AzureRmHDInsightHiveJobDefinition</S>
+                <S>Get-AzureRmHDInsightJobOutput</S>
+                <S>Invoke-AzureRmHDInsightHiveJob</S>
+                <S>Use-AzureRmHDInsightCluster</S>
+                <S>Stop-AzureRmHDInsightJob</S>
+                <S>Start-AzureRmHDInsightJob</S>
+                <S>Add-AzureRmHDInsightComponentVersion</S>
+                <S>Add-AzureRmHDInsightSecurityProfile</S>
+                <S>Set-AzureRmHDInsightDefaultStorage</S>
+                <S>Add-AzureRmHDInsightStorage</S>
+                <S>Add-AzureRmHDInsightScriptAction</S>
+                <S>Add-AzureRmHDInsightMetastore</S>
+                <S>Add-AzureRmHDInsightConfigValues</S>
+                <S>Get-AzureRmHDInsightProperties</S>
+                <S>Revoke-AzureRmHDInsightRdpServicesAccess</S>
+                <S>Revoke-AzureRmHDInsightHttpServicesAccess</S>
+                <S>Grant-AzureRmHDInsightRdpServicesAccess</S>
+                <S>Grant-AzureRmHDInsightHttpServicesAccess</S>
+                <S>New-AzureRmHDInsightClusterConfig</S>
+                <S>Remove-AzureRmHDInsightCluster</S>
+                <S>Set-AzureRmHDInsightClusterSize</S>
+                <S>Get-AzureRmHDInsightPersistedScriptAction</S>
+                <S>Get-AzureRmHDInsightScriptActionHistory</S>
+                <S>Remove-AzureRmHDInsightPersistedScriptAction</S>
+                <S>Set-AzureRmHDInsightPersistedScriptAction</S>
+                <S>Submit-AzureRmHDInsightScriptAction</S>
+                <S>Get-AzureRmHDInsightCluster</S>
+                <S>New-AzureRmHDInsightCluster</S>
+                <S>Add-AzureRmHDInsightClusterIdentity</S>
+                <S>Enable-AzureRmHDInsightOperationsManagementSuite</S>
+                <S>Disable-AzureRmHDInsightOperationsManagementSuite</S>
+                <S>Get-AzureRmHDInsightOperationsManagementSuite</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureRmHDInsightJob</S>
+                <S>New-AzureRmHDInsightSqoopJobDefinition</S>
+                <S>Wait-AzureRmHDInsightJob</S>
+                <S>New-AzureRmHDInsightStreamingMapReduceJobDefinition</S>
+                <S>New-AzureRmHDInsightMapReduceJobDefinition</S>
+                <S>New-AzureRmHDInsightPigJobDefinition</S>
+                <S>New-AzureRmHDInsightHiveJobDefinition</S>
+                <S>Get-AzureRmHDInsightJobOutput</S>
+                <S>Invoke-AzureRmHDInsightHiveJob</S>
+                <S>Use-AzureRmHDInsightCluster</S>
+                <S>Stop-AzureRmHDInsightJob</S>
+                <S>Start-AzureRmHDInsightJob</S>
+                <S>Add-AzureRmHDInsightComponentVersion</S>
+                <S>Add-AzureRmHDInsightSecurityProfile</S>
+                <S>Set-AzureRmHDInsightDefaultStorage</S>
+                <S>Add-AzureRmHDInsightStorage</S>
+                <S>Add-AzureRmHDInsightScriptAction</S>
+                <S>Add-AzureRmHDInsightMetastore</S>
+                <S>Add-AzureRmHDInsightConfigValues</S>
+                <S>Get-AzureRmHDInsightProperties</S>
+                <S>Revoke-AzureRmHDInsightRdpServicesAccess</S>
+                <S>Revoke-AzureRmHDInsightHttpServicesAccess</S>
+                <S>Grant-AzureRmHDInsightRdpServicesAccess</S>
+                <S>Grant-AzureRmHDInsightHttpServicesAccess</S>
+                <S>New-AzureRmHDInsightClusterConfig</S>
+                <S>Remove-AzureRmHDInsightCluster</S>
+                <S>Set-AzureRmHDInsightClusterSize</S>
+                <S>Get-AzureRmHDInsightPersistedScriptAction</S>
+                <S>Get-AzureRmHDInsightScriptActionHistory</S>
+                <S>Remove-AzureRmHDInsightPersistedScriptAction</S>
+                <S>Set-AzureRmHDInsightPersistedScriptAction</S>
+                <S>Submit-AzureRmHDInsightScriptAction</S>
+                <S>Get-AzureRmHDInsightCluster</S>
+                <S>New-AzureRmHDInsightCluster</S>
+                <S>Add-AzureRmHDInsightClusterIdentity</S>
+                <S>Enable-AzureRmHDInsightOperationsManagementSuite</S>
+                <S>Disable-AzureRmHDInsightOperationsManagementSuite</S>
+                <S>Get-AzureRmHDInsightOperationsManagementSuite</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.5.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.5.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - HDInsight service cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fixed issue with default resource groups not being set._x000D__x000A_* Updated common runtime assemblies</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5827749</S>
+          <S N="downloadCount">8710969</S>
+          <S N="packageSize">1509571</S>
+          <S N="published">8/29/2018 10:41:32 PM -04:00</S>
+          <S N="created">8/29/2018 10:41:32 PM -04:00</S>
+          <S N="lastUpdated">12/3/2020 4:54:29 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM HDInsight PSModule PSCmdlet_Get-AzureRmHDInsightJob PSCommand_Get-AzureRmHDInsightJob PSCmdlet_New-AzureRmHDInsightSqoopJobDefinition PSCommand_New-AzureRmHDInsightSqoopJobDefinition PSCmdlet_Wait-AzureRmHDInsightJob PSCommand_Wait-AzureRmHDInsightJob PSCmdlet_New-AzureRmHDInsightStreamingMapReduceJobDefinition PSCommand_New-AzureRmHDInsightStreamingMapReduceJobDefinition PSCmdlet_New-AzureRmHDInsightMapReduceJobDefinition PSCommand_New-AzureRmHDInsightMapReduceJobDefinition PSCmdlet_New-AzureRmHDInsightPigJobDefinition PSCommand_New-AzureRmHDInsightPigJobDefinition PSCmdlet_New-AzureRmHDInsightHiveJobDefinition PSCommand_New-AzureRmHDInsightHiveJobDefinition PSCmdlet_Get-AzureRmHDInsightJobOutput PSCommand_Get-AzureRmHDInsightJobOutput PSCmdlet_Invoke-AzureRmHDInsightHiveJob PSCommand_Invoke-AzureRmHDInsightHiveJob PSCmdlet_Use-AzureRmHDInsightCluster PSCommand_Use-AzureRmHDInsightCluster PSCmdlet_Stop-AzureRmHDInsightJob PSCommand_Stop-AzureRmHDInsightJob PSCmdlet_Start-AzureRmHDInsightJob PSCommand_Start-AzureRmHDInsightJob PSCmdlet_Add-AzureRmHDInsightComponentVersion PSCommand_Add-AzureRmHDInsightComponentVersion PSCmdlet_Add-AzureRmHDInsightSecurityProfile PSCommand_Add-AzureRmHDInsightSecurityProfile PSCmdlet_Set-AzureRmHDInsightDefaultStorage PSCommand_Set-AzureRmHDInsightDefaultStorage PSCmdlet_Add-AzureRmHDInsightStorage PSCommand_Add-AzureRmHDInsightStorage PSCmdlet_Add-AzureRmHDInsightScriptAction PSCommand_Add-AzureRmHDInsightScriptAction PSCmdlet_Add-AzureRmHDInsightMetastore PSCommand_Add-AzureRmHDInsightMetastore PSCmdlet_Add-AzureRmHDInsightConfigValues PSCommand_Add-AzureRmHDInsightConfigValues PSCmdlet_Get-AzureRmHDInsightProperties PSCommand_Get-AzureRmHDInsightProperties PSCmdlet_Revoke-AzureRmHDInsightRdpServicesAccess PSCommand_Revoke-AzureRmHDInsightRdpServicesAccess PSCmdlet_Revoke-AzureRmHDInsightHttpServicesAccess PSCommand_Revoke-AzureRmHDInsightHttpServicesAccess PSCmdlet_Grant-AzureRmHDInsightRdpServicesAccess PSCommand_Grant-AzureRmHDInsightRdpServicesAccess PSCmdlet_Grant-AzureRmHDInsightHttpServicesAccess PSCommand_Grant-AzureRmHDInsightHttpServicesAccess PSCmdlet_New-AzureRmHDInsightClusterConfig PSCommand_New-AzureRmHDInsightClusterConfig PSCmdlet_Remove-AzureRmHDInsightCluster PSCommand_Remove-AzureRmHDInsightCluster PSCmdlet_Set-AzureRmHDInsightClusterSize PSCommand_Set-AzureRmHDInsightClusterSize PSCmdlet_Get-AzureRmHDInsightPersistedScriptAction PSCommand_Get-AzureRmHDInsightPersistedScriptAction PSCmdlet_Get-AzureRmHDInsightScriptActionHistory PSCommand_Get-AzureRmHDInsightScriptActionHistory PSCmdlet_Remove-AzureRmHDInsightPersistedScriptAction PSCommand_Remove-AzureRmHDInsightPersistedScriptAction PSCmdlet_Set-AzureRmHDInsightPersistedScriptAction PSCommand_Set-AzureRmHDInsightPersistedScriptAction PSCmdlet_Submit-AzureRmHDInsightScriptAction PSCommand_Submit-AzureRmHDInsightScriptAction PSCmdlet_Get-AzureRmHDInsightCluster PSCommand_Get-AzureRmHDInsightCluster PSCmdlet_New-AzureRmHDInsightCluster PSCommand_New-AzureRmHDInsightCluster PSCmdlet_Add-AzureRmHDInsightClusterIdentity PSCommand_Add-AzureRmHDInsightClusterIdentity PSCmdlet_Enable-AzureRmHDInsightOperationsManagementSuite PSCommand_Enable-AzureRmHDInsightOperationsManagementSuite PSCmdlet_Disable-AzureRmHDInsightOperationsManagementSuite PSCommand_Disable-AzureRmHDInsightOperationsManagementSuite PSCmdlet_Get-AzureRmHDInsightOperationsManagementSuite PSCommand_Get-AzureRmHDInsightOperationsManagementSuite PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-12-03T16:54:29Z</S>
+          <S N="NormalizedVersion">4.1.8</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.HDInsight.nuspec|AzureRM.HDInsight.psd1|AzureRM.HDInsight.psm1|Microsoft.Azure.Commands.HDInsight.dll|Microsoft.Azure.Commands.HDInsight.dll-Help.xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.types.ps1xml|Microsoft.Azure.Management.HDInsight.dll|Microsoft.Azure.Management.HDInsight.Job.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.WindowsAzure.Storage.dll|System.Spatial.dll</S>
+          <S N="GUID">3fd1475f-cb23-4ffb-bf08-33d94b7d1acb</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\twade\OneDrive - Seniorlink\Documents\PowerShell\Modules\AzureRM.HDInsight\4.1.8</S>
+    </MS>
+  </Obj>
+</Objs>
